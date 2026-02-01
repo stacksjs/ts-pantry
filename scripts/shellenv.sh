@@ -225,10 +225,140 @@ pantry() {
       done
       ;;
 
+    env)
+      # Download missing packages to ~/.pantry and add to PATH
+      local config_file=""
+      if [[ -f "pantry.yaml" ]]; then
+        config_file="pantry.yaml"
+      elif [[ -f "deps.yaml" ]]; then
+        config_file="deps.yaml"
+      elif [[ -f ".pantry.yaml" ]]; then
+        config_file=".pantry.yaml"
+      fi
+
+      if [[ -z "$config_file" ]]; then
+        echo "No pantry.yaml or deps.yaml found in current directory"
+        return 1
+      fi
+
+      echo -e "${_pantry_blue}pantry env${_pantry_reset} Setting up environment from ${config_file}..."
+      echo ""
+
+      local _pe_base_url="https://${PANTRY_BUCKET}.s3.${PANTRY_REGION}.amazonaws.com"
+      local _pe_os=$(uname -s | tr '[:upper:]' '[:lower:]')
+      local _pe_arch=$(uname -m)
+      [[ "$_pe_arch" == "arm64" || "$_pe_arch" == "aarch64" ]] && _pe_arch="arm64"
+      [[ "$_pe_arch" == "x86_64" ]] && _pe_arch="x86-64"
+      local _pe_platform="${_pe_os}-${_pe_arch}"
+
+      local _pe_ok=0
+      local _pe_fail=0
+      local _pe_packages=()
+
+      # Parse dependencies
+      while IFS= read -r line || [[ -n "$line" ]]; do
+        [[ -z "$line" || "$line" =~ ^[[:space:]]*# ]] && continue
+        [[ "$line" =~ ^dependencies: ]] && continue
+        [[ "$line" =~ ^services: ]] && break
+        [[ ! "$line" =~ ^[[:space:]] ]] && continue
+        local pkg=$(echo "$line" | sed 's/^[[:space:]]*//' | cut -d: -f1)
+        [[ -z "$pkg" ]] && continue
+        _pe_packages+=("$pkg")
+      done < "$config_file"
+
+      for pkg in "${_pe_packages[@]}"; do
+        local pkg_dir="$PANTRY_HOME/$pkg"
+        local ver=""
+
+        # Check if already cached
+        if [[ -d "$pkg_dir" ]] && [[ -n "$(ls -A "$pkg_dir" 2>/dev/null)" ]]; then
+          ver=$(ls -1 "$pkg_dir" 2>/dev/null | grep -v current | grep -v '.tmp' | sort -V | tail -1)
+        fi
+
+        # Download if not cached
+        if [[ -z "$ver" ]]; then
+          echo -e "  ${_pantry_blue}downloading${_pantry_reset} ${pkg}..."
+
+          local metadata
+          metadata=$(curl -fsSL "${_pe_base_url}/binaries/${pkg}/metadata.json" 2>/dev/null)
+          if [[ -z "$metadata" ]]; then
+            echo -e "  ${_pantry_yellow}not found${_pantry_reset}  ${pkg}"
+            _pe_fail=$((_pe_fail + 1))
+            continue
+          fi
+
+          local version
+          version=$(echo "$metadata" | grep -o '"latestVersion"[[:space:]]*:[[:space:]]*"[^"]*"' | sed 's/.*"\([^"]*\)"$/\1/')
+          if [[ -z "$version" ]]; then
+            echo -e "  ${_pantry_yellow}no version${_pantry_reset} ${pkg}"
+            _pe_fail=$((_pe_fail + 1))
+            continue
+          fi
+
+          local install_dir="$PANTRY_HOME/$pkg/$version"
+          mkdir -p "$install_dir"
+
+          local tmp="$install_dir/package.tar.gz"
+          local dl_ok=false
+          local tarball_name="${pkg//\//-}-${version}.tar.gz"
+          local tarball_name_alt="${pkg//./-}-${version}.tar.gz"
+
+          curl -fsSL -o "$tmp" "${_pe_base_url}/binaries/${pkg}/${version}/${_pe_platform}/${tarball_name}" 2>/dev/null && dl_ok=true
+          [[ "$dl_ok" != true ]] && curl -fsSL -o "$tmp" "${_pe_base_url}/binaries/${pkg}/${version}/${_pe_platform}/${tarball_name_alt}" 2>/dev/null && dl_ok=true
+
+          if [[ "$dl_ok" != true ]]; then
+            echo -e "  ${_pantry_yellow}failed${_pantry_reset}     ${pkg} (download error)"
+            rm -rf "$install_dir"
+            _pe_fail=$((_pe_fail + 1))
+            continue
+          fi
+
+          # Validate not an XML error
+          local fsize=$(wc -c < "$tmp" | tr -d ' ')
+          if [[ "$fsize" -lt 1000 ]]; then
+            if grep -q 'xml\|Error\|NoSuchKey' "$tmp" 2>/dev/null; then
+              echo -e "  ${_pantry_yellow}failed${_pantry_reset}     ${pkg} (bad archive)"
+              rm -rf "$install_dir"
+              _pe_fail=$((_pe_fail + 1))
+              continue
+            fi
+          fi
+
+          tar -xzf "$tmp" -C "$install_dir" 2>/dev/null
+          rm -f "$tmp"
+          [[ -d "$install_dir/bin" ]] && chmod +x "$install_dir/bin"/* 2>/dev/null
+          [[ -d "$install_dir/sbin" ]] && chmod +x "$install_dir/sbin"/* 2>/dev/null
+
+          ver="$version"
+          echo -e "  ${_pantry_green}installed${_pantry_reset}  ${pkg}@${version}"
+        else
+          echo -e "  ${_pantry_green}cached${_pantry_reset}     ${pkg}@${ver}"
+        fi
+        _pe_ok=$((_pe_ok + 1))
+      done
+
+      # Update PATH to point to ~/.pantry package bins
+      _pantry_update_path "$config_file"
+      export PANTRY_ACTIVE="$PWD"
+      export PANTRY_CONFIG="$config_file"
+
+      echo ""
+      echo -e "${_pantry_green}${_pe_ok} packages activated${_pantry_reset}"
+      [[ $_pe_fail -gt 0 ]] && echo -e "${_pantry_yellow}${_pe_fail} packages failed${_pantry_reset}"
+
+      # Show what's in PATH
+      echo ""
+      echo "PATH updated with:"
+      echo "$PATH" | tr ':' '\n' | grep "$PANTRY_HOME" | while read p; do
+        echo "  $p"
+      done
+      ;;
+
     *)
       echo "Usage: pantry <command>"
       echo ""
       echo "Commands:"
+      echo "  env        Download packages and activate in PATH"
       echo "  install    Download packages from deps.yaml"
       echo "  sync       Same as install"
       echo "  deactivate Remove pantry packages from PATH"

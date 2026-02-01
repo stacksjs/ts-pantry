@@ -429,6 +429,10 @@ Examples:
   console.log(`   Range: ${start} to ${start + count - 1}`)
   console.log(`   Dry run: ${values['dry-run']}`)
 
+  // Clean up any leftovers from previous runs
+  rmSync('/tmp/bulk-sync-install', { recursive: true, force: true })
+  rmSync('/tmp/bulk-sync-artifacts', { recursive: true, force: true })
+
   // Get packages
   console.log(`\n📋 Loading packages...`)
   const packages = await getPackageList(start, count)
@@ -474,6 +478,7 @@ Examples:
     }
 
     if (!result.success) {
+      rmSync(installDir, { recursive: true, force: true })
       failed.push(pkg.domain)
       results.failed++
       continue
@@ -510,9 +515,16 @@ Examples:
     console.log(`\nFailed packages:`)
     failed.forEach(f => console.log(`   - ${f}`))
   }
+
+  // Final cleanup
+  rmSync('/tmp/bulk-sync-install', { recursive: true, force: true })
+  rmSync('/tmp/bulk-sync-artifacts', { recursive: true, force: true })
 }
 
 main().catch(e => {
   console.error('Error:', e.message)
+  // Cleanup even on error
+  rmSync('/tmp/bulk-sync-install', { recursive: true, force: true })
+  rmSync('/tmp/bulk-sync-artifacts', { recursive: true, force: true })
   process.exit(1)
 })

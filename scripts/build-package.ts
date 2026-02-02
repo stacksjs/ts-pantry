@@ -295,7 +295,7 @@ async function downloadDependencies(
   bucket: string,
   region: string
 ): Promise<Record<string, string>> {
-  const { S3Client } = await import('ts-cloud/aws')
+  const { S3Client } = await import('@stacksjs/ts-cloud/aws')
   const s3 = new S3Client(region)
   const depPaths: Record<string, string> = {}
   const platformOs = platform.split('-')[0]

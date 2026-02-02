@@ -38,7 +38,7 @@ function detectPlatform(): { platform: string; os: string; arch: string } {
 
 async function checkExistsInS3(domain: string, version: string, platform: string, bucket: string, region: string): Promise<boolean> {
   try {
-    const { S3Client } = await import('ts-cloud/aws')
+    const { S3Client } = await import('@stacksjs/ts-cloud/aws')
     const s3 = new S3Client(region)
     const metadataKey = `binaries/${domain}/metadata.json`
 

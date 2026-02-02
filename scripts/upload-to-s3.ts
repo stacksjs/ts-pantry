@@ -11,7 +11,7 @@ import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 import { parseArgs } from 'node:util'
 import { createHash } from 'node:crypto'
-import { S3Client } from 'ts-cloud/aws'
+import { S3Client } from '@stacksjs/ts-cloud/aws'
 
 interface UploadOptions {
   package: string

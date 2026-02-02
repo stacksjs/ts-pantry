@@ -1,27 +1,26 @@
 {
-  "name": "ts-pkgx",
+  "name": "ts-pantry",
   "type": "module",
-  "version": "0.4.188",
+  "version": "0.4.191",
   "description": "A library & CLI for managing packages",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
-  "homepage": "https://github.com/stacksjs/ts-pkgx#readme",
+  "homepage": "https://github.com/stacksjs/ts-pantry#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stacksjs/ts-pkgx.git"
+    "url": "git+https://github.com/stacksjs/ts-pantry.git"
   },
   "bugs": {
-    "url": "https://github.com/stacksjs/ts-pkgx/issues"
+    "url": "https://github.com/stacksjs/ts-pantry/issues"
   },
   "keywords": [
-    "pkgx",
     "pantry",
-    "homebrew",
     "typescript",
     "bun",
     "package",
     "cli",
-    "library"
+    "library",
+    "package-manager"
   ],
   "exports": {
     ".": {
@@ -35,7 +34,8 @@
   "module": "./dist/src/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
-    "ts-pkgx": "./dist/bin/cli.js"
+    "ts-pantry": "./dist/bin/cli.js",
+    "pantry": "./scripts/pantry-cli.ts"
   },
   "files": [
     "README.md",
@@ -44,22 +44,22 @@
   "scripts": {
     "build": "bun build.ts && bun run compile",
     "build:cross-platform": "bun scripts/build-cross-platform.ts",
-    "compile": "bun build ./bin/cli.ts --compile --minify --outfile bin/ts-pkgx",
+    "compile": "bun build ./bin/cli.ts --compile --minify --outfile bin/ts-pantry",
     "compile:all": "bun run compile:unix && bun run compile:windows-x64",
     "compile:unix": "bun run compile:linux-x64 && bun run compile:linux-arm64 && bun run compile:darwin-x64 && bun run compile:darwin-arm64",
-    "compile:linux-x64": "bun build ./bin/cli.ts --compile --minify --target=bun-linux-x64 --outfile bin/ts-pkgx-linux-x64",
-    "compile:linux-arm64": "bun build ./bin/cli.ts --compile --minify --target=bun-linux-arm64 --outfile bin/ts-pkgx-linux-arm64",
-    "compile:windows-x64": "bun build ./bin/cli.ts --compile --minify --target=bun-windows-x64 --outfile bin/ts-pkgx-windows-x64.exe && sleep 3 && ls -la bin/ts-pkgx-windows-x64.exe && chmod +x bin/ts-pkgx-windows-x64.exe",
-    "compile:darwin-x64": "bun build ./bin/cli.ts --compile --minify --target=bun-darwin-x64 --outfile bin/ts-pkgx-darwin-x64",
-    "compile:darwin-arm64": "bun build ./bin/cli.ts --compile --minify --target=bun-darwin-arm64 --outfile bin/ts-pkgx-darwin-arm64",
+    "compile:linux-x64": "bun build ./bin/cli.ts --compile --minify --target=bun-linux-x64 --outfile bin/ts-pantry-linux-x64",
+    "compile:linux-arm64": "bun build ./bin/cli.ts --compile --minify --target=bun-linux-arm64 --outfile bin/ts-pantry-linux-arm64",
+    "compile:windows-x64": "bun build ./bin/cli.ts --compile --minify --target=bun-windows-x64 --outfile bin/ts-pantry-windows-x64.exe && sleep 3 && ls -la bin/ts-pantry-windows-x64.exe && chmod +x bin/ts-pantry-windows-x64.exe",
+    "compile:darwin-x64": "bun build ./bin/cli.ts --compile --minify --target=bun-darwin-x64 --outfile bin/ts-pantry-darwin-x64",
+    "compile:darwin-arm64": "bun build ./bin/cli.ts --compile --minify --target=bun-darwin-arm64 --outfile bin/ts-pantry-darwin-arm64",
     "zip": "bun run zip:all",
     "zip:all": "bun run zip:unix && bun run zip:windows-x64",
     "zip:unix": "bun run zip:linux-x64 && bun run zip:linux-arm64 && bun run zip:darwin-x64 && bun run zip:darwin-arm64",
-    "zip:linux-x64": "zip -j bin/ts-pkgx-linux-x64.zip bin/ts-pkgx-linux-x64",
-    "zip:linux-arm64": "zip -j bin/ts-pkgx-linux-arm64.zip bin/ts-pkgx-linux-arm64",
-    "zip:windows-x64": "if [ -f bin/ts-pkgx-windows-x64.exe ]; then ls -la bin/ts-pkgx-windows-x64.exe && zip -j bin/ts-pkgx-windows-x64.zip bin/ts-pkgx-windows-x64.exe; else echo 'Windows executable not found'; exit 1; fi",
-    "zip:darwin-x64": "zip -j bin/ts-pkgx-darwin-x64.zip bin/ts-pkgx-darwin-x64",
-    "zip:darwin-arm64": "zip -j bin/ts-pkgx-darwin-arm64.zip bin/ts-pkgx-darwin-arm64",
+    "zip:linux-x64": "zip -j bin/ts-pantry-linux-x64.zip bin/ts-pantry-linux-x64",
+    "zip:linux-arm64": "zip -j bin/ts-pantry-linux-arm64.zip bin/ts-pantry-linux-arm64",
+    "zip:windows-x64": "if [ -f bin/ts-pantry-windows-x64.exe ]; then ls -la bin/ts-pantry-windows-x64.exe && zip -j bin/ts-pantry-windows-x64.zip bin/ts-pantry-windows-x64.exe; else echo 'Windows executable not found'; exit 1; fi",
+    "zip:darwin-x64": "zip -j bin/ts-pantry-darwin-x64.zip bin/ts-pantry-darwin-x64",
+    "zip:darwin-arm64": "zip -j bin/ts-pantry-darwin-arm64.zip bin/ts-pantry-darwin-arm64",
     "test:yaml": "bun run src/tools/testYamlFetcher.ts",
     "fresh": "bunx rimraf node_modules/ bun.lock && bun i",
     "prepublishOnly": "bun run build && bun run build:cross-platform",
@@ -68,8 +68,10 @@
     "release:major": "bun scripts/bump-version.ts major",
     "release:dry-run": "bun scripts/bump-version.ts --dry-run",
     "test": "rm -rf dist/ && bun test",
-    "lint": "bunx --bun eslint .",
-    "lint:fix": "bunx --bun eslint . --fix",
+    "lint": "bunx --bun pickier lint .",
+    "lint:fix": "bunx --bun pickier lint . --fix",
+    "format": "bunx --bun pickier format .",
+    "format:fix": "bunx --bun pickier format . --write",
     "changelog": "bunx logsmith --verbose",
     "changelog:generate": "bunx logsmith --output CHANGELOG.md",
     "release": "bun run changelog:generate && bunx --bun bumpx prompt --recursive",
@@ -77,23 +79,27 @@
     "build:docs": "NODE_OPTIONS=\"--max-old-space-size=8192\" bun vitepress build docs",
     "preview:docs": "bun vitepress preview docs",
     "typecheck": "bun tsc --noEmit",
-    "pkgx:fetch": "bun bin/cli.ts fetch",
-    "pkgx:fetch-all": "bun bin/cli.ts fetch --all",
-    "pkgx:update": "bun run update:packages",
-    "pkgx:docs": "bun bin/cli.ts generate-docs"
+    "pantry:fetch": "bun bin/cli.ts fetch",
+    "pantry:fetch-all": "bun bin/cli.ts fetch --all",
+    "pantry:update": "bun run update:packages",
+    "pantry:docs": "bun bin/cli.ts generate-docs",
+    "pantry:install": "bun scripts/download-from-s3.ts",
+    "pantry:shell": "bun scripts/pantry-cli.ts shell",
+    "pantry:build": "bun scripts/build-package.ts",
+    "pantry:upload": "bun scripts/upload-to-s3.ts"
   },
   "dependencies": {
+    "@stacksjs/ts-cloud": "^0.1.3",
     "ts-web-scraper": "^0.1.1"
   },
   "devDependencies": {
     "@stacksjs/docs": "^0.70.23",
-    "@stacksjs/eslint-config": "^4.14.0-beta.3",
     "better-dx": "^0.2.5"
   },
   "git-hooks": {
     "pre-commit": {
       "staged-lint": {
-        "*.{js,ts,json,yaml,yml,md}": "bunx --bun eslint --fix"
+        "*.{js,ts,json,yaml,yml,md}": "bunx --bun pickier lint --fix"
       }
     },
     "commit-msg": "bunx gitlint --edit .git/COMMIT_EDITMSG"

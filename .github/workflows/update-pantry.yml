@@ -30,7 +30,7 @@ jobs:
           echo "=================================================="
 
       - name: Checkout repository
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v6.0.2
         with:
           token: ${{ secrets.GITHUB_TOKEN || github.token }}
           fetch-depth: 0

@@ -3,7 +3,7 @@
  *
  * @domain `gnu.org/libtasn1`
  * @programs `asn1Coding`, `asn1Decoding`, `asn1Parser`
- * @version `4.20.0` (2 versions available)
+ * @version `4.21.0` (3 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install gnu.org/libtasn1`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "asn1"
  * console.log(pkg.description) // "ASN.1 structure parser library"
  * console.log(pkg.programs)    // ["asn1Coding", "asn1Decoding", ...]
- * console.log(pkg.versions[0]) // "4.20.0" (latest)
+ * console.log(pkg.versions[0]) // "4.21.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/gnu-org/libtasn1.md
@@ -63,6 +63,7 @@ export const gnuorglibtasn1Package = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '4.21.0',
     '4.20.0',
     '4.19.0',
   ] as const,

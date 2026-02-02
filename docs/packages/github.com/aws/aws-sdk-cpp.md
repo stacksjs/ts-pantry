@@ -25,8 +25,12 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 629 versions</summary>
+<summary>Show all 649 versions</summary>
 
+- `1.11.733`, `1.11.732`, `1.11.731`, `1.11.730`, `1.11.729`
+- `1.11.728`, `1.11.727`, `1.11.726`, `1.11.725`, `1.11.724`
+- `1.11.723`, `1.11.722`, `1.11.721`, `1.11.720`, `1.11.719`
+- `1.11.718`, `1.11.717`, `1.11.716`, `1.11.715`, `1.11.714`
 - `1.11.713`, `1.11.712`, `1.11.711`, `1.11.710`, `1.11.709`
 - `1.11.708`, `1.11.707`, `1.11.706`, `1.11.705`, `1.11.704`
 - `1.11.703`, `1.11.702`, `1.11.701`, `1.11.700`, `1.11.699`
@@ -156,13 +160,13 @@ This package provides the following executable programs:
 
 </details>
 
-**Latest Version**: `1.11.713`
+**Latest Version**: `1.11.733`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +github.com/aws/aws-sdk-cpp@1.11.713 -- $SHELL -i
+sh <(curl https://pkgx.sh) +github.com/aws/aws-sdk-cpp@1.11.733 -- $SHELL -i
 ```
 
 ## Dependencies

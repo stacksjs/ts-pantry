@@ -3,7 +3,7 @@
  *
  * @domain `nginx.org`
  * @programs `nginx`
- * @version `1.29.4` (23 versions available)
+ * @version `1.29.4` (24 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install nginx.org`
@@ -75,6 +75,7 @@ export const nginxorgPackage = {
     '1.29.2',
     '1.29.1',
     '1.29.0',
+    '1.28.1',
     '1.28.0',
     '1.27.5',
     '1.27.4',

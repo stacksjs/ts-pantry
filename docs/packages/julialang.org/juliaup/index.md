@@ -25,8 +25,9 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 66 versions</summary>
+<summary>Show all 71 versions</summary>
 
+- `1.19.4`, `1.19.3`, `1.19.2`, `1.19.1`, `1.19.0`
 - `1.18.9`, `1.18.8`, `1.18.7`, `1.18.6`, `1.18.5`
 - `1.18.4`, `1.18.3`, `1.18.2`, `1.18.1`, `1.18.0`
 - `1.17.21`, `1.17.20`, `1.17.19`, `1.17.18`, `1.17.17`
@@ -44,13 +45,13 @@ This package provides the following executable programs:
 
 </details>
 
-**Latest Version**: `1.18.9`
+**Latest Version**: `1.19.4`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +julialang.org/juliaup@1.18.9 -- $SHELL -i
+sh <(curl https://pkgx.sh) +julialang.org/juliaup@1.19.4 -- $SHELL -i
 ```
 
 ## Usage Examples

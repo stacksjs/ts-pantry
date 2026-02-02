@@ -3,7 +3,7 @@
  *
  * @domain `gnupg.org`
  * @programs `gpg`, `gpg-agent`, `gpg-connect-agent`, `gpg-wks-server`, `gpgconf`, ... (+8 more)
- * @version `2.4.8` (12 versions available)
+ * @version `2.4.9` (13 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install gnupg.org`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "gnupg"
  * console.log(pkg.description) // "GNU Pretty Good Privacy (PGP) package"
  * console.log(pkg.programs)    // ["gpg", "gpg-agent", ...]
- * console.log(pkg.versions[0]) // "2.4.8" (latest)
+ * console.log(pkg.versions[0]) // "2.4.9" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/gnupg-org.md
@@ -91,6 +91,7 @@ export const gnupgorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2.4.9',
     '2.4.8',
     '2.4.7',
     '2.4.6',

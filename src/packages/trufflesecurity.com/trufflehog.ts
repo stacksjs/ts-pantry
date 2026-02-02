@@ -3,7 +3,7 @@
  *
  * @domain `trufflesecurity.com/trufflehog`
  * @programs `trufflehog`
- * @version `3.92.3` (164 versions available)
+ * @version `3.92.5` (166 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install trufflesecurity.com/trufflehog`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "trufflehog"
  * console.log(pkg.description) // "Find, verify, and analyze leaked credentials"
  * console.log(pkg.programs)    // ["trufflehog"]
- * console.log(pkg.versions[0]) // "3.92.3" (latest)
+ * console.log(pkg.versions[0]) // "3.92.5" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/trufflesecurity-com/trufflehog.md
@@ -68,6 +68,8 @@ export const trufflesecuritycomtrufflehogPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '3.92.5',
+    '3.92.4',
     '3.92.3',
     '3.92.2',
     '3.92.1',

@@ -3,7 +3,7 @@
  *
  * @domain `tinygo.org`
  * @programs `tinygo`
- * @version `0.40.0` (10 versions available)
+ * @version `0.40.1` (11 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install tinygo.org`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "tinygo"
  * console.log(pkg.description) // "Go compiler for small places. Microcontrollers,..."
  * console.log(pkg.programs)    // ["tinygo"]
- * console.log(pkg.versions[0]) // "0.40.0" (latest)
+ * console.log(pkg.versions[0]) // "0.40.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/tinygo-org.md
@@ -78,6 +78,7 @@ export const tinygoorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.40.1',
     '0.40.0',
     '0.39.0',
     '0.38.0',

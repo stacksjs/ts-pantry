@@ -25,8 +25,9 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 46 versions</summary>
+<summary>Show all 51 versions</summary>
 
+- `1.10.1`, `1.10.0`, `1.9.2`, `1.9.1`, `1.9.0`
 - `1.8.8`, `1.8.7`, `1.8.6`, `1.8.5`, `1.8.4`
 - `1.8.3`, `1.8.2`, `1.8.1`, `1.8.0`, `1.7.14`
 - `1.7.13`, `1.7.12`, `1.7.10`, `1.7.9`, `1.7.8`
@@ -40,13 +41,13 @@ This package provides the following executable programs:
 
 </details>
 
-**Latest Version**: `1.8.8`
+**Latest Version**: `1.10.1`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +github.com/gosom/google-maps-scraper@1.8.8 -- $SHELL -i
+sh <(curl https://pkgx.sh) +github.com/gosom/google-maps-scraper@1.10.1 -- $SHELL -i
 ```
 
 ## Dependencies

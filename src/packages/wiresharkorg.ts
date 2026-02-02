@@ -3,7 +3,7 @@
  *
  * @domain `wireshark.org`
  * @programs `capinfos`, `captype`, `dumpcap`, `editcap`, `idl2wrs`, ... (+8 more)
- * @version `4.6.2` (41 versions available)
+ * @version `4.6.3` (43 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install wireshark.org`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "wireshark"
  * console.log(pkg.description) // "Network analyzer and capture tool - without gra..."
  * console.log(pkg.programs)    // ["capinfos", "captype", ...]
- * console.log(pkg.versions[0]) // "4.6.2" (latest)
+ * console.log(pkg.versions[0]) // "4.6.3" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/wireshark-org.md
@@ -103,9 +103,11 @@ export const wiresharkorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '4.6.3',
     '4.6.2',
     '4.6.1',
     '4.6.0',
+    '4.4.13',
     '4.4.12',
     '4.4.11',
     '4.4.9',

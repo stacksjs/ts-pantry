@@ -3,7 +3,7 @@
  *
  * @domain `github.com/nodenv/node-build`
  * @programs `node-build`
- * @version `5.4.22` (108 versions available)
+ * @version `5.4.24` (110 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/nodenv/node-build`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "node-build"
  * console.log(pkg.description) // "Install NodeJS versions"
  * console.log(pkg.programs)    // ["node-build"]
- * console.log(pkg.versions[0]) // "5.4.22" (latest)
+ * console.log(pkg.versions[0]) // "5.4.24" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/nodenv/node-build.md
@@ -74,6 +74,8 @@ export const nodebuildPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '5.4.24',
+    '5.4.23',
     '5.4.22',
     '5.4.21',
     '5.4.20',

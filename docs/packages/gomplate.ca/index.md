@@ -25,21 +25,21 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 12 versions</summary>
+<summary>Show all 13 versions</summary>
 
-- `4.3.3`, `4.3.2`, `4.3.1`, `4.3.0`, `4.2.0`
-- `4.1.0`, `4.0.1`, `4.0.0`, `3.11.8`, `3.11.7`
-- `3.11.6`, `3.11.4`
+- `5.0.0`, `4.3.3`, `4.3.2`, `4.3.1`, `4.3.0`
+- `4.2.0`, `4.1.0`, `4.0.1`, `4.0.0`, `3.11.8`
+- `3.11.7`, `3.11.6`, `3.11.4`
 
 </details>
 
-**Latest Version**: `4.3.3`
+**Latest Version**: `5.0.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +gomplate.ca@4.3.3 -- $SHELL -i
+sh <(curl https://pkgx.sh) +gomplate.ca@5.0.0 -- $SHELL -i
 ```
 
 ## Usage Examples

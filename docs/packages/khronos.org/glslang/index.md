@@ -27,21 +27,22 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 15 versions</summary>
+<summary>Show all 16 versions</summary>
 
-- `16.1.0`, `16.0.0`, `15.4.0`, `15.3.0`, `15.2.0`
-- `15.1.0`, `15.0.0`, `14.3.0`, `14.2.0`, `14.1.0`
-- `14.0.0`, `13.1.1`, `13.1.0`, `13.0.0`, `12.3.1`
+- `16.2.0`, `16.1.0`, `16.0.0`, `15.4.0`, `15.3.0`
+- `15.2.0`, `15.1.0`, `15.0.0`, `14.3.0`, `14.2.0`
+- `14.1.0`, `14.0.0`, `13.1.1`, `13.1.0`, `13.0.0`
+- `12.3.1`
 
 </details>
 
-**Latest Version**: `16.1.0`
+**Latest Version**: `16.2.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +khronos.org/glslang@16.1.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +khronos.org/glslang@16.2.0 -- $SHELL -i
 ```
 
 ## Usage Examples

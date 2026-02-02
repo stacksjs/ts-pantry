@@ -3,7 +3,7 @@
  *
  * @domain `plantuml.com`
  * @programs `plantuml`
- * @version `1.2025.10` (24 versions available)
+ * @version `1.2026.1` (26 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install plantuml.com`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "plantuml"
  * console.log(pkg.description) // "Generate diagrams from textual description"
  * console.log(pkg.programs)    // ["plantuml"]
- * console.log(pkg.versions[0]) // "1.2025.10" (latest)
+ * console.log(pkg.versions[0]) // "1.2026.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/plantuml-com.md
@@ -76,6 +76,8 @@ export const plantumlcomPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.2026.1',
+    '1.2026.0',
     '1.2025.10',
     '1.2025.9',
     '1.2025.8',

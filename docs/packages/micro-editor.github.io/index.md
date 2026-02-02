@@ -25,19 +25,19 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 4 versions</summary>
+<summary>Show all 5 versions</summary>
 
-- `2.0.14`, `2.0.13`, `2.0.12`, `2.0.11`
+- `2.0.15`, `2.0.14`, `2.0.13`, `2.0.12`, `2.0.11`
 
 </details>
 
-**Latest Version**: `2.0.14`
+**Latest Version**: `2.0.15`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +micro-editor.github.io@2.0.14 -- $SHELL -i
+sh <(curl https://pkgx.sh) +micro-editor.github.io@2.0.15 -- $SHELL -i
 ```
 
 ## Usage Examples

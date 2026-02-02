@@ -3,7 +3,7 @@
  *
  * @domain `libraw.org`
  * @programs `4channels`, `dcraw_emu`, `dcraw_half`, `half_mt`, `mem_image`, ... (+6 more)
- * @version `0.21.4` (4 versions available)
+ * @version `0.22.0` (6 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install libraw.org`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "libraw"
  * console.log(pkg.description) // "Library for reading RAW files from digital phot..."
  * console.log(pkg.programs)    // ["4channels", "dcraw_emu", ...]
- * console.log(pkg.versions[0]) // "0.21.4" (latest)
+ * console.log(pkg.versions[0]) // "0.22.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/libraw-org.md
@@ -95,6 +95,8 @@ export const libraworgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.22.0',
+    '0.21.5',
     '0.21.4',
     '0.21.3',
     '0.21.2',

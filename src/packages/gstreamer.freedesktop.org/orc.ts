@@ -3,7 +3,7 @@
  *
  * @domain `gstreamer.freedesktop.org/orc`
  * @programs `orcc`, `orc-bugreport`
- * @version `0.4.41` (8 versions available)
+ * @version `0.4.42` (9 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install gstreamer.freedesktop.org/orc`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "orc"
  * console.log(pkg.description) // "Oil Runtime Compiler (ORC)"
  * console.log(pkg.programs)    // ["orcc", "orc-bugreport"]
- * console.log(pkg.versions[0]) // "0.4.41" (latest)
+ * console.log(pkg.versions[0]) // "0.4.42" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/gstreamer-freedesktop-org/orc.md
@@ -69,6 +69,7 @@ export const gstreamerfreedesktoporgorcPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.4.42',
     '0.4.41',
     '0.4.40',
     '0.4.39',

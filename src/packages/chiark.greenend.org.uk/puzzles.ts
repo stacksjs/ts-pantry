@@ -2,7 +2,7 @@
  * **puzzles** - pkgx package
  *
  * @domain `chiark.greenend.org.uk/puzzles`
- * @version `20251211.0.0` (4 versions available)
+ * @version `20251220.0.0` (5 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install chiark.greenend.org.uk/puzzles`
@@ -15,7 +15,7 @@
  *
  * const pkg = pantry.chiarkgreenendorgukpuzzles
  * console.log(pkg.name)        // "puzzles"
- * console.log(pkg.versions[0]) // "20251211.0.0" (latest)
+ * console.log(pkg.versions[0]) // "20251220.0.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/chiark-greenend-org-uk/puzzles.md
@@ -70,6 +70,7 @@ export const chiarkgreenendorgukpuzzlesPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '20251220.0.0',
     '20251211.0.0',
     '20251127.0.0',
     '20251120.0.0',

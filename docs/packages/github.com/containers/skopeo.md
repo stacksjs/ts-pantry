@@ -25,12 +25,12 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 17 versions</summary>
+<summary>Show all 19 versions</summary>
 
 - `1.21.0`, `1.20.0`, `1.19.0`, `1.18.0`, `1.17.0`
 - `1.16.1`, `1.16.0`, `1.15.2`, `1.15.1`, `1.15.0`
 - `1.14.5`, `1.14.4`, `1.14.3`, `1.14.2`, `1.14.1`
-- `1.14.0`, `1.13.3`
+- `1.14.0`, `1.13.3`, `1.11.4`, `1.11.3`
 
 </details>
 

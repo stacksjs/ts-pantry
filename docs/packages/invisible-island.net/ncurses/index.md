@@ -35,19 +35,19 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 3 versions</summary>
+<summary>Show all 4 versions</summary>
 
-- `6.5.0`, `6.4.0`, `6.3.0`
+- `6.6.0`, `6.5.0`, `6.4.0`, `6.3.0`
 
 </details>
 
-**Latest Version**: `6.5.0`
+**Latest Version**: `6.6.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +invisible-island.net/ncurses@6.5.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +invisible-island.net/ncurses@6.6.0 -- $SHELL -i
 ```
 
 ## Usage Examples

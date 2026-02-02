@@ -25,22 +25,22 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 16 versions</summary>
+<summary>Show all 19 versions</summary>
 
-- `11.0.2`, `10.0.0`, `9.1.0`, `8.1.1`, `8.1.0`
-- `8.0.0`, `7.1.0`, `7.0.1`, `7.0.0`, `6.0.1`
-- `6.0.0`, `5.1.0`, `5.0.3`, `4.0.0`, `3.3.0`
-- `3.2.0`
+- `14.0.0`, `13.0.0`, `12.0.0`, `11.0.2`, `10.0.0`
+- `9.1.0`, `8.1.1`, `8.1.0`, `8.0.0`, `7.1.0`
+- `7.0.1`, `7.0.0`, `6.0.1`, `6.0.0`, `5.1.0`
+- `5.0.3`, `4.0.0`, `3.3.0`, `3.2.0`
 
 </details>
 
-**Latest Version**: `11.0.2`
+**Latest Version**: `14.0.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +crates.io/qsv@11.0.2 -- $SHELL -i
+sh <(curl https://pkgx.sh) +crates.io/qsv@14.0.0 -- $SHELL -i
 ```
 
 ## Dependencies

@@ -2,7 +2,7 @@
  * **python-pillow** - Python Imaging Library (Fork)
  *
  * @domain `python-pillow.org`
- * @version `12.0.0` (8 versions available)
+ * @version `12.1.0` (9 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install python-pillow.org`
@@ -17,7 +17,7 @@
  * const pkg = pantry.pythonpilloworg
  * console.log(pkg.name)        // "python-pillow"
  * console.log(pkg.description) // "Python Imaging Library (Fork)"
- * console.log(pkg.versions[0]) // "12.0.0" (latest)
+ * console.log(pkg.versions[0]) // "12.1.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/python-pillow-org.md
@@ -76,6 +76,7 @@ export const pythonpilloworgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '12.1.0',
     '12.0.0',
     '11.3.0',
     '11.2.1',

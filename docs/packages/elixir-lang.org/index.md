@@ -28,24 +28,24 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 29 versions</summary>
+<summary>Show all 30 versions</summary>
 
-- `1.19.4`, `1.19.3`, `1.19.2`, `1.19.1`, `1.19.0`
-- `1.18.4`, `1.18.3`, `1.18.2`, `1.18.1`, `1.18.0`
-- `1.17.3`, `1.17.2`, `1.17.1`, `1.17.0`, `1.16.3`
-- `1.16.2`, `1.16.1`, `1.16.0`, `1.15.8`, `1.15.7`
-- `1.15.6`, `1.15.5`, `1.15.4`, `1.15.3`, `1.15.2`
-- `1.15.1`, `1.15.0`, `1.14.5`, `1.14.4`
+- `1.19.5`, `1.19.4`, `1.19.3`, `1.19.2`, `1.19.1`
+- `1.19.0`, `1.18.4`, `1.18.3`, `1.18.2`, `1.18.1`
+- `1.18.0`, `1.17.3`, `1.17.2`, `1.17.1`, `1.17.0`
+- `1.16.3`, `1.16.2`, `1.16.1`, `1.16.0`, `1.15.8`
+- `1.15.7`, `1.15.6`, `1.15.5`, `1.15.4`, `1.15.3`
+- `1.15.2`, `1.15.1`, `1.15.0`, `1.14.5`, `1.14.4`
 
 </details>
 
-**Latest Version**: `1.19.4`
+**Latest Version**: `1.19.5`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +elixir-lang.org@1.19.4 -- $SHELL -i
+sh <(curl https://pkgx.sh) +elixir-lang.org@1.19.5 -- $SHELL -i
 ```
 
 ## Dependencies

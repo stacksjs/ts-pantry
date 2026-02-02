@@ -25,24 +25,24 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 29 versions</summary>
+<summary>Show all 30 versions</summary>
 
-- `2.4.0`, `2.3.3`, `2.3.2`, `2.3.1`, `2.3.0`
-- `2.2.0`, `2.1.1`, `2.1.0`, `2.0.8`, `2.0.7`
-- `2.0.6`, `2.0.5`, `2.0.4`, `2.0.3`, `2.0.2`
-- `2.0.1`, `2.0.0`, `1.5.12`, `1.5.11`, `1.5.10`
-- `1.5.9`, `1.5.8`, `1.5.7`, `1.5.6`, `1.5.5`
-- `1.5.3`, `1.5.1`, `1.5.0`, `1.4.9`
+- `2.5.0`, `2.4.0`, `2.3.3`, `2.3.2`, `2.3.1`
+- `2.3.0`, `2.2.0`, `2.1.1`, `2.1.0`, `2.0.8`
+- `2.0.7`, `2.0.6`, `2.0.5`, `2.0.4`, `2.0.3`
+- `2.0.2`, `2.0.1`, `2.0.0`, `1.5.12`, `1.5.11`
+- `1.5.10`, `1.5.9`, `1.5.8`, `1.5.7`, `1.5.6`
+- `1.5.5`, `1.5.3`, `1.5.1`, `1.5.0`, `1.4.9`
 
 </details>
 
-**Latest Version**: `2.4.0`
+**Latest Version**: `2.5.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +github.com/mamba-org/micro@2.4.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +github.com/mamba-org/micro@2.5.0 -- $SHELL -i
 ```
 
 ## Dependencies

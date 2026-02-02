@@ -26,20 +26,20 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 8 versions</summary>
+<summary>Show all 9 versions</summary>
 
-- `0.4.41`, `0.4.40`, `0.4.39`, `0.4.38`, `0.4.37`
-- `0.4.36`, `0.4.35`, `0.4.34`
+- `0.4.42`, `0.4.41`, `0.4.40`, `0.4.39`, `0.4.38`
+- `0.4.37`, `0.4.36`, `0.4.35`, `0.4.34`
 
 </details>
 
-**Latest Version**: `0.4.41`
+**Latest Version**: `0.4.42`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +gstreamer.freedesktop.org/orc@0.4.41 -- $SHELL -i
+sh <(curl https://pkgx.sh) +gstreamer.freedesktop.org/orc@0.4.42 -- $SHELL -i
 ```
 
 ## Usage Examples

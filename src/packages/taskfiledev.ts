@@ -3,7 +3,7 @@
  *
  * @domain `taskfile.dev`
  * @programs `task`
- * @version `3.45.5` (35 versions available)
+ * @version `3.46.4` (39 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install taskfile.dev`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "task"
  * console.log(pkg.description) // "A task runner / simpler Make alternative writte..."
  * console.log(pkg.programs)    // ["task"]
- * console.log(pkg.versions[0]) // "3.45.5" (latest)
+ * console.log(pkg.versions[0]) // "3.46.4" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/taskfile-dev.md
@@ -68,6 +68,10 @@ export const taskfiledevPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '3.46.4',
+    '3.46.3',
+    '3.46.2',
+    '3.46.1',
     '3.45.5',
     '3.45.4',
     '3.45.3',

@@ -3,7 +3,7 @@
  *
  * @domain `gomplate.ca`
  * @programs `gomplate`
- * @version `4.3.3` (12 versions available)
+ * @version `5.0.0` (13 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install gomplate.ca`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "gomplate"
  * console.log(pkg.description) // "A flexible commandline tool for template render..."
  * console.log(pkg.programs)    // ["gomplate"]
- * console.log(pkg.versions[0]) // "4.3.3" (latest)
+ * console.log(pkg.versions[0]) // "5.0.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/gomplate-ca.md
@@ -68,6 +68,7 @@ export const gomplatecaPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '5.0.0',
     '4.3.3',
     '4.3.2',
     '4.3.1',

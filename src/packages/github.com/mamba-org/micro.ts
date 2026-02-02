@@ -3,7 +3,7 @@
  *
  * @domain `github.com/mamba-org/micro`
  * @programs `micromamba`
- * @version `2.4.0` (29 versions available)
+ * @version `2.5.0` (30 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/mamba-org/micro`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "micromamba"
  * console.log(pkg.description) // "The Fast Cross-Platform Package Manager"
  * console.log(pkg.programs)    // ["micromamba"]
- * console.log(pkg.versions[0]) // "2.4.0" (latest)
+ * console.log(pkg.versions[0]) // "2.5.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/mamba-org/micro.md
@@ -76,6 +76,7 @@ export const microPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2.5.0',
     '2.4.0',
     '2.3.3',
     '2.3.2',

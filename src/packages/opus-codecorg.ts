@@ -2,7 +2,7 @@
  * **opus-codec** - Modern audio compression for the internet.
  *
  * @domain `opus-codec.org`
- * @version `1.6.0` (6 versions available)
+ * @version `1.6.1` (7 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install opus-codec.org`
@@ -16,7 +16,7 @@
  * const pkg = pantry.opuscodecorg
  * console.log(pkg.name)        // "opus-codec"
  * console.log(pkg.description) // "Modern audio compression for the internet."
- * console.log(pkg.versions[0]) // "1.6.0" (latest)
+ * console.log(pkg.versions[0]) // "1.6.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/opus-codec-org.md
@@ -63,6 +63,7 @@ export const opuscodecorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.6.1',
     '1.6.0',
     '1.5.2',
     '1.5.1',

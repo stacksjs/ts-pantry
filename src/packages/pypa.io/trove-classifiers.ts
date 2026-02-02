@@ -2,7 +2,7 @@
  * **trove-classifiers** - Canonical source for classifiers on PyPI.
  *
  * @domain `pypa.io/trove-classifiers`
- * @version `2025.9.9.12` (35 versions available)
+ * @version `2026.1.14.14` (37 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install pypa.io/trove-classifiers`
@@ -17,7 +17,7 @@
  * const pkg = pantry.pypaiotroveclassifiers
  * console.log(pkg.name)        // "trove-classifiers"
  * console.log(pkg.description) // "Canonical source for classifiers on PyPI."
- * console.log(pkg.versions[0]) // "2025.9.9.12" (latest)
+ * console.log(pkg.versions[0]) // "2026.1.14.14" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/pypa-io/trove-classifiers.md
@@ -67,6 +67,8 @@ export const pypaiotroveclassifiersPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2026.1.14.14',
+    '2026.1.12.15',
     '2025.9.9.12',
     '2025.9.8.13',
     '2025.9.11.17',
@@ -89,10 +91,9 @@ export const pypaiotroveclassifiersPackage = {
     '2025.1.6.15',
     '2025.1.15.22',
     '2025.1.10.15',
-    '2024.7.1',
     '2024.5.22',
+    '2024.5.17',
     '2024.4.10',
-    '2024.3.25',
     '2024.3.3',
     '2024.10.21.16',
     '2024.10.14',
@@ -101,7 +102,8 @@ export const pypaiotroveclassifiersPackage = {
     '2024.10.11',
     '2024.9.12',
     '2024.7.2',
-    '2024.5.17',
+    '2024.7.1',
+    '2024.3.25',
   ] as const,
   aliases: [] as const,
 }

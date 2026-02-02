@@ -3,7 +3,7 @@
  *
  * @domain `filippo.io/age`
  * @programs `age`, `age-keygen`
- * @version `1.2.1` (3 versions available)
+ * @version `1.3.1` (5 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install filippo.io/age`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "age"
  * console.log(pkg.description) // "A simple, modern and secure encryption tool (an..."
  * console.log(pkg.programs)    // ["age", "age-keygen"]
- * console.log(pkg.versions[0]) // "1.2.1" (latest)
+ * console.log(pkg.versions[0]) // "1.3.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/filippo-io/age.md
@@ -69,6 +69,8 @@ export const filippoioagePackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.3.1',
+    '1.3.0',
     '1.2.1',
     '1.2.0',
     '1.1.1',

@@ -3,7 +3,7 @@
  *
  * @domain `crates.io/drill`
  * @programs `drill`
- * @version `0.8.3` (1 versions available)
+ * @version `0.9.0` (2 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install crates.io/drill`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "drill"
  * console.log(pkg.description) // "Drill is an HTTP load testing application writt..."
  * console.log(pkg.programs)    // ["drill"]
- * console.log(pkg.versions[0]) // "0.8.3" (latest)
+ * console.log(pkg.versions[0]) // "0.9.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/crates-io/drill.md
@@ -67,6 +67,7 @@ export const cratesiodrillPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.9.0',
     '0.8.3',
   ] as const,
   aliases: [] as const,

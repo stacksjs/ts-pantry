@@ -25,19 +25,19 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 3 versions</summary>
+<summary>Show all 4 versions</summary>
 
-- `4.30.0`, `4.29.0`, `4.28.0`
+- `4.31.0`, `4.30.0`, `4.29.0`, `4.28.0`
 
 </details>
 
-**Latest Version**: `4.30.0`
+**Latest Version**: `4.31.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +crazymax.dev/diun@4.30.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +crazymax.dev/diun@4.31.0 -- $SHELL -i
 ```
 
 ## Usage Examples

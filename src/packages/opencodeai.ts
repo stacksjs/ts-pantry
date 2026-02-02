@@ -2,11 +2,11 @@
  * **opencode.ai** - pkgx package
  *
  * @domain `opencode.ai`
- * @version `1.0.166` (374 versions available)
+ * @version `1.1.34` (450 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install opencode.ai`
- * @buildDependencies `bun.sh@=1.3.4`, `go.dev@^1.24`, `python.org@3`, ... (+1 more) - required only when building from source
+ * @buildDependencies `stedolan.github.io/jq`, `pkgx.sh`, `go.dev@^1.24`, ... (+2 more) - required only when building from source
  *
  * @example
  * ```typescript
@@ -14,7 +14,7 @@
  *
  * const pkg = pantry.opencodeai
  * console.log(pkg.name)        // "opencode.ai"
- * console.log(pkg.versions[0]) // "1.0.166" (latest)
+ * console.log(pkg.versions[0]) // "1.1.34" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/opencode-ai.md
@@ -51,7 +51,8 @@ export const opencodeaiPackage = {
    * These are only required when building the package from source.
    */
   buildDependencies: [
-    'bun.sh@=1.3.4',
+    'stedolan.github.io/jq',
+    'pkgx.sh',
     'go.dev@^1.24',
     'python.org@3',
     'npmjs.com',
@@ -61,6 +62,82 @@ export const opencodeaiPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.1.34',
+    '1.1.33',
+    '1.1.32',
+    '1.1.31',
+    '1.1.30',
+    '1.1.29',
+    '1.1.28',
+    '1.1.27',
+    '1.1.26',
+    '1.1.25',
+    '1.1.24',
+    '1.1.23',
+    '1.1.21',
+    '1.1.20',
+    '1.1.19',
+    '1.1.18',
+    '1.1.17',
+    '1.1.16',
+    '1.1.15',
+    '1.1.14',
+    '1.1.13',
+    '1.1.12',
+    '1.1.11',
+    '1.1.10',
+    '1.1.8',
+    '1.1.7',
+    '1.1.6',
+    '1.1.4',
+    '1.1.3',
+    '1.1.2',
+    '1.1.1',
+    '1.0.223',
+    '1.0.222',
+    '1.0.221',
+    '1.0.220',
+    '1.0.219',
+    '1.0.218',
+    '1.0.217',
+    '1.0.216',
+    '1.0.215',
+    '1.0.214',
+    '1.0.213',
+    '1.0.212',
+    '1.0.211',
+    '1.0.210',
+    '1.0.209',
+    '1.0.208',
+    '1.0.207',
+    '1.0.206',
+    '1.0.205',
+    '1.0.204',
+    '1.0.203',
+    '1.0.202',
+    '1.0.201',
+    '1.0.200',
+    '1.0.199',
+    '1.0.198',
+    '1.0.195',
+    '1.0.194',
+    '1.0.193',
+    '1.0.191',
+    '1.0.190',
+    '1.0.186',
+    '1.0.185',
+    '1.0.184',
+    '1.0.183',
+    '1.0.182',
+    '1.0.181',
+    '1.0.180',
+    '1.0.176',
+    '1.0.175',
+    '1.0.174',
+    '1.0.170',
+    '1.0.169',
+    '1.0.168',
+    '1.0.167',
     '1.0.166',
     '1.0.165',
     '1.0.164',

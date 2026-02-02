@@ -3,7 +3,7 @@
  *
  * @domain `haskell.org`
  * @programs `ghc`, `ghc-{{version.marketing}}`, `ghc-{{version}}`, `ghc-pkg`, `ghc-pkg-{{version.marketing}}`, ... (+23 more)
- * @version `9.12.2` (20 versions available)
+ * @version `9.14.1` (21 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install haskell.org`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "haskell"
  * console.log(pkg.description) // "Mirror of the Glasgow Haskell Compiler. Please ..."
  * console.log(pkg.programs)    // ["ghc", "ghc-{{version.marketing}}", ...]
- * console.log(pkg.versions[0]) // "9.12.2" (latest)
+ * console.log(pkg.versions[0]) // "9.14.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/haskell-org.md
@@ -109,6 +109,7 @@ export const haskellorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '9.14.1',
     '9.12.2',
     '9.12.1',
     '9.10.3',

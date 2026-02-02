@@ -3,7 +3,7 @@
  *
  * @domain `microsoft.com/pyright`
  * @programs `pyright`
- * @version `1.1.407` (54 versions available)
+ * @version `1.1.408` (55 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install microsoft.com/pyright`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "pyright"
  * console.log(pkg.description) // "Static Type Checker for Python"
  * console.log(pkg.programs)    // ["pyright"]
- * console.log(pkg.versions[0]) // "1.1.407" (latest)
+ * console.log(pkg.versions[0]) // "1.1.408" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/microsoft-com/pyright.md
@@ -74,6 +74,7 @@ export const microsoftcompyrightPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.1.408',
     '1.1.407',
     '1.1.406',
     '1.1.405',

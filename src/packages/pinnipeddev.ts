@@ -3,7 +3,7 @@
  *
  * @domain `pinniped.dev`
  * @programs `pinniped`
- * @version `0.42.0` (17 versions available)
+ * @version `0.43.0` (18 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install pinniped.dev`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "pinniped"
  * console.log(pkg.description) // "Pinniped is the easy, secure way to log in to y..."
  * console.log(pkg.programs)    // ["pinniped"]
- * console.log(pkg.versions[0]) // "0.42.0" (latest)
+ * console.log(pkg.versions[0]) // "0.43.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/pinniped-dev.md
@@ -68,6 +68,7 @@ export const pinnipeddevPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.43.0',
     '0.42.0',
     '0.41.0',
     '0.40.0',

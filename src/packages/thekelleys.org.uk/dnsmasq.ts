@@ -3,7 +3,7 @@
  *
  * @domain `thekelleys.org.uk/dnsmasq`
  * @programs `dnsmasq`
- * @version `2.91.0` (3 versions available)
+ * @version `2.92.0` (4 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install thekelleys.org.uk/dnsmasq`
@@ -15,7 +15,7 @@
  * const pkg = pantry.thekelleysorgukdnsmasq
  * console.log(pkg.name)        // "dnsmasq"
  * console.log(pkg.programs)    // ["dnsmasq"]
- * console.log(pkg.versions[0]) // "2.91.0" (latest)
+ * console.log(pkg.versions[0]) // "2.92.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/thekelleys-org-uk/dnsmasq.md
@@ -59,6 +59,7 @@ export const thekelleysorgukdnsmasqPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2.92.0',
     '2.91.0',
     '2.90.0',
     '2.89.0',

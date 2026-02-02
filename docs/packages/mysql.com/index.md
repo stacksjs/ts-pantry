@@ -55,24 +55,25 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 30 versions</summary>
+<summary>Show all 32 versions</summary>
 
-- `9.5.0`, `9.4.0`, `9.3.0`, `9.2.0`, `9.1.0`
-- `9.0.1`, `9.0.0`, `8.4.7`, `8.4.6`, `8.4.5`
-- `8.4.4`, `8.4.3`, `8.4.2`, `8.4.1`, `8.4.0`
-- `8.3.0`, `8.2.0`, `8.1.0`, `8.0.44`, `8.0.43`
-- `8.0.42`, `8.0.41`, `8.0.40`, `8.0.39`, `8.0.38`
-- `8.0.36`, `8.0.35`, `8.0.34`, `8.0.33`, `8.0.32`
+- `9.6.0`, `9.5.0`, `9.4.0`, `9.3.0`, `9.2.0`
+- `9.1.0`, `9.0.1`, `9.0.0`, `8.4.7`, `8.4.6`
+- `8.4.5`, `8.4.4`, `8.4.3`, `8.4.2`, `8.4.1`
+- `8.4.0`, `8.3.0`, `8.2.0`, `8.1.0`, `8.0.45`
+- `8.0.44`, `8.0.43`, `8.0.42`, `8.0.41`, `8.0.40`
+- `8.0.39`, `8.0.38`, `8.0.36`, `8.0.35`, `8.0.34`
+- `8.0.33`, `8.0.32`
 
 </details>
 
-**Latest Version**: `9.5.0`
+**Latest Version**: `9.6.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +mysql.com@9.5.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +mysql.com@9.6.0 -- $SHELL -i
 ```
 
 ## Dependencies

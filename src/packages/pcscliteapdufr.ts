@@ -3,7 +3,7 @@
  *
  * @domain `pcsclite.apdu.fr`
  * @programs `pcscd`
- * @version `2.4.0` (14 versions available)
+ * @version `2.4.1` (15 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install pcsclite.apdu.fr`
@@ -17,7 +17,7 @@
  * const pkg = pantry.pcscliteapdufr
  * console.log(pkg.name)        // "pcsc-lite"
  * console.log(pkg.programs)    // ["pcscd"]
- * console.log(pkg.versions[0]) // "2.4.0" (latest)
+ * console.log(pkg.versions[0]) // "2.4.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/pcsclite-apdu-fr.md
@@ -78,6 +78,7 @@ export const pcscliteapdufrPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2.4.1',
     '2.4.0',
     '2.3.3',
     '2.3.2',

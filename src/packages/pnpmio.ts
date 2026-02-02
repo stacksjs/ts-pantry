@@ -3,7 +3,7 @@
  *
  * @domain `pnpm.io`
  * @programs `pnpm`, `pnpx`
- * @version `10.26.0` (189 versions available)
+ * @version `10.28.1` (194 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install pnpm.io`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "pnp"
  * console.log(pkg.description) // "Fast, disk space efficient package manager"
  * console.log(pkg.programs)    // ["pnpm", "pnpx"]
- * console.log(pkg.versions[0]) // "10.26.0" (latest)
+ * console.log(pkg.versions[0]) // "10.28.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/pnpm-io.md
@@ -69,6 +69,11 @@ export const pnpmioPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '10.28.1',
+    '10.28.0',
+    '10.27.0',
+    '10.26.2',
+    '10.26.1',
     '10.26.0',
     '10.25.0',
     '10.24.0',

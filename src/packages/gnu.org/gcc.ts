@@ -3,11 +3,11 @@
  *
  * @domain `gnu.org/gcc`
  * @programs `ar`, `cc`, `c++`, `gc++`, `cpp`, ... (+12 more)
- * @version `15.1.0` (13 versions available)
+ * @version `15.2.0` (14 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install gnu.org/gcc`
- * @dependencies `gnu.org/binutils`, `gnu.org/gmp>=4.2`, `gnu.org/mpfr>=2.4.0`, ... (+2 more)
+ * @dependencies `gnu.org/binutils`, `gnu.org/gmp>=4.2`, `gnu.org/mpfr>=2.4.0`, ... (+3 more)
  * @buildDependencies `linux:gnu.org/gcc`, `gnu.org/make`, `perl.org@^5.6.1`, ... (+3 more) (includes OS-specific dependencies with `os:package` format) - required only when building from source
  *
  * @example
@@ -17,7 +17,7 @@
  * const pkg = pantry.gnuorggcc
  * console.log(pkg.name)        // "gcc"
  * console.log(pkg.programs)    // ["ar", "cc", ...]
- * console.log(pkg.versions[0]) // "15.1.0" (latest)
+ * console.log(pkg.versions[0]) // "15.2.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/gnu-org/gcc.md
@@ -80,6 +80,7 @@ export const gnuorggccPackage = {
     'gnu.org/mpfr>=2.4.0',
     'gnu.org/mpc>=0.8.0',
     'zlib.net^1.3',
+    'darwin/x86-64^# since 15.1.0',
   ] as const,
   /**
    * Build dependencies for this package.
@@ -99,6 +100,7 @@ export const gnuorggccPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '15.2.0',
     '15.1.0',
     '14.3.0',
     '14.2.0',

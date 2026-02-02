@@ -25,22 +25,22 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 18 versions</summary>
+<summary>Show all 19 versions</summary>
 
-- `1.33.3`, `1.33.2`, `1.33.1`, `1.33.0`, `1.32.11`
-- `1.32.10`, `1.32.9`, `1.32.8`, `1.32.7`, `1.32.6`
-- `1.32.5`, `1.32.4`, `1.32.3`, `1.32.2`, `1.32.1`
-- `1.32.0`, `1.31.4`, `1.31.2`
+- `1.33.4`, `1.33.3`, `1.33.2`, `1.33.1`, `1.33.0`
+- `1.32.11`, `1.32.10`, `1.32.9`, `1.32.8`, `1.32.7`
+- `1.32.6`, `1.32.5`, `1.32.4`, `1.32.3`, `1.32.2`
+- `1.32.1`, `1.32.0`, `1.31.4`, `1.31.2`
 
 </details>
 
-**Latest Version**: `1.33.3`
+**Latest Version**: `1.33.4`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +mpg123.de@1.33.3 -- $SHELL -i
+sh <(curl https://pkgx.sh) +mpg123.de@1.33.4 -- $SHELL -i
 ```
 
 ## Usage Examples

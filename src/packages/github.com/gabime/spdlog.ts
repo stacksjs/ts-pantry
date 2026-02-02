@@ -2,7 +2,7 @@
  * **spdlog** - Fast C++ logging library.
  *
  * @domain `github.com/gabime/spdlog`
- * @version `1.16.0` (9 versions available)
+ * @version `1.17.0` (10 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/gabime/spdlog`
@@ -16,7 +16,7 @@
  * const pkg = pantry.githubcomgabimespdlog
  * console.log(pkg.name)        // "spdlog"
  * console.log(pkg.description) // "Fast C++ logging library."
- * console.log(pkg.versions[0]) // "1.16.0" (latest)
+ * console.log(pkg.versions[0]) // "1.17.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/gabime/spdlog.md
@@ -68,6 +68,7 @@ export const spdlogPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.17.0',
     '1.16.0',
     '1.15.3',
     '1.15.2',

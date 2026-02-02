@@ -3,7 +3,7 @@
  *
  * @domain `github.com/sxyazi/yazi`
  * @programs `yazi`
- * @version `25.5.31` (22 versions available)
+ * @version `26.1.22` (25 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/sxyazi/yazi`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "yazi"
  * console.log(pkg.description) // "💥 Blazing fast terminal file manager written i..."
  * console.log(pkg.programs)    // ["yazi"]
- * console.log(pkg.versions[0]) // "25.5.31" (latest)
+ * console.log(pkg.versions[0]) // "26.1.22" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/sxyazi/yazi.md
@@ -81,6 +81,9 @@ export const yaziPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '26.1.22',
+    '26.1.4',
+    '25.12.29',
     '25.5.31',
     '25.5.28',
     '25.4.8',

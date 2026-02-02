@@ -2,7 +2,7 @@
  * **packaging** - Core utilities for Python packages
  *
  * @domain `pypa.io/packaging`
- * @version `25.0.0` (5 versions available)
+ * @version `26.0.0` (6 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install pypa.io/packaging`
@@ -16,7 +16,7 @@
  * const pkg = pantry.pypaiopackaging
  * console.log(pkg.name)        // "packaging"
  * console.log(pkg.description) // "Core utilities for Python packages"
- * console.log(pkg.versions[0]) // "25.0.0" (latest)
+ * console.log(pkg.versions[0]) // "26.0.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/pypa-io/packaging.md
@@ -60,6 +60,7 @@ export const pypaiopackagingPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '26.0.0',
     '25.0.0',
     '24.2.0',
     '24.1.0',

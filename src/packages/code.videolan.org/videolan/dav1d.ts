@@ -3,7 +3,7 @@
  *
  * @domain `code.videolan.org/videolan/dav1d`
  * @programs `dav1d`
- * @version `1.2.0` (2 versions available)
+ * @version `1.5.3` (3 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install code.videolan.org/videolan/dav1d`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "dav1d"
  * console.log(pkg.description) // "AV1 decoder targeted to be small and fast"
  * console.log(pkg.programs)    // ["dav1d"]
- * console.log(pkg.versions[0]) // "1.2.0" (latest)
+ * console.log(pkg.versions[0]) // "1.5.3" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/code-videolan-org/videolan/dav1d.md
@@ -68,6 +68,7 @@ export const codevideolanorgvideolandav1dPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.5.3',
     '1.2.0',
     '1.0.0',
   ] as const,

@@ -29,21 +29,21 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 13 versions</summary>
+<summary>Show all 15 versions</summary>
 
-- `3.7.4`, `3.7.3`, `3.7.2`, `3.7.1`, `3.7.0`
-- `3.6.4`, `3.6.3`, `3.6.2`, `3.5.2`, `3.5.1`
-- `3.3.7`, `3.3.6`, `3.3.5`
+- `3.8.1`, `3.8.0`, `3.7.4`, `3.7.3`, `3.7.2`
+- `3.7.1`, `3.7.0`, `3.6.4`, `3.6.3`, `3.6.2`
+- `3.5.2`, `3.5.1`, `3.3.7`, `3.3.6`, `3.3.5`
 
 </details>
 
-**Latest Version**: `3.7.4`
+**Latest Version**: `3.8.1`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +scala-lang.org@3.7.4 -- $SHELL -i
+sh <(curl https://pkgx.sh) +scala-lang.org@3.8.1 -- $SHELL -i
 ```
 
 ## Dependencies

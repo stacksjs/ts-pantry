@@ -25,8 +25,9 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 84 versions</summary>
+<summary>Show all 89 versions</summary>
 
+- `1.3.3`, `1.3.2`, `1.3.1`, `1.3.0`, `1.2.4`
 - `1.2.3`, `1.2.2`, `1.2.0`, `1.1.7`, `1.1.6`
 - `1.1.5`, `1.1.4`, `1.1.3`, `1.1.0`, `1.0.1`
 - `1.0.0`, `0.36.0`, `0.35.3`, `0.35.2`, `0.35.1`
@@ -47,13 +48,13 @@ This package provides the following executable programs:
 
 </details>
 
-**Latest Version**: `1.2.3`
+**Latest Version**: `1.3.3`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +huggingface.co@1.2.3 -- $SHELL -i
+sh <(curl https://pkgx.sh) +huggingface.co@1.3.3 -- $SHELL -i
 ```
 
 ## Dependencies

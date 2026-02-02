@@ -26,19 +26,19 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 4 versions</summary>
+<summary>Show all 5 versions</summary>
 
-- `5.4.8`, `5.4.7`, `5.4.6`, `5.4.4`
+- `5.5.0`, `5.4.8`, `5.4.7`, `5.4.6`, `5.4.4`
 
 </details>
 
-**Latest Version**: `5.4.8`
+**Latest Version**: `5.5.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +lua.org@5.4.8 -- $SHELL -i
+sh <(curl https://pkgx.sh) +lua.org@5.5.0 -- $SHELL -i
 ```
 
 ## Dependencies

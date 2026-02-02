@@ -3,7 +3,7 @@
  *
  * @domain `hetzner.com/hcloud`
  * @programs `hcloud`
- * @version `1.57.0` (29 versions available)
+ * @version `1.60.0` (32 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install hetzner.com/hcloud`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "hcloud"
  * console.log(pkg.description) // "A command-line interface for Hetzner Cloud"
  * console.log(pkg.programs)    // ["hcloud"]
- * console.log(pkg.versions[0]) // "1.57.0" (latest)
+ * console.log(pkg.versions[0]) // "1.60.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/hetzner-com/hcloud.md
@@ -67,6 +67,9 @@ export const hetznercomhcloudPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.60.0',
+    '1.59.0',
+    '1.58.0',
     '1.57.0',
     '1.56.0',
     '1.55.0',

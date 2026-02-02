@@ -26,23 +26,23 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 21 versions</summary>
+<summary>Show all 22 versions</summary>
 
-- `1.8.2`, `1.8.1`, `1.8.0`, `1.7.6`, `1.7.5`
-- `1.7.4`, `1.7.3`, `1.7.2`, `1.7.1`, `1.7.0`
-- `1.6.2`, `1.6.1`, `1.6.0`, `1.5.5`, `1.5.4`
-- `1.5.3`, `1.5.2`, `1.5.1`, `1.5.0`, `1.4.3`
-- `1.4.0`
+- `1.8.3`, `1.8.2`, `1.8.1`, `1.8.0`, `1.7.6`
+- `1.7.5`, `1.7.4`, `1.7.3`, `1.7.2`, `1.7.1`
+- `1.7.0`, `1.6.2`, `1.6.1`, `1.6.0`, `1.5.5`
+- `1.5.4`, `1.5.3`, `1.5.2`, `1.5.1`, `1.5.0`
+- `1.4.3`, `1.4.0`
 
 </details>
 
-**Latest Version**: `1.8.2`
+**Latest Version**: `1.8.3`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +github.com/ggerganov/whisper.cpp@1.8.2 -- $SHELL -i
+sh <(curl https://pkgx.sh) +github.com/ggerganov/whisper.cpp@1.8.3 -- $SHELL -i
 ```
 
 ## Dependencies

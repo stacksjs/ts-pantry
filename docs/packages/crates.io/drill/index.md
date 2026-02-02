@@ -25,19 +25,19 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 1 versions</summary>
+<summary>Show all 2 versions</summary>
 
-- `0.8.3`
+- `0.9.0`, `0.8.3`
 
 </details>
 
-**Latest Version**: `0.8.3`
+**Latest Version**: `0.9.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +crates.io/drill@0.8.3 -- $SHELL -i
+sh <(curl https://pkgx.sh) +crates.io/drill@0.9.0 -- $SHELL -i
 ```
 
 ## Dependencies

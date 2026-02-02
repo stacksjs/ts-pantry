@@ -3,7 +3,7 @@
  *
  * @domain `svenstaro.github.io/genact`
  * @programs `genact`
- * @version `1.4.2` (5 versions available)
+ * @version `1.5.0` (6 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install svenstaro.github.io/genact`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "genact"
  * console.log(pkg.description) // "🌀 A nonsense activity generator"
  * console.log(pkg.programs)    // ["genact"]
- * console.log(pkg.versions[0]) // "1.4.2" (latest)
+ * console.log(pkg.versions[0]) // "1.5.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/svenstaro-github-io/genact.md
@@ -61,6 +61,7 @@ export const svenstarogithubiogenactPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.5.0',
     '1.4.2',
     '1.4.1',
     '1.4.0',

@@ -3,7 +3,7 @@
  *
  * @domain `crates.io/sccache`
  * @programs `sccache`
- * @version `0.12.0` (7 versions available)
+ * @version `0.13.0` (8 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install crates.io/sccache`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "sccache"
  * console.log(pkg.description) // "Sccache is a ccache-like tool. It is used as a ..."
  * console.log(pkg.programs)    // ["sccache"]
- * console.log(pkg.versions[0]) // "0.12.0" (latest)
+ * console.log(pkg.versions[0]) // "0.13.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/crates-io/sccache.md
@@ -75,6 +75,7 @@ export const cratesiosccachePackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.13.0',
     '0.12.0',
     '0.11.0',
     '0.10.0',

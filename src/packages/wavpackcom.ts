@@ -3,7 +3,7 @@
  *
  * @domain `wavpack.com`
  * @programs `wavpack`, `wvunpack`, `wvtag`, `wvgain`
- * @version `5.8.1` (3 versions available)
+ * @version `5.9.0` (4 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install wavpack.com`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "wavpack"
  * console.log(pkg.description) // "WavPack encode/decode library, command-line pro..."
  * console.log(pkg.programs)    // ["wavpack", "wvunpack", ...]
- * console.log(pkg.versions[0]) // "5.8.1" (latest)
+ * console.log(pkg.versions[0]) // "5.9.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/wavpack-com.md
@@ -71,6 +71,7 @@ export const wavpackcomPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '5.9.0',
     '5.8.1',
     '5.8.0',
     '5.7.0',

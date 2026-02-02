@@ -3,7 +3,7 @@
  *
  * @domain `mpv.io`
  * @programs `mpv`
- * @version `0.40.0` (3 versions available)
+ * @version `0.41.0` (4 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install mpv.io`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "mpv"
  * console.log(pkg.description) // "Media player based on MPlayer and mplayer2"
  * console.log(pkg.programs)    // ["mpv"]
- * console.log(pkg.versions[0]) // "0.40.0" (latest)
+ * console.log(pkg.versions[0]) // "0.41.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/mpv-io.md
@@ -90,6 +90,7 @@ export const mpvioPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.41.0',
     '0.40.0',
     '0.39.0',
     '0.38.0',

@@ -3,7 +3,7 @@
  *
  * @domain `github.com/moby/buildkit`
  * @programs `buildctl`
- * @version `0.26.3` (36 versions available)
+ * @version `0.27.0` (37 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/moby/buildkit`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "buildkit"
  * console.log(pkg.description) // "concurrent, cache-efficient, and Dockerfile-agn..."
  * console.log(pkg.programs)    // ["buildctl"]
- * console.log(pkg.versions[0]) // "0.26.3" (latest)
+ * console.log(pkg.versions[0]) // "0.27.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/moby/buildkit.md
@@ -68,6 +68,7 @@ export const buildkitPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.27.0',
     '0.26.3',
     '0.26.2',
     '0.26.1',

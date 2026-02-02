@@ -25,8 +25,9 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 101 versions</summary>
+<summary>Show all 106 versions</summary>
 
+- `0.63.2`, `0.63.1`, `0.63.0`, `0.62.2`, `0.62.1`
 - `0.62.0`, `0.61.0`, `0.60.0`, `0.59.0`, `0.58.0`
 - `0.57.0`, `0.56.0`, `0.55.0`, `0.54.2`, `0.54.1`
 - `0.54.0`, `0.53.0`, `0.52.0`, `0.51.0`, `0.50.2`
@@ -51,13 +52,13 @@ This package provides the following executable programs:
 
 </details>
 
-**Latest Version**: `0.62.0`
+**Latest Version**: `0.63.2`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +prefix.dev@0.62.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +prefix.dev@0.63.2 -- $SHELL -i
 ```
 
 ## Dependencies

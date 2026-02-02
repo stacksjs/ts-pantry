@@ -3,7 +3,7 @@
  *
  * @domain `crates.io/rucola-notes`
  * @programs `rucola`
- * @version `0.8.1` (5 versions available)
+ * @version `0.8.2` (6 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install crates.io/rucola-notes`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "rucola"
  * console.log(pkg.description) // "Terminal-based markdown note manager."
  * console.log(pkg.programs)    // ["rucola"]
- * console.log(pkg.versions[0]) // "0.8.1" (latest)
+ * console.log(pkg.versions[0]) // "0.8.2" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/crates-io/rucola-notes.md
@@ -67,6 +67,7 @@ export const cratesiorucolanotesPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.8.2',
     '0.8.1',
     '0.8.0',
     '0.7.0',

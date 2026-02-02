@@ -3,12 +3,12 @@
  *
  * @domain `vaultproject.io`
  * @programs `vault`
- * @version `1.20.3` (60 versions available)
+ * @version `1.21.2` (62 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install vaultproject.io`
  * @homepage https://www.vaultproject.io/
- * @buildDependencies `go.dev@=1.25.4`, `nodejs.org@^18`, `python.org@~3.10`, ... (+2 more) - required only when building from source
+ * @buildDependencies `go.dev@=1.25.5`, `nodejs.org@^20`, `python.org@~3.10`, ... (+3 more) - required only when building from source
  *
  * @example
  * ```typescript
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "vault"
  * console.log(pkg.description) // "A tool for secrets management, encryption as a ..."
  * console.log(pkg.programs)    // ["vault"]
- * console.log(pkg.versions[0]) // "1.20.3" (latest)
+ * console.log(pkg.versions[0]) // "1.21.2" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/vaultproject-io.md
@@ -61,17 +61,20 @@ export const vaultprojectioPackage = {
    * These are only required when building the package from source.
    */
   buildDependencies: [
-    'go.dev@=1.25.4',
-    'nodejs.org@^18',
+    'go.dev@=1.25.5',
+    'nodejs.org@^20',
     'python.org@~3.10',
     'npmjs.com',
     'classic.yarnpkg.com',
+    'pkgx.sh',
   ] as const,
   /**
    * Available versions from newest to oldest.
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.21.2',
+    '1.21.1',
     '1.20.3',
     '1.20.2',
     '1.20.1',

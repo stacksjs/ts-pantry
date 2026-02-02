@@ -3,7 +3,7 @@
  *
  * @domain `github.com/crc-org/vfkit`
  * @programs `vfkit`
- * @version `0.6.1` (3 versions available)
+ * @version `0.6.3` (5 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/crc-org/vfkit`
@@ -16,7 +16,7 @@
  * const pkg = pantry.githubcomcrcorgvfkit
  * console.log(pkg.name)        // "vfkit"
  * console.log(pkg.programs)    // ["vfkit"]
- * console.log(pkg.versions[0]) // "0.6.1" (latest)
+ * console.log(pkg.versions[0]) // "0.6.3" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/crc-org/vfkit.md
@@ -66,6 +66,8 @@ export const vfkitPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.6.3',
+    '0.6.2',
     '0.6.1',
     '0.6.0',
     '0.5.1',

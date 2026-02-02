@@ -3,7 +3,7 @@
  *
  * @domain `github.com/abtreece/confd`
  * @programs `confd`
- * @version `0.30.0` (1 versions available)
+ * @version `0.33.0` (3 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/abtreece/confd`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "confd"
  * console.log(pkg.description) // "Manage local application configuration files us..."
  * console.log(pkg.programs)    // ["confd"]
- * console.log(pkg.versions[0]) // "0.30.0" (latest)
+ * console.log(pkg.versions[0]) // "0.33.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/abtreece/confd.md
@@ -67,6 +67,8 @@ export const confdPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.33.0',
+    '0.32.0',
     '0.30.0',
   ] as const,
   aliases: [] as const,

@@ -3,7 +3,7 @@
  *
  * @domain `pulumi.io`
  * @programs `pulumi`, `pulumi-analyzer-policy`, `pulumi-analyzer-policy-python`, `pulumi-language-dotnet`, `pulumi-language-go`, ... (+8 more)
- * @version `3.213.0` (175 versions available)
+ * @version `3.216.0` (179 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install pulumi.io`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "pulumi"
  * console.log(pkg.description) // "Pulumi - Infrastructure as Code in any programm..."
  * console.log(pkg.programs)    // ["pulumi", "pulumi-analyzer-policy", ...]
- * console.log(pkg.versions[0]) // "3.213.0" (latest)
+ * console.log(pkg.versions[0]) // "3.216.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/pulumi-io.md
@@ -89,6 +89,10 @@ export const pulumiioPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '3.216.0',
+    '3.215.0',
+    '3.214.1',
+    '3.214.0',
     '3.213.0',
     '3.212.0',
     '3.211.0',

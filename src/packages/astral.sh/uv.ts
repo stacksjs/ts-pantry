@@ -3,7 +3,7 @@
  *
  * @domain `astral.sh/uv`
  * @programs `uv`, `uvx`
- * @version `0.9.18` (234 versions available)
+ * @version `0.9.26` (241 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install astral.sh/uv`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "uv"
  * console.log(pkg.description) // "An extremely fast Python package and project ma..."
  * console.log(pkg.programs)    // ["uv", "uvx"]
- * console.log(pkg.versions[0]) // "0.9.18" (latest)
+ * console.log(pkg.versions[0]) // "0.9.26" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/astral-sh/uv.md
@@ -80,6 +80,13 @@ export const astralshuvPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.9.26',
+    '0.9.25',
+    '0.9.24',
+    '0.9.23',
+    '0.9.22',
+    '0.9.21',
+    '0.9.20',
     '0.9.18',
     '0.9.17',
     '0.9.16',

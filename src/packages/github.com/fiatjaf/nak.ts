@@ -3,11 +3,11 @@
  *
  * @domain `github.com/fiatjaf/nak`
  * @programs `nak`
- * @version `0.17.2` (28 versions available)
+ * @version `0.18.1` (34 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/fiatjaf/nak`
- * @buildDependencies `go.dev@~1.24.1` - required only when building from source
+ * @buildDependencies `go.dev@~1.25`, `linux:gnu.org/gcc`, `linux:github.com/libfuse/libfuse@2`, ... (+1 more) (includes OS-specific dependencies with `os:package` format) - required only when building from source
  *
  * @example
  * ```typescript
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "nak"
  * console.log(pkg.description) // "a command line tool for doing all things nostr"
  * console.log(pkg.programs)    // ["nak"]
- * console.log(pkg.versions[0]) // "0.17.2" (latest)
+ * console.log(pkg.versions[0]) // "0.18.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/fiatjaf/nak.md
@@ -58,15 +58,25 @@ export const nakPackage = {
   /**
    * Build dependencies for this package.
    * These are only required when building the package from source.
+   * OS-specific dependencies are prefixed with `os:` (e.g., `linux:gnu.org/gcc`).
    */
   buildDependencies: [
-    'go.dev@~1.24.1',
+    'go.dev@~1.25',
+    'linux:gnu.org/gcc',
+    'linux:github.com/libfuse/libfuse@2',
+    'darwin:macfuse.github.io/v2',
   ] as const,
   /**
    * Available versions from newest to oldest.
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.18.1',
+    '0.18.0',
+    '0.17.9',
+    '0.17.6',
+    '0.17.4',
+    '0.17.3',
     '0.17.2',
     '0.17.1',
     '0.16.2',

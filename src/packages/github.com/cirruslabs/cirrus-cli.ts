@@ -3,7 +3,7 @@
  *
  * @domain `github.com/cirruslabs/cirrus-cli`
  * @programs `cirrus`
- * @version `0.158.0` (99 versions available)
+ * @version `0.161.4` (106 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/cirruslabs/cirrus-cli`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "cirrus"
  * console.log(pkg.description) // "CLI for executing Cirrus tasks locally and in a..."
  * console.log(pkg.programs)    // ["cirrus"]
- * console.log(pkg.versions[0]) // "0.158.0" (latest)
+ * console.log(pkg.versions[0]) // "0.161.4" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/cirruslabs/cirrus-cli.md
@@ -67,6 +67,13 @@ export const cirruscliPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.161.4',
+    '0.161.2',
+    '0.161.1',
+    '0.161.0',
+    '0.160.0',
+    '0.159.1',
+    '0.159.0',
     '0.158.0',
     '0.157.4',
     '0.157.3',

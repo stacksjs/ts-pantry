@@ -3,7 +3,7 @@
  *
  * @domain `glew.sourceforge.io`
  * @programs `glewinfo`, `visualinfo`
- * @version `2.2.0` (1 versions available)
+ * @version `2.3.0` (2 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install glew.sourceforge.io`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "glew.sourceforge"
  * console.log(pkg.description) // "The OpenGL Extension Wrangler Library"
  * console.log(pkg.programs)    // ["glewinfo", "visualinfo"]
- * console.log(pkg.versions[0]) // "2.2.0" (latest)
+ * console.log(pkg.versions[0]) // "2.3.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/glew-sourceforge-io.md
@@ -69,6 +69,7 @@ export const glewsourceforgeioPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2.3.0',
     '2.2.0',
   ] as const,
   aliases: [] as const,

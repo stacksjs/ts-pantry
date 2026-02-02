@@ -3,7 +3,7 @@
  *
  * @domain `wkentaro.github.io/gdown`
  * @programs `gdown`
- * @version `5.2.0` (7 versions available)
+ * @version `5.2.1` (8 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install wkentaro.github.io/gdown`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "gdown"
  * console.log(pkg.description) // "Google Drive Public File Downloader when Curl/W..."
  * console.log(pkg.programs)    // ["gdown"]
- * console.log(pkg.versions[0]) // "5.2.0" (latest)
+ * console.log(pkg.versions[0]) // "5.2.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/wkentaro-github-io/gdown.md
@@ -67,6 +67,7 @@ export const wkentarogithubiogdownPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '5.2.1',
     '5.2.0',
     '5.1.0',
     '5.0.1',

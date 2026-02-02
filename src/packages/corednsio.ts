@@ -3,12 +3,12 @@
  *
  * @domain `coredns.io`
  * @programs `coredns`
- * @version `1.13.2` (13 versions available)
+ * @version `1.14.1` (15 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install coredns.io`
  * @homepage https://coredns.io/
- * @buildDependencies `go.dev@^1.18` - required only when building from source
+ * @buildDependencies `go.dev@~1.24.0` - required only when building from source
  *
  * @example
  * ```typescript
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "coredns"
  * console.log(pkg.description) // "CoreDNS is a DNS server that chains plugins"
  * console.log(pkg.programs)    // ["coredns"]
- * console.log(pkg.versions[0]) // "1.13.2" (latest)
+ * console.log(pkg.versions[0]) // "1.14.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/coredns-io.md
@@ -61,13 +61,15 @@ export const corednsioPackage = {
    * These are only required when building the package from source.
    */
   buildDependencies: [
-    'go.dev@^1.18',
+    'go.dev@~1.24.0',
   ] as const,
   /**
    * Available versions from newest to oldest.
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.14.1',
+    '1.14.0',
     '1.13.2',
     '1.13.1',
     '1.13.0',

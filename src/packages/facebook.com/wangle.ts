@@ -2,7 +2,7 @@
  * **wangle** - Wangle is a framework providing a set of common client/server abstractions for building services in a consistent, modular, and composable way.
  *
  * @domain `facebook.com/wangle`
- * @version `2025.9.8.0` (117 versions available)
+ * @version `2026.1.5.0` (122 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install facebook.com/wangle`
@@ -16,7 +16,7 @@
  * const pkg = pantry.facebookcomwangle
  * console.log(pkg.name)        // "wangle"
  * console.log(pkg.description) // "Wangle is a framework providing a set of common..."
- * console.log(pkg.versions[0]) // "2025.9.8.0" (latest)
+ * console.log(pkg.versions[0]) // "2026.1.5.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/facebook-com/wangle.md
@@ -84,6 +84,9 @@ export const facebookcomwanglePackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2026.1.5.0',
+    '2026.1.19.0',
+    '2026.1.12.0',
     '2025.9.8.0',
     '2025.9.29.0',
     '2025.9.22.0',
@@ -119,6 +122,8 @@ export const facebookcomwanglePackage = {
     '2025.2.24.0',
     '2025.2.17.0',
     '2025.2.10.0',
+    '2025.12.29.0',
+    '2025.12.22.0',
     '2025.12.15.0',
     '2025.11.3.0',
     '2025.11.24.0',

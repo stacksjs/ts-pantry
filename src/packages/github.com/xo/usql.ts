@@ -3,7 +3,7 @@
  *
  * @domain `github.com/xo/usql`
  * @programs `usql`
- * @version `0.19.26` (28 versions available)
+ * @version `0.20.8` (37 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/xo/usql`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "usql"
  * console.log(pkg.description) // "Universal command-line interface for SQL databases"
  * console.log(pkg.programs)    // ["usql"]
- * console.log(pkg.versions[0]) // "0.19.26" (latest)
+ * console.log(pkg.versions[0]) // "0.20.8" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/xo/usql.md
@@ -68,6 +68,15 @@ export const usqlPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.20.8',
+    '0.20.7',
+    '0.20.6',
+    '0.20.5',
+    '0.20.4',
+    '0.20.3',
+    '0.20.2',
+    '0.20.1',
+    '0.20.0',
     '0.19.26',
     '0.19.25',
     '0.19.24',

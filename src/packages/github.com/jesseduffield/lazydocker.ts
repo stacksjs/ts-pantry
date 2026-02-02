@@ -3,7 +3,7 @@
  *
  * @domain `github.com/jesseduffield/lazydocker`
  * @programs `lazydocker`
- * @version `0.24.2` (9 versions available)
+ * @version `0.24.4` (11 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/jesseduffield/lazydocker`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "lazydocker"
  * console.log(pkg.description) // "The lazier way to manage everything docker"
  * console.log(pkg.programs)    // ["lazydocker"]
- * console.log(pkg.versions[0]) // "0.24.2" (latest)
+ * console.log(pkg.versions[0]) // "0.24.4" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/jesseduffield/lazydocker.md
@@ -67,6 +67,8 @@ export const lazydockerPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.24.4',
+    '0.24.3',
     '0.24.2',
     '0.24.1',
     '0.24.0',

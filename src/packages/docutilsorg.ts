@@ -3,7 +3,7 @@
  *
  * @domain `docutils.org`
  * @programs `docutils`, `rst2html`, `rst2html4`, `rst2html5`, `rst2latex`, ... (+6 more)
- * @version `0.22.3` (10 versions available)
+ * @version `0.22.4` (11 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install docutils.org`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "docutils"
  * console.log(pkg.description) // "Text processing system for reStructuredText"
  * console.log(pkg.programs)    // ["docutils", "rst2html", ...]
- * console.log(pkg.versions[0]) // "0.22.3" (latest)
+ * console.log(pkg.versions[0]) // "0.22.4" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/docutils-org.md
@@ -85,6 +85,7 @@ export const docutilsorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.22.4',
     '0.22.3',
     '0.22.2',
     '0.22.1',

@@ -1,7 +1,7 @@
 /**
  * Constants used throughout the ts-pkgx package
  * This file is auto-generated from pantry. Do not edit manually.
- * Generated on 2025-12-18T02:38:52.568Z
+ * Generated on 2026-01-23T02:45:21.893Z
  */
 
 /**
@@ -44,7 +44,7 @@ export const PACKAGE_ALIASES: Record<string, string> = {
 } as const
 
 /**
- * List of all known packages (1628 total)
+ * List of all known packages (1634 total)
  */
 export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'abseil.io',
@@ -105,6 +105,8 @@ export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'aws.amazon.com/cli',
   'aws.amazon.com/q',
   'aws.amazon.com/sam',
+  'aws.amazon.com/session-manager-plugin',
+  'babashka.org',
   'bashly.dannyb.co',
   'bcrypt.sourceforge.net',
   'beyondgrep.com',
@@ -324,6 +326,7 @@ export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'cuelang.org',
   'curl.se',
   'curl.se/ca-certs',
+  'curl.se/ssl3',
   'curl.se/trurl',
   'curlie.io',
   'cyrusimap.org/cyrus-sasl',
@@ -594,6 +597,7 @@ export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'github.com/confluentinc/librdkafka',
   'github.com/confluentinc/libserdes',
   'github.com/containers/gvisor-tap-vsock',
+  'github.com/containers/podlet',
   'github.com/containers/skopeo',
   'github.com/context-labs/mactop',
   'github.com/cookiecutter/cookiecutter',
@@ -1066,6 +1070,7 @@ export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'k9scli.io',
   'kafka.apache.org',
   'kaggle.com',
+  'kamal-deploy.org',
   'keephq.dev',
   'kerberos.org',
   'kernel.org/libcap',
@@ -1166,6 +1171,7 @@ export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'lz4.org',
   'maaslalani.com/slides',
   'macfuse.github.io',
+  'macfuse.github.io/v2',
   'macvim.org',
   'mailpit.axllent.org',
   'makotemplates.org',

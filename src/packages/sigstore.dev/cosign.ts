@@ -3,7 +3,7 @@
  *
  * @domain `sigstore.dev/cosign`
  * @programs `cosign`
- * @version `3.0.3` (21 versions available)
+ * @version `3.0.4` (23 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install sigstore.dev/cosign`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "cosign"
  * console.log(pkg.description) // "Code signing and transparency for containers an..."
  * console.log(pkg.programs)    // ["cosign"]
- * console.log(pkg.versions[0]) // "3.0.3" (latest)
+ * console.log(pkg.versions[0]) // "3.0.4" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/sigstore-dev/cosign.md
@@ -67,9 +67,11 @@ export const sigstoredevcosignPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '3.0.4',
     '3.0.3',
     '3.0.2',
     '3.0.1',
+    '2.6.2',
     '2.6.1',
     '2.6.0',
     '2.5.3',

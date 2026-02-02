@@ -3,7 +3,7 @@
  *
  * @domain `endoflife.date`
  * @programs `eol`
- * @version `0.23.0` (10 versions available)
+ * @version `0.24.1` (12 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install endoflife.date`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "eol"
  * console.log(pkg.description) // "CLI to show end-of-life dates for a number of p..."
  * console.log(pkg.programs)    // ["eol"]
- * console.log(pkg.versions[0]) // "0.23.0" (latest)
+ * console.log(pkg.versions[0]) // "0.24.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/endoflife-date.md
@@ -76,6 +76,8 @@ export const endoflifedatePackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.24.1',
+    '0.24.0',
     '0.23.0',
     '0.22.0',
     '0.21.0',

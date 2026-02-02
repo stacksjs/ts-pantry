@@ -25,20 +25,20 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 6 versions</summary>
+<summary>Show all 7 versions</summary>
 
-- `0.19.6`, `0.19.5`, `0.19.4`, `0.19.3`, `0.19.2`
-- `0.19.1`
+- `0.20.0`, `0.19.6`, `0.19.5`, `0.19.4`, `0.19.3`
+- `0.19.2`, `0.19.1`
 
 </details>
 
-**Latest Version**: `0.19.6`
+**Latest Version**: `0.20.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +github.com/ColinIanKing/stress-ng@0.19.6 -- $SHELL -i
+sh <(curl https://pkgx.sh) +github.com/ColinIanKing/stress-ng@0.20.0 -- $SHELL -i
 ```
 
 ## Dependencies

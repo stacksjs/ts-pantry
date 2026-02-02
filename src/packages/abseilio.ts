@@ -2,7 +2,7 @@
  * **abseil** - Abseil Common Libraries (C++)
  *
  * @domain `abseil.io`
- * @version `20250814.1.0` (20 versions available)
+ * @version `20260107.0.0` (21 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install abseil.io`
@@ -16,7 +16,7 @@
  * const pkg = pantry.abseilio
  * console.log(pkg.name)        // "abseil"
  * console.log(pkg.description) // "Abseil Common Libraries (C++)"
- * console.log(pkg.versions[0]) // "20250814.1.0" (latest)
+ * console.log(pkg.versions[0]) // "20260107.0.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/abseil-io.md
@@ -62,6 +62,7 @@ export const abseilioPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '20260107.0.0',
     '20250814.1.0',
     '20250814.0.0',
     '20250512.1.0',

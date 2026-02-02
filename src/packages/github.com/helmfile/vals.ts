@@ -3,7 +3,7 @@
  *
  * @domain `github.com/helmfile/vals`
  * @programs `vals`
- * @version `0.42.6` (40 versions available)
+ * @version `0.43.1` (42 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/helmfile/vals`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "vals"
  * console.log(pkg.description) // "Helm-like configuration values loader with supp..."
  * console.log(pkg.programs)    // ["vals"]
- * console.log(pkg.versions[0]) // "0.42.6" (latest)
+ * console.log(pkg.versions[0]) // "0.43.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/helmfile/vals.md
@@ -67,6 +67,8 @@ export const valsPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.43.1',
+    '0.43.0',
     '0.42.6',
     '0.42.5',
     '0.42.4',

@@ -3,7 +3,7 @@
  *
  * @domain `onsi.github.io/ginkgo`
  * @programs `ginkgo`
- * @version `2.27.3` (25 versions available)
+ * @version `2.27.5` (27 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install onsi.github.io/ginkgo`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "ginkgo"
  * console.log(pkg.description) // "A Modern Testing Framework for Go"
  * console.log(pkg.programs)    // ["ginkgo"]
- * console.log(pkg.versions[0]) // "2.27.3" (latest)
+ * console.log(pkg.versions[0]) // "2.27.5" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/onsi-github-io/ginkgo.md
@@ -68,6 +68,8 @@ export const onsigithubioginkgoPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2.27.5',
+    '2.27.4',
     '2.27.3',
     '2.27.2',
     '2.27.1',

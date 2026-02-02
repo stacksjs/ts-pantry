@@ -3,7 +3,7 @@
  *
  * @domain `doxygen.nl`
  * @programs `doxygen`
- * @version `1.15.0` (11 versions available)
+ * @version `1.16.1` (13 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install doxygen.nl`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "doxygen"
  * console.log(pkg.description) // "Generate documentation for several programming ..."
  * console.log(pkg.programs)    // ["doxygen"]
- * console.log(pkg.versions[0]) // "1.15.0" (latest)
+ * console.log(pkg.versions[0]) // "1.16.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/doxygen-nl.md
@@ -73,6 +73,8 @@ export const doxygennlPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.16.1',
+    '1.16.0',
     '1.15.0',
     '1.14.0',
     '1.13.2',

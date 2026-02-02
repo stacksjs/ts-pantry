@@ -3,12 +3,12 @@
  *
  * @domain `sphinx-doc.org`
  * @programs `sphinx-apidoc`, `sphinx-autogen`, `sphinx-build`, `sphinx-quickstart`
- * @version `9.0.4` (47 versions available)
+ * @version `9.1.0` (48 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install sphinx-doc.org`
  * @homepage https://www.sphinx-doc.org/
- * @dependencies `python.org>=3.8<3.12`
+ * @dependencies `python.org>=3.12`
  *
  * @example
  * ```typescript
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "sphinx"
  * console.log(pkg.description) // "Tool to create intelligent and beautiful docume..."
  * console.log(pkg.programs)    // ["sphinx-apidoc", "sphinx-autogen", ...]
- * console.log(pkg.versions[0]) // "9.0.4" (latest)
+ * console.log(pkg.versions[0]) // "9.1.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/sphinx-doc-org.md
@@ -63,7 +63,7 @@ export const sphinxdocorgPackage = {
    * These are required when running the package.
    */
   dependencies: [
-    'python.org>=3.8<3.12',
+    'python.org>=3.12',
   ] as const,
   buildDependencies: [] as const,
   /**
@@ -71,6 +71,7 @@ export const sphinxdocorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '9.1.0',
     '9.0.4',
     '9.0.3',
     '9.0.2',

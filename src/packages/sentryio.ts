@@ -3,12 +3,12 @@
  *
  * @domain `sentry.io`
  * @programs `sentry-cli`
- * @version `3.0.1` (68 versions available)
+ * @version `3.1.0` (71 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install sentry.io`
  * @homepage https://docs.sentry.io/cli/
- * @dependencies `libgit2.org~1.7 # links to libgit2.so.1.7`
+ * @dependencies `libgit2.org~1.7 # links to libgit2.so.1.7`, `curl.se^8 # links to libcurl`
  *
  * @example
  * ```typescript
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "sentry-cli"
  * console.log(pkg.description) // "Command-line utility to interact with Sentry"
  * console.log(pkg.programs)    // ["sentry-cli"]
- * console.log(pkg.versions[0]) // "3.0.1" (latest)
+ * console.log(pkg.versions[0]) // "3.1.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/sentry-io.md
@@ -61,6 +61,7 @@ export const sentryioPackage = {
    */
   dependencies: [
     'libgit2.org~1.7 # links to libgit2.so.1.7',
+    'curl.se^8 # links to libcurl',
   ] as const,
   buildDependencies: [] as const,
   /**
@@ -68,6 +69,9 @@ export const sentryioPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '3.1.0',
+    '3.0.3',
+    '3.0.2',
     '3.0.1',
     '3.0.0',
     '2.58.4',

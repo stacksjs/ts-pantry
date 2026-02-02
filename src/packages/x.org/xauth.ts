@@ -3,7 +3,7 @@
  *
  * @domain `x.org/xauth`
  * @programs `xauth`
- * @version `1.1.4` (3 versions available)
+ * @version `1.1.5` (4 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install x.org/xauth`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "xauth"
  * console.log(pkg.description) // "X.Org Applications: xauth"
  * console.log(pkg.programs)    // ["xauth"]
- * console.log(pkg.versions[0]) // "1.1.4" (latest)
+ * console.log(pkg.versions[0]) // "1.1.5" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/x-org/xauth.md
@@ -83,6 +83,7 @@ export const xorgxauthPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.1.5',
     '1.1.4',
     '1.1.3',
     '1.1.2',

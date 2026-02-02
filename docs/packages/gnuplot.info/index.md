@@ -25,20 +25,20 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 9 versions</summary>
+<summary>Show all 10 versions</summary>
 
-- `6.0.3`, `6.0.2`, `6.0.1`, `6.0.0`, `5.4.10`
-- `5.4.9`, `5.4.8`, `5.4.7`, `5.4.6`
+- `6.0.4`, `6.0.3`, `6.0.2`, `6.0.1`, `6.0.0`
+- `5.4.10`, `5.4.9`, `5.4.8`, `5.4.7`, `5.4.6`
 
 </details>
 
-**Latest Version**: `6.0.3`
+**Latest Version**: `6.0.4`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +gnuplot.info@6.0.3 -- $SHELL -i
+sh <(curl https://pkgx.sh) +gnuplot.info@6.0.4 -- $SHELL -i
 ```
 
 ## Dependencies

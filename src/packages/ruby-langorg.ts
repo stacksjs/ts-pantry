@@ -3,14 +3,14 @@
  *
  * @domain `ruby-lang.org`
  * @programs `erb`, `irb`, `rake`, `rdoc`, `ri`, ... (+1 more)
- * @version `3.4.8` (49 versions available)
+ * @version `4.0.1` (52 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install ruby-lang.org`
  * @aliases `ruby`
  * @homepage https://www.ruby-lang.org/
  * @dependencies `openssl.org^1.1`, `pyyaml.org^0.2`, `zlib.net^1`
- * @buildDependencies `gnu.org/gettext@^0.21`, `gnu.org/patch`, `gnu.org/bison@^3`, ... (+1 more) - required only when building from source
+ * @buildDependencies `gnu.org/gettext@^0.21`, `gnu.org/patch`, `gnu.org/bison@^3`, ... (+3 more) (includes OS-specific dependencies with `os:package` format) - required only when building from source
  *
  * @example
  * ```typescript
@@ -24,7 +24,7 @@
  * console.log(pkg.name)        // "ruby-lang"
  * console.log(pkg.description) // "Powerful, clean, object-oriented scripting lang..."
  * console.log(pkg.programs)    // ["erb", "irb", ...]
- * console.log(pkg.versions[0]) // "3.4.8" (latest)
+ * console.log(pkg.versions[0]) // "4.0.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/ruby-lang-org.md
@@ -78,18 +78,23 @@ export const rubyPackage = {
   /**
    * Build dependencies for this package.
    * These are only required when building the package from source.
+   * OS-specific dependencies are prefixed with `os:` (e.g., `linux:gnu.org/gcc`).
    */
   buildDependencies: [
     'gnu.org/gettext@^0.21',
     'gnu.org/patch',
     'gnu.org/bison@^3',
     'gnu.org/autoconf',
+    'rsync.samba.org',
+    'linux:rubygems.org',
   ] as const,
   /**
    * Available versions from newest to oldest.
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '4.0.1',
+    '4.0.0',
     '3.4.8',
     '3.4.7',
     '3.4.6',
@@ -109,6 +114,7 @@ export const rubyPackage = {
     '3.3.2',
     '3.3.1',
     '3.3.0',
+    '3.2.10',
     '3.2.9',
     '3.2.8',
     '3.2.7',

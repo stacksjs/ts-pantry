@@ -1,7 +1,7 @@
 /**
  * Constants used throughout the ts-pkgx package
  * This file is auto-generated from pantry. Do not edit manually.
- * Generated on 2026-01-18T02:50:50.033Z
+ * Generated on 2026-02-03T03:33:37.702Z
  */
 
 /**
@@ -44,7 +44,7 @@ export const PACKAGE_ALIASES: Record<string, string> = {
 } as const
 
 /**
- * List of all known packages (1632 total)
+ * List of all known packages (1637 total)
  */
 export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'abseil.io',
@@ -105,6 +105,7 @@ export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'aws.amazon.com/cli',
   'aws.amazon.com/q',
   'aws.amazon.com/sam',
+  'aws.amazon.com/session-manager-plugin',
   'babashka.org',
   'bashly.dannyb.co',
   'bcrypt.sourceforge.net',
@@ -596,6 +597,7 @@ export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'github.com/confluentinc/librdkafka',
   'github.com/confluentinc/libserdes',
   'github.com/containers/gvisor-tap-vsock',
+  'github.com/containers/podlet',
   'github.com/containers/skopeo',
   'github.com/context-labs/mactop',
   'github.com/cookiecutter/cookiecutter',
@@ -772,6 +774,7 @@ export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'github.com/plougher/squashfs-tools',
   'github.com/postmodern/chruby',
   'github.com/postmodern/ruby-install',
+  'github.com/pranshuparmar/witr',
   'github.com/pressly/sup',
   'github.com/princjef/gomarkdoc',
   'github.com/promptexecution/just-mcp',
@@ -784,6 +787,7 @@ export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'github.com/python-cffi/cffi',
   'github.com/python-lsp/python-lsp-server',
   'github.com/quodlibet/mutagen',
+  'github.com/raskell-io/hx',
   'github.com/rbenv/rbenv',
   'github.com/realm/SwiftLint',
   'github.com/redis/hiredis',
@@ -1677,6 +1681,7 @@ export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'ziglang.org',
   'zlib.net',
   'zlib.net/minizip',
+  'zotregistry.dev',
   'zrok.io',
   'zsh.sourceforge.io',
 ] as const

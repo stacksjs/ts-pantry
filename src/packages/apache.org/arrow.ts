@@ -8,8 +8,8 @@
  *
  * @install `launchpad install apache.org/arrow`
  * @homepage https://arrow.apache.org/
- * @dependencies `github.com/aws/aws-sdk-cpp`, `github.com/google/brotli`, `sourceware.org/bzip2`, ... (+13 more) (includes OS-specific dependencies with `os:package` format)
- * @buildDependencies `boost.org`, `cmake.org@3`, `python.org@<3.12`, ... (+1 more) - required only when building from source
+ * @dependencies `github.com/aws/aws-sdk-cpp`, `github.com/google/brotli`, `sourceware.org/bzip2`, ... (+14 more) (includes OS-specific dependencies with `os:package` format)
+ * @buildDependencies `boost.org`, `cmake.org@3`, `python.org@<3.12`, ... (+2 more) (includes OS-specific dependencies with `os:package` format) - required only when building from source
  *
  * @example
  * ```typescript
@@ -78,18 +78,21 @@ export const apacheorgarrowPackage = {
     'github.com/JuliaStrings/utf8proc',
     'facebook.com/zstd',
     'darwin:c-ares.org@1',
-    'darwin:libcxx.llvm.org~17 # since 18.1.0',
+    'darwin:libcxx.llvm.org~17',
     'linux:protobuf.dev^30.0.0 # match grpc.io, so gdal.org can build, we bundle on darwin',
+    'linux:gnu.org/gcc/libstdcxx@14',
   ] as const,
   /**
    * Build dependencies for this package.
    * These are only required when building the package from source.
+   * OS-specific dependencies are prefixed with `os:` (e.g., `linux:gnu.org/gcc`).
    */
   buildDependencies: [
     'boost.org',
     'cmake.org@3',
     'python.org@<3.12',
     'llvm.org@~17',
+    'linux:gnu.org/gcc@14',
   ] as const,
   /**
    * Available versions from newest to oldest.

@@ -3,7 +3,7 @@
  *
  * @domain `getzola.org`
  * @programs `zola`
- * @version `0.22.0` (8 versions available)
+ * @version `0.22.1` (9 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install getzola.org`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "zola"
  * console.log(pkg.description) // "A fast static site generator in a single binary..."
  * console.log(pkg.programs)    // ["zola"]
- * console.log(pkg.versions[0]) // "0.22.0" (latest)
+ * console.log(pkg.versions[0]) // "0.22.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/getzola-org.md
@@ -61,6 +61,7 @@ export const getzolaorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.22.1',
     '0.22.0',
     '0.21.0',
     '0.20.0',

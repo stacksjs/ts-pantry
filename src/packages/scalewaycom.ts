@@ -3,7 +3,7 @@
  *
  * @domain `scaleway.com`
  * @programs `scw`
- * @version `2.50.0` (19 versions available)
+ * @version `2.51.0` (20 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install scaleway.com`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "scw"
  * console.log(pkg.description) // "Command Line Interface for Scaleway"
  * console.log(pkg.programs)    // ["scw"]
- * console.log(pkg.versions[0]) // "2.50.0" (latest)
+ * console.log(pkg.versions[0]) // "2.51.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/scaleway-com.md
@@ -68,6 +68,7 @@ export const scalewaycomPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2.51.0',
     '2.50.0',
     '2.49.0',
     '2.48.0',

@@ -3,7 +3,7 @@
  *
  * @domain `mercure.rocks`
  * @programs `mercure`
- * @version `0.21.5` (21 versions available)
+ * @version `0.21.6` (22 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install mercure.rocks`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "mercure"
  * console.log(pkg.description) // "🪽 An open, easy, fast, reliable and battery-ef..."
  * console.log(pkg.programs)    // ["mercure"]
- * console.log(pkg.versions[0]) // "0.21.5" (latest)
+ * console.log(pkg.versions[0]) // "0.21.6" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/mercure-rocks.md
@@ -69,6 +69,7 @@ export const mercurerocksPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.21.6',
     '0.21.5',
     '0.21.4',
     '0.21.3',

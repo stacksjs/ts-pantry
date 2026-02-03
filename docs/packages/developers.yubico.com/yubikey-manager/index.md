@@ -25,21 +25,21 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 11 versions</summary>
+<summary>Show all 12 versions</summary>
 
-- `5.8.0`, `5.7.2`, `5.7.1`, `5.7.0`, `5.6.1`
-- `5.6.0`, `5.5.1`, `5.5.0`, `5.4.0`, `5.3.0`
-- `5.2.1`
+- `5.9.0`, `5.8.0`, `5.7.2`, `5.7.1`, `5.7.0`
+- `5.6.1`, `5.6.0`, `5.5.1`, `5.5.0`, `5.4.0`
+- `5.3.0`, `5.2.1`
 
 </details>
 
-**Latest Version**: `5.8.0`
+**Latest Version**: `5.9.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +developers.yubico.com/yubikey-manager@5.8.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +developers.yubico.com/yubikey-manager@5.9.0 -- $SHELL -i
 ```
 
 ## Dependencies

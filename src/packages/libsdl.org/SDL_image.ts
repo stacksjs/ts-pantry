@@ -2,7 +2,7 @@
  * **SDL_image** - Image decoding for many popular formats for Simple Directmedia Layer.
  *
  * @domain `libsdl.org/SDL_image`
- * @version `3.2.6` (14 versions available)
+ * @version `3.4.0` (15 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install libsdl.org/SDL_image`
@@ -16,7 +16,7 @@
  * const pkg = pantry.libsdlorgsdl_image
  * console.log(pkg.name)        // "SDL_image"
  * console.log(pkg.description) // "Image decoding for many popular formats for Sim..."
- * console.log(pkg.versions[0]) // "3.2.6" (latest)
+ * console.log(pkg.versions[0]) // "3.4.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/libsdl-org/SDL_image.md
@@ -71,6 +71,7 @@ export const libsdlorgsdl_imagePackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '3.4.0',
     '3.2.6',
     '3.2.4',
     '3.2.2',

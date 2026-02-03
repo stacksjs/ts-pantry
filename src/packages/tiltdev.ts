@@ -3,7 +3,7 @@
  *
  * @domain `tilt.dev`
  * @programs `tilt`
- * @version `0.36.0` (27 versions available)
+ * @version `0.36.1` (28 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install tilt.dev`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "tilt"
  * console.log(pkg.description) // "Define your dev environment as code. For micros..."
  * console.log(pkg.programs)    // ["tilt"]
- * console.log(pkg.versions[0]) // "0.36.0" (latest)
+ * console.log(pkg.versions[0]) // "0.36.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/tilt-dev.md
@@ -70,6 +70,7 @@ export const tiltdevPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.36.1',
     '0.36.0',
     '0.35.2',
     '0.35.1',

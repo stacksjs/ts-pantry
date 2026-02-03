@@ -3,7 +3,7 @@
  *
  * @domain `dotnet.microsoft.com`
  * @programs `dotnet`
- * @version `10.0.102` (44 versions available)
+ * @version `10.0.102` (45 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install dotnet.microsoft.com`
@@ -79,6 +79,7 @@ export const dotnetmicrosoftcomPackage = {
   versions: [
     '10.0.102',
     '10.0.101',
+    '9.0.310',
     '9.0.309',
     '9.0.308',
     '9.0.306',

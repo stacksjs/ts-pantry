@@ -25,19 +25,19 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 3 versions</summary>
+<summary>Show all 4 versions</summary>
 
-- `2.23.0`, `2.22.0`, `2.21.0`
+- `3.0.0`, `2.23.0`, `2.22.0`, `2.21.0`
 
 </details>
 
-**Latest Version**: `2.23.0`
+**Latest Version**: `3.0.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +github.com/eliben/pycparser@2.23.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +github.com/eliben/pycparser@3.0.0 -- $SHELL -i
 ```
 
 ## Dependencies

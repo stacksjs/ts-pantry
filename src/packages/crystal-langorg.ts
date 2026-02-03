@@ -3,7 +3,7 @@
  *
  * @domain `crystal-lang.org`
  * @programs `crystal`
- * @version `1.19.0` (25 versions available)
+ * @version `1.19.1` (26 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install crystal-lang.org`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "crystal"
  * console.log(pkg.description) // "Fast and statically typed, compiled language wi..."
  * console.log(pkg.programs)    // ["crystal"]
- * console.log(pkg.versions[0]) // "1.19.0" (latest)
+ * console.log(pkg.versions[0]) // "1.19.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/crystal-lang-org.md
@@ -84,6 +84,7 @@ export const crystallangorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.19.1',
     '1.19.0',
     '1.18.2',
     '1.18.1',

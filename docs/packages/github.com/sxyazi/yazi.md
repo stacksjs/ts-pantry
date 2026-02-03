@@ -25,23 +25,23 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 24 versions</summary>
+<summary>Show all 25 versions</summary>
 
-- `26.1.4`, `25.12.29`, `25.5.31`, `25.5.28`, `25.4.8`
-- `25.3.2`, `25.2.26`, `25.2.11`, `25.2.7`, `0.4.2`
-- `0.4.1`, `0.4.0`, `0.3.3`, `0.3.2`, `0.3.1`
-- `0.3.0`, `0.2.5`, `0.2.4`, `0.2.3`, `0.2.2`
-- `0.2.1`, `0.2.0`, `0.1.5`, `0.1.4`
+- `26.1.22`, `26.1.4`, `25.12.29`, `25.5.31`, `25.5.28`
+- `25.4.8`, `25.3.2`, `25.2.26`, `25.2.11`, `25.2.7`
+- `0.4.2`, `0.4.1`, `0.4.0`, `0.3.3`, `0.3.2`
+- `0.3.1`, `0.3.0`, `0.2.5`, `0.2.4`, `0.2.3`
+- `0.2.2`, `0.2.1`, `0.2.0`, `0.1.5`, `0.1.4`
 
 </details>
 
-**Latest Version**: `26.1.4`
+**Latest Version**: `26.1.22`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +github.com/sxyazi/yazi@26.1.4 -- $SHELL -i
+sh <(curl https://pkgx.sh) +github.com/sxyazi/yazi@26.1.22 -- $SHELL -i
 ```
 
 ## Dependencies

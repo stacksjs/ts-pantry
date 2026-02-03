@@ -3,7 +3,7 @@
  *
  * @domain `python-poetry.org`
  * @programs `poetry`
- * @version `2.3.0` (25 versions available)
+ * @version `2.3.1` (26 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install python-poetry.org`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "poetry"
  * console.log(pkg.description) // "Python packaging and dependency management made..."
  * console.log(pkg.programs)    // ["poetry"]
- * console.log(pkg.versions[0]) // "2.3.0" (latest)
+ * console.log(pkg.versions[0]) // "2.3.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/python-poetry-org.md
@@ -76,6 +76,7 @@ export const pythonpoetryorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2.3.1',
     '2.3.0',
     '2.2.1',
     '2.2.0',

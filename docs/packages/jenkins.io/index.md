@@ -26,24 +26,24 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 26 versions</summary>
+<summary>Show all 27 versions</summary>
 
-- `2.528.3`, `2.528.2`, `2.528.1`, `2.516.3`, `2.516.2`
-- `2.516.1`, `2.504.3`, `2.504.2`, `2.504.1`, `2.492.3`
-- `2.492.2`, `2.492.1`, `2.479.3`, `2.479.2`, `2.479.1`
-- `2.462.3`, `2.462.2`, `2.462.1`, `2.452.3`, `2.452.2`
-- `2.452.1`, `2.440.3`, `2.440.2`, `2.440.1`, `2.426.3`
-- `2.426.2`
+- `2.541.1`, `2.528.3`, `2.528.2`, `2.528.1`, `2.516.3`
+- `2.516.2`, `2.516.1`, `2.504.3`, `2.504.2`, `2.504.1`
+- `2.492.3`, `2.492.2`, `2.492.1`, `2.479.3`, `2.479.2`
+- `2.479.1`, `2.462.3`, `2.462.2`, `2.462.1`, `2.452.3`
+- `2.452.2`, `2.452.1`, `2.440.3`, `2.440.2`, `2.440.1`
+- `2.426.3`, `2.426.2`
 
 </details>
 
-**Latest Version**: `2.528.3`
+**Latest Version**: `2.541.1`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +jenkins.io@2.528.3 -- $SHELL -i
+sh <(curl https://pkgx.sh) +jenkins.io@2.541.1 -- $SHELL -i
 ```
 
 ## Dependencies

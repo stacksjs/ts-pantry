@@ -3,7 +3,7 @@
  *
  * @domain `gitlab.com/gitlab-org/cli`
  * @programs `glab`
- * @version `1.80.4` (77 versions available)
+ * @version `1.81.0` (78 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install gitlab.com/gitlab-org/cli`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "glab"
  * console.log(pkg.description) // "Open-source GitLab command-line tool"
  * console.log(pkg.programs)    // ["glab"]
- * console.log(pkg.versions[0]) // "1.80.4" (latest)
+ * console.log(pkg.versions[0]) // "1.81.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/gitlab-com/gitlab-org/cli.md
@@ -68,6 +68,7 @@ export const gitlabcomgitlaborgcliPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.81.0',
     '1.80.4',
     '1.80.3',
     '1.80.2',

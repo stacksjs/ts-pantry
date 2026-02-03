@@ -63,8 +63,9 @@ This package depends on:
 - `github.com/JuliaStrings/utf8proc`
 - `facebook.com/zstd`
 - `darwin:c-ares.org@1`
-- `darwin:libcxx.llvm.org~17 # since 18.1.0`
+- `darwin:libcxx.llvm.org~17`
 - `linux:protobuf.dev^30.0.0 # match grpc.io, so gdal.org can build, we bundle on darwin`
+- `linux:gnu.org/gcc/libstdcxx@14`
 
 ## Usage Examples
 

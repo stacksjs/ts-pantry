@@ -25,20 +25,20 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 8 versions</summary>
+<summary>Show all 9 versions</summary>
 
-- `0.22.0`, `0.21.0`, `0.20.0`, `0.19.2`, `0.19.1`
-- `0.19.0`, `0.18.0`, `0.17.2`
+- `0.22.1`, `0.22.0`, `0.21.0`, `0.20.0`, `0.19.2`
+- `0.19.1`, `0.19.0`, `0.18.0`, `0.17.2`
 
 </details>
 
-**Latest Version**: `0.22.0`
+**Latest Version**: `0.22.1`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +getzola.org@0.22.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +getzola.org@0.22.1 -- $SHELL -i
 ```
 
 ## Usage Examples

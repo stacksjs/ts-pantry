@@ -25,8 +25,10 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 34 versions</summary>
+<summary>Show all 44 versions</summary>
 
+- `1.5.3`, `1.5.2`, `1.5.1`, `1.5.0`, `1.4.0`
+- `1.3.2`, `1.3.1`, `1.3.0`, `1.2.0`, `1.1.2`
 - `1.1.1`, `1.1.0`, `1.0.1`, `0.20.5`, `0.20.4`
 - `0.20.3`, `0.20.2`, `0.20.1`, `0.20.0`, `0.19.0`
 - `0.18.0`, `0.17.3`, `0.17.2`, `0.17.1`, `0.17.0`
@@ -37,13 +39,13 @@ This package provides the following executable programs:
 
 </details>
 
-**Latest Version**: `1.1.1`
+**Latest Version**: `1.5.3`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +crates.io/skim@1.1.1 -- $SHELL -i
+sh <(curl https://pkgx.sh) +crates.io/skim@1.5.3 -- $SHELL -i
 ```
 
 ## Usage Examples

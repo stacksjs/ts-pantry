@@ -25,19 +25,19 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 3 versions</summary>
+<summary>Show all 4 versions</summary>
 
-- `0.13.1`, `0.13.0`, `0.12.1`
+- `0.14.0`, `0.13.1`, `0.13.0`, `0.12.1`
 
 </details>
 
-**Latest Version**: `0.13.1`
+**Latest Version**: `0.14.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +crates.io/wasm-pack@0.13.1 -- $SHELL -i
+sh <(curl https://pkgx.sh) +crates.io/wasm-pack@0.14.0 -- $SHELL -i
 ```
 
 ## Dependencies

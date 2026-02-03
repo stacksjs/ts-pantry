@@ -3,7 +3,7 @@
  *
  * @domain `git-cliff.org`
  * @programs `git-cliff`
- * @version `2.11.0` (26 versions available)
+ * @version `2.12.0` (27 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install git-cliff.org`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "git-cliff"
  * console.log(pkg.description) // "A highly customizable Changelog Generator that ..."
  * console.log(pkg.programs)    // ["git-cliff"]
- * console.log(pkg.versions[0]) // "2.11.0" (latest)
+ * console.log(pkg.versions[0]) // "2.12.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/git-cliff-org.md
@@ -68,6 +68,7 @@ export const gitclifforgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2.12.0',
     '2.11.0',
     '2.10.1',
     '2.10.0',

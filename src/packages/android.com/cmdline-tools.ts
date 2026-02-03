@@ -3,7 +3,7 @@
  *
  * @domain `android.com/cmdline-tools`
  * @programs `apkanalyzer`, `avdmanager`, `lint`, `profgen`, `resourceshrinker`, ... (+3 more)
- * @version `13114758.0.0` (2 versions available)
+ * @version `14742923.0.0` (3 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install android.com/cmdline-tools`
@@ -17,7 +17,7 @@
  * const pkg = pantry.androidcomcmdlinetools
  * console.log(pkg.name)        // "cmdline-tools"
  * console.log(pkg.programs)    // ["apkanalyzer", "avdmanager", ...]
- * console.log(pkg.versions[0]) // "13114758.0.0" (latest)
+ * console.log(pkg.versions[0]) // "14742923.0.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/android-com/cmdline-tools.md
@@ -80,6 +80,7 @@ export const androidcomcmdlinetoolsPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '14742923.0.0',
     '13114758.0.0',
     '11076708.0.0',
   ] as const,

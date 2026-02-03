@@ -3,7 +3,7 @@
  *
  * @domain `developers.yubico.com/yubikey-manager`
  * @programs `ykman`
- * @version `5.8.0` (11 versions available)
+ * @version `5.9.0` (12 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install developers.yubico.com/yubikey-manager`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "yubikey-manager"
  * console.log(pkg.description) // "Python library and command line tool for config..."
  * console.log(pkg.programs)    // ["ykman"]
- * console.log(pkg.versions[0]) // "5.8.0" (latest)
+ * console.log(pkg.versions[0]) // "5.9.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/developers-yubico-com/yubikey-manager.md
@@ -78,6 +78,7 @@ export const developersyubicocomyubikeymanagerPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '5.9.0',
     '5.8.0',
     '5.7.2',
     '5.7.1',

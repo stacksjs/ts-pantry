@@ -25,21 +25,21 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 14 versions</summary>
+<summary>Show all 15 versions</summary>
 
-- `3.2.6`, `3.2.4`, `3.2.2`, `3.2.0`, `2.8.8`
-- `2.8.6`, `2.8.5`, `2.8.4`, `2.8.3`, `2.8.2`
-- `2.8.1`, `2.8.0`, `2.7.1`, `2.6.3`
+- `3.4.0`, `3.2.6`, `3.2.4`, `3.2.2`, `3.2.0`
+- `2.8.8`, `2.8.6`, `2.8.5`, `2.8.4`, `2.8.3`
+- `2.8.2`, `2.8.1`, `2.8.0`, `2.7.1`, `2.6.3`
 
 </details>
 
-**Latest Version**: `3.2.6`
+**Latest Version**: `3.4.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +libsdl.org/SDL_image@3.2.6 -- $SHELL -i
+sh <(curl https://pkgx.sh) +libsdl.org/SDL_image@3.4.0 -- $SHELL -i
 ```
 
 ## Dependencies

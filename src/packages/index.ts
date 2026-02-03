@@ -59,6 +59,7 @@ import { cdkPackage } from './aws.amazon.com/cdk'
 import { awsamazoncomcliPackage } from './aws.amazon.com/cli'
 import { awsamazoncomqPackage } from './aws.amazon.com/q'
 import { awsamazoncomsamPackage } from './aws.amazon.com/sam'
+import { awsamazoncomsessionmanagerpluginPackage } from './aws.amazon.com/session-manager-plugin'
 import { babashkaorgPackage } from './babashkaorg'
 import { bashlydannybcoPackage } from './bashlydannybco'
 import { bcryptsourceforgenetPackage } from './bcryptsourceforgenet'
@@ -550,6 +551,7 @@ import { garmPackage } from './github.com/cloudbase/garm'
 import { librdkafkaPackage } from './github.com/confluentinc/librdkafka'
 import { libserdesPackage } from './github.com/confluentinc/libserdes'
 import { gvisortapvsockPackage } from './github.com/containers/gvisor-tap-vsock'
+import { podletPackage } from './github.com/containers/podlet'
 import { skopeoPackage } from './github.com/containers/skopeo'
 import { mactopPackage } from './github.com/context-labs/mactop'
 import { cookiecutterPackage } from './github.com/cookiecutter/cookiecutter'
@@ -1730,6 +1732,8 @@ export interface Pantry {
   awsamazoncomq: typeof awsamazoncomqPackage
 
   awsamazoncom: typeof awsamazoncomsamPackage
+  session_manager_plugin: typeof awsamazoncomsessionmanagerpluginPackage
+  awsamazoncomsessionmanagerplugin: typeof awsamazoncomsessionmanagerpluginPackage
   babashkaorg: typeof babashkaorgPackage
   bashlydannybco: typeof bashlydannybcoPackage
   bcryptsourceforgenet: typeof bcryptsourceforgenetPackage
@@ -2593,7 +2597,9 @@ export interface Pantry {
   gvisor_tap_vsock: typeof gvisortapvsockPackage
   githubcomcontainers: typeof gvisortapvsockPackage
 
-  githubcomcontainers1: typeof skopeoPackage
+  githubcomcontainers1: typeof podletPackage
+
+  githubcomcontainers2: typeof skopeoPackage
 
   githubcomcontextlabs: typeof mactopPackage
 
@@ -4759,6 +4765,7 @@ export interface Pantry {
   libsoup: typeof libsouporgPackage
   fly: typeof flyioPackage
   sam: typeof awsamazoncomsamPackage
+  'session-manager-plugin': typeof awsamazoncomsessionmanagerpluginPackage
   'aws/cli': typeof awsamazoncomcliPackage
   aws: typeof awsamazoncomcliPackage
   'aws/cdk': typeof cdkPackage
@@ -5733,6 +5740,7 @@ export interface Pantry {
   'heif-converter': typeof heifconverterimagePackage
   skopeo: typeof skopeoPackage
   'gvisor-tap-vsock': typeof gvisortapvsockPackage
+  podlet: typeof podletPackage
   swiftenv: typeof swiftenvPackage
   'text generation web UI': typeof textgenerationwebuiPackage
   openplayground: typeof openplaygroundPackage
@@ -6039,6 +6047,8 @@ export const pantry: Pantry = {
   awsamazoncomq: awsamazoncomqPackage,
 
   awsamazoncom: awsamazoncomsamPackage,
+  session_manager_plugin: awsamazoncomsessionmanagerpluginPackage,
+  awsamazoncomsessionmanagerplugin: awsamazoncomsessionmanagerpluginPackage,
   babashkaorg: babashkaorgPackage,
   bashlydannybco: bashlydannybcoPackage,
   bcryptsourceforgenet: bcryptsourceforgenetPackage,
@@ -6902,7 +6912,9 @@ export const pantry: Pantry = {
   gvisor_tap_vsock: gvisortapvsockPackage,
   githubcomcontainers: gvisortapvsockPackage,
 
-  githubcomcontainers1: skopeoPackage,
+  githubcomcontainers1: podletPackage,
+
+  githubcomcontainers2: skopeoPackage,
 
   githubcomcontextlabs: mactopPackage,
 
@@ -9068,6 +9080,7 @@ export const pantry: Pantry = {
   libsoup: libsouporgPackage,
   fly: flyioPackage,
   sam: awsamazoncomsamPackage,
+  'session-manager-plugin': awsamazoncomsessionmanagerpluginPackage,
   'aws/cli': awsamazoncomcliPackage,
   aws: awsamazoncomcliPackage,
   'aws/cdk': cdkPackage,
@@ -10042,6 +10055,7 @@ export const pantry: Pantry = {
   'heif-converter': heifconverterimagePackage,
   skopeo: skopeoPackage,
   'gvisor-tap-vsock': gvisortapvsockPackage,
+  podlet: podletPackage,
   swiftenv: swiftenvPackage,
   'text generation web UI': textgenerationwebuiPackage,
   openplayground: openplaygroundPackage,

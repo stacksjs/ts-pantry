@@ -25,23 +25,24 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 25 versions</summary>
+<summary>Show all 26 versions</summary>
 
-- `1.19.0`, `1.18.2`, `1.18.1`, `1.18.0`, `1.17.1`
-- `1.17.0`, `1.16.3`, `1.16.2`, `1.16.1`, `1.16.0`
-- `1.15.1`, `1.15.0`, `1.14.1`, `1.14.0`, `1.13.3`
-- `1.13.2`, `1.13.1`, `1.13.0`, `1.12.2`, `1.12.1`
-- `1.12.0`, `1.11.2`, `1.11.1`, `1.11.0`, `1.10.1`
+- `1.19.1`, `1.19.0`, `1.18.2`, `1.18.1`, `1.18.0`
+- `1.17.1`, `1.17.0`, `1.16.3`, `1.16.2`, `1.16.1`
+- `1.16.0`, `1.15.1`, `1.15.0`, `1.14.1`, `1.14.0`
+- `1.13.3`, `1.13.2`, `1.13.1`, `1.13.0`, `1.12.2`
+- `1.12.1`, `1.12.0`, `1.11.2`, `1.11.1`, `1.11.0`
+- `1.10.1`
 
 </details>
 
-**Latest Version**: `1.19.0`
+**Latest Version**: `1.19.1`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +crystal-lang.org@1.19.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +crystal-lang.org@1.19.1 -- $SHELL -i
 ```
 
 ## Dependencies

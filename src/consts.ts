@@ -1,7 +1,7 @@
 /**
  * Constants used throughout the ts-pkgx package
  * This file is auto-generated from pantry. Do not edit manually.
- * Generated on 2026-01-23T02:45:21.893Z
+ * Generated on 2026-02-03T03:33:37.702Z
  */
 
 /**
@@ -44,7 +44,7 @@ export const PACKAGE_ALIASES: Record<string, string> = {
 } as const
 
 /**
- * List of all known packages (1634 total)
+ * List of all known packages (1637 total)
  */
 export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'abseil.io',
@@ -774,6 +774,7 @@ export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'github.com/plougher/squashfs-tools',
   'github.com/postmodern/chruby',
   'github.com/postmodern/ruby-install',
+  'github.com/pranshuparmar/witr',
   'github.com/pressly/sup',
   'github.com/princjef/gomarkdoc',
   'github.com/promptexecution/just-mcp',
@@ -786,6 +787,7 @@ export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'github.com/python-cffi/cffi',
   'github.com/python-lsp/python-lsp-server',
   'github.com/quodlibet/mutagen',
+  'github.com/raskell-io/hx',
   'github.com/rbenv/rbenv',
   'github.com/realm/SwiftLint',
   'github.com/redis/hiredis',
@@ -1679,6 +1681,7 @@ export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'ziglang.org',
   'zlib.net',
   'zlib.net/minizip',
+  'zotregistry.dev',
   'zrok.io',
   'zsh.sourceforge.io',
 ] as const

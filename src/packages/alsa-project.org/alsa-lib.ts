@@ -3,7 +3,7 @@
  *
  * @domain `alsa-project.org/alsa-lib`
  * @programs `aserver`
- * @version `1.2.14` (6 versions available)
+ * @version `1.2.15.3` (9 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install alsa-project.org/alsa-lib`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "aserver"
  * console.log(pkg.description) // "Provides audio and MIDI functionality to the Li..."
  * console.log(pkg.programs)    // ["aserver"]
- * console.log(pkg.versions[0]) // "1.2.14" (latest)
+ * console.log(pkg.versions[0]) // "1.2.15.3" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/alsa-project-org/alsa-lib.md
@@ -61,6 +61,9 @@ export const alsaprojectorgalsalibPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.2.15.3',
+    '1.2.15.2',
+    '1.2.15.1',
     '1.2.14',
     '1.2.13',
     '1.2.12',

@@ -3,7 +3,7 @@
  *
  * @domain `carapace.sh`
  * @programs `carapace`
- * @version `1.5.7` (22 versions available)
+ * @version `1.6.0` (23 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install carapace.sh`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "carapace"
  * console.log(pkg.description) // "Multi-shell multi-command argument completer"
  * console.log(pkg.programs)    // ["carapace"]
- * console.log(pkg.versions[0]) // "1.5.7" (latest)
+ * console.log(pkg.versions[0]) // "1.6.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/carapace-sh.md
@@ -68,6 +68,7 @@ export const carapaceshPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.6.0',
     '1.5.7',
     '1.5.6',
     '1.5.5',

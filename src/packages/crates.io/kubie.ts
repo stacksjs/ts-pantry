@@ -2,7 +2,7 @@
  * **kubie** - pkgx package
  *
  * @domain `crates.io/kubie`
- * @version `0.26.0` (1 versions available)
+ * @version `0.26.1` (2 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install crates.io/kubie`
@@ -13,7 +13,7 @@
  *
  * const pkg = pantry.cratesiokubie
  * console.log(pkg.name)        // "kubie"
- * console.log(pkg.versions[0]) // "0.26.0" (latest)
+ * console.log(pkg.versions[0]) // "0.26.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/crates-io/kubie.md
@@ -51,6 +51,7 @@ export const cratesiokubiePackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.26.1',
     '0.26.0',
   ] as const,
   aliases: [] as const,

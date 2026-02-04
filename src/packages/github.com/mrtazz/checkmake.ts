@@ -3,7 +3,7 @@
  *
  * @domain `github.com/mrtazz/checkmake`
  * @programs `checkmake`
- * @version `0.2.2` (1 versions available)
+ * @version `0.3.2` (4 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/mrtazz/checkmake`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "checkmake"
  * console.log(pkg.description) // "experimental linter/analyzer for Makefiles"
  * console.log(pkg.programs)    // ["checkmake"]
- * console.log(pkg.versions[0]) // "0.2.2" (latest)
+ * console.log(pkg.versions[0]) // "0.3.2" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/mrtazz/checkmake.md
@@ -67,6 +67,9 @@ export const checkmakePackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.3.2',
+    '0.3.1',
+    '0.3.0',
     '0.2.2',
   ] as const,
   aliases: [] as const,

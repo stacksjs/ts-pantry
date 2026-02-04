@@ -3,12 +3,12 @@
  *
  * @domain `gdal.org`
  * @programs `gdaladdo`, `gdalbuildvrt`, `gdal-config`, `gdal_contour`, `gdal_create`, ... (+23 more)
- * @version `3.12.0` (23 versions available)
+ * @version `3.12.1` (24 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install gdal.org`
  * @homepage https://www.gdal.org/
- * @dependencies `apache.org/arrow@19`, `heasarc.gsfc.nasa.gov/cfitsio`, `epsilon-project.sourceforge.io`, ... (+42 more) (includes OS-specific dependencies with `os:package` format)
+ * @dependencies `apache.org/arrow@19`, `heasarc.gsfc.nasa.gov/cfitsio`, `epsilon-project.sourceforge.io`, ... (+40 more) (includes OS-specific dependencies with `os:package` format)
  * @buildDependencies `boost.org`, `cmake.org`, `swig.org`, ... (+3 more) (includes OS-specific dependencies with `os:package` format) - required only when building from source
  *
  * @example
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "gdal"
  * console.log(pkg.description) // "GDAL is an open source MIT licensed translator ..."
  * console.log(pkg.programs)    // ["gdaladdo", "gdalbuildvrt", ...]
- * console.log(pkg.versions[0]) // "3.12.0" (latest)
+ * console.log(pkg.versions[0]) // "3.12.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/gdal-org.md
@@ -96,7 +96,6 @@ export const gdalorgPackage = {
     'gaia-gis.it/fossil/freexl',
     'libgeos.org',
     'giflib.sourceforge.io',
-    'hdfgroup.org/HDF5',
     'libjpeg-turbo.org',
     'jpeg.org/jpegxl',
     'github.com/json-c/json-c',
@@ -110,7 +109,6 @@ export const gdalorgPackage = {
     'gaia-gis.it/libspatialite',
     'simplesystems.org/libtiff',
     'gnome.org/libxml2~2.13 # 2.14 changed the soname',
-    'unidata.ucar.edu/netcdf',
     'numpy.org',
     'openexr.com',
     'openjpeg.org',
@@ -153,6 +151,7 @@ export const gdalorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '3.12.1',
     '3.12.0',
     '3.11.5',
     '3.11.4',

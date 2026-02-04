@@ -36,7 +36,7 @@ jobs:
           echo "================================="
 
       - name: Checkout Code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           token: ${{ secrets.PAT_TOKEN || github.token }}
           fetch-depth: 0
@@ -133,7 +133,7 @@ jobs:
       version: ${{ env.VERSION }}
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           token: ${{ secrets.PAT_TOKEN || github.token }}
           fetch-depth: 0
@@ -142,7 +142,7 @@ jobs:
         uses: oven-sh/setup-bun@v2
 
       - name: Use Cached node_modules
-        uses: actions/cache@v4.3.0
+        uses: actions/cache@v5
         with:
           path: node_modules
           key: node-modules-${{ hashFiles('**/bun.lock') }}
@@ -151,6 +151,9 @@ jobs:
 
       - name: Install Dependencies
         run: bun install
+
+      - name: Build
+        run: bun run build
 
       - name: Extract tag version
         id: get_version
@@ -163,19 +166,16 @@ jobs:
           echo "Verifying zip files exist..."
           ls -la bin/*.zip || echo "No zip files found"
 
-      - name: Publish to npm
-        run: bun publish --access public
+      - name: Setup Pantry
+        uses: home-lang/pantry-setup@v1
+
+      - name: Publish
+        run: pantry npm:publish --access public
         env:
-          BUN_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Create GitHub Release
-        run: bunx changelogithub
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
-      - name: Attach Release Assets
-        id: create_release
-        uses: stacksjs/action-releaser@v1.2.7
+        uses: stacksjs/action-releaser@v1.2.6
         with:
           files: |
             ./bin/ts-pkgx-linux-x64.zip
@@ -183,14 +183,5 @@ jobs:
             ./bin/ts-pkgx-windows-x64.zip
             ./bin/ts-pkgx-darwin-x64.zip
             ./bin/ts-pkgx-darwin-arm64.zip
-          # --- Homebrew tap update support ---
-          # Path to your Homebrew formula template (update this path as needed)
-          # homebrewFormula: .github/homebrew-formula.rb
-          # The owner/repo of your Homebrew tap (update this value as needed)
-          # homebrewRepo: stacksjs/homebrew-tap
-          # Optionally uncomment and set these if you need custom values:
-          # homebrewBranch: main
-          # homebrewPath: Formula
-          # homebrewCommitFormat: "update: {{ formula }} to {{ version }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

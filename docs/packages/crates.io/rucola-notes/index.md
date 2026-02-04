@@ -25,19 +25,20 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 5 versions</summary>
+<summary>Show all 6 versions</summary>
 
-- `0.8.1`, `0.8.0`, `0.7.0`, `0.6.0`, `0.5.0`
+- `0.8.2`, `0.8.1`, `0.8.0`, `0.7.0`, `0.6.0`
+- `0.5.0`
 
 </details>
 
-**Latest Version**: `0.8.1`
+**Latest Version**: `0.8.2`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +crates.io/rucola-notes@0.8.1 -- $SHELL -i
+sh <(curl https://pkgx.sh) +crates.io/rucola-notes@0.8.2 -- $SHELL -i
 ```
 
 ## Dependencies

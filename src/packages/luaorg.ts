@@ -3,7 +3,7 @@
  *
  * @domain `lua.org`
  * @programs `lua`, `luac`
- * @version `5.4.8` (4 versions available)
+ * @version `5.5.0` (5 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install lua.org`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "lua"
  * console.log(pkg.description) // "Powerful, lightweight programming language"
  * console.log(pkg.programs)    // ["lua", "luac"]
- * console.log(pkg.versions[0]) // "5.4.8" (latest)
+ * console.log(pkg.versions[0]) // "5.5.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/lua-org.md
@@ -69,6 +69,7 @@ export const luaorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '5.5.0',
     '5.4.8',
     '5.4.7',
     '5.4.6',

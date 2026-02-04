@@ -27,19 +27,19 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 2 versions</summary>
+<summary>Show all 3 versions</summary>
 
-- `4.20.0`, `4.19.0`
+- `4.21.0`, `4.20.0`, `4.19.0`
 
 </details>
 
-**Latest Version**: `4.20.0`
+**Latest Version**: `4.21.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +gnu.org/libtasn1@4.20.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +gnu.org/libtasn1@4.21.0 -- $SHELL -i
 ```
 
 ## Usage Examples

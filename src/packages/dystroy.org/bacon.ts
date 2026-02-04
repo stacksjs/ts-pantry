@@ -3,7 +3,7 @@
  *
  * @domain `dystroy.org/bacon`
  * @programs `bacon`
- * @version `3.20.3` (16 versions available)
+ * @version `3.22.0` (18 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install dystroy.org/bacon`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "bacon"
  * console.log(pkg.description) // "Background rust code check"
  * console.log(pkg.programs)    // ["bacon"]
- * console.log(pkg.versions[0]) // "3.20.3" (latest)
+ * console.log(pkg.versions[0]) // "3.22.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/dystroy-org/bacon.md
@@ -69,6 +69,8 @@ export const dystroyorgbaconPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '3.22.0',
+    '3.21.0',
     '3.20.3',
     '3.20.2',
     '3.20.1',

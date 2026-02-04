@@ -3,7 +3,7 @@
  *
  * @domain `openpolicyagent.org`
  * @programs `opa`
- * @version `1.11.1` (35 versions available)
+ * @version `1.12.3` (39 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install openpolicyagent.org`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "opa"
  * console.log(pkg.description) // "Open Policy Agent (OPA) is an open source, gene..."
  * console.log(pkg.programs)    // ["opa"]
- * console.log(pkg.versions[0]) // "1.11.1" (latest)
+ * console.log(pkg.versions[0]) // "1.12.3" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/openpolicyagent-org.md
@@ -68,6 +68,10 @@ export const openpolicyagentorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.12.3',
+    '1.12.2',
+    '1.12.1',
+    '1.12.0',
     '1.11.1',
     '1.11.0',
     '1.10.1',

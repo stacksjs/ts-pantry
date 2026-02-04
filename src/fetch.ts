@@ -54,18 +54,18 @@ function getPropertyJSDoc(key: string, value: any): string | null {
     case 'versions':
       if (Array.isArray(value) && value.length > 0) {
         return `  /**
-   * Available versions from newest to oldest.
-   * @see https://ts-pkgx.netlify.app/usage for installation instructions
-   */`
+  * Available versions from newest to oldest.
+  * @see https://ts-pkgx.netlify.app/usage for installation instructions
+  */`
       }
       break
 
     case 'programs':
       if (Array.isArray(value) && value.length > 0) {
         return `  /**
-   * Executable programs provided by this package.
-   * These can be run after installation.
-   */`
+  * Executable programs provided by this package.
+  * These can be run after installation.
+  */`
       }
       break
 
@@ -73,12 +73,12 @@ function getPropertyJSDoc(key: string, value: any): string | null {
       if (Array.isArray(value) && value.length > 0) {
         // Check if any dependencies are OS-specific
         const hasOsDeps = value.some(dep => typeof dep === 'string' && dep.includes(':'))
-        const osNote = hasOsDeps ? '\n   * OS-specific dependencies are prefixed with `os:` (e.g., `linux:freetype.org`).' : ''
+        const osNote = hasOsDeps ? '\n  * OS-specific dependencies are prefixed with `os:` (e.g., `linux:freetype.org`).' : ''
 
         return `  /**
-   * Runtime dependencies for this package.
-   * These are required when running the package.${osNote}
-   */`
+  * Runtime dependencies for this package.
+  * These are required when running the package.${osNote}
+  */`
       }
       break
 
@@ -86,53 +86,53 @@ function getPropertyJSDoc(key: string, value: any): string | null {
       if (Array.isArray(value) && value.length > 0) {
         // Check if any dependencies are OS-specific
         const hasOsDeps = value.some(dep => typeof dep === 'string' && dep.includes(':'))
-        const osNote = hasOsDeps ? '\n   * OS-specific dependencies are prefixed with `os:` (e.g., `linux:gnu.org/gcc`).' : ''
+        const osNote = hasOsDeps ? '\n  * OS-specific dependencies are prefixed with `os:` (e.g., `linux:gnu.org/gcc`).' : ''
 
         return `  /**
-   * Build dependencies for this package.
-   * These are only required when building the package from source.${osNote}
-   */`
+  * Build dependencies for this package.
+  * These are only required when building the package from source.${osNote}
+  */`
       }
       break
 
     case 'companions':
       if (Array.isArray(value) && value.length > 0) {
         return `  /**
-   * Related packages that work well with this package.
-   * Consider installing these for enhanced functionality.
-   */`
+  * Related packages that work well with this package.
+  * Consider installing these for enhanced functionality.
+  */`
       }
       break
 
     case 'aliases':
       if (Array.isArray(value) && value.length > 0) {
         return `  /**
-   * Alternative names for this package.
-   * You can use any of these names to access the package.
-   */`
+  * Alternative names for this package.
+  * You can use any of these names to access the package.
+  */`
       }
       break
 
     case 'installCommand':
       return `  /**
-   * Command to install this package using launchpad.
-   * @example launchpad install package-name
-   */`
+  * Command to install this package using launchpad.
+  * @example launchpad install package-name
+  */`
 
     case 'description':
       return `  /**
-   * Brief description of what this package does.
-   */`
+  * Brief description of what this package does.
+  */`
 
     case 'domain':
       return `  /**
-   * The canonical domain name for this package.
-   */`
+  * The canonical domain name for this package.
+  */`
 
     case 'name':
       return `  /**
-   * The display name of this package.
-   */`
+  * The display name of this package.
+  */`
 
     default:
       return null

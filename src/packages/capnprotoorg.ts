@@ -2,7 +2,7 @@
  * **capnproto** - pkgx package
  *
  * @domain `capnproto.org`
- * @version `1.2.0` (1 versions available)
+ * @version `1.3.0` (2 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install capnproto.org`
@@ -15,7 +15,7 @@
  *
  * const pkg = pantry.capnprotoorg
  * console.log(pkg.name)        // "capnproto"
- * console.log(pkg.versions[0]) // "1.2.0" (latest)
+ * console.log(pkg.versions[0]) // "1.3.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/capnproto-org.md
@@ -67,6 +67,7 @@ export const capnprotoorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.3.0',
     '1.2.0',
   ] as const,
   aliases: [] as const,

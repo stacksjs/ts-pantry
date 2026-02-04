@@ -25,19 +25,19 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 3 versions</summary>
+<summary>Show all 4 versions</summary>
 
-- `1.1.4`, `1.1.3`, `1.1.2`
+- `1.1.5`, `1.1.4`, `1.1.3`, `1.1.2`
 
 </details>
 
-**Latest Version**: `1.1.4`
+**Latest Version**: `1.1.5`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +x.org/xauth@1.1.4 -- $SHELL -i
+sh <(curl https://pkgx.sh) +x.org/xauth@1.1.5 -- $SHELL -i
 ```
 
 ## Dependencies

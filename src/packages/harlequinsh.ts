@@ -2,7 +2,7 @@
  * **harlequin.sh** - pkgx package
  *
  * @domain `harlequin.sh`
- * @version `2.5.0` (2 versions available)
+ * @version `2.5.1` (3 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install harlequin.sh`
@@ -15,7 +15,7 @@
  *
  * const pkg = pantry.harlequinsh
  * console.log(pkg.name)        // "harlequin.sh"
- * console.log(pkg.versions[0]) // "2.5.0" (latest)
+ * console.log(pkg.versions[0]) // "2.5.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/harlequin-sh.md
@@ -66,6 +66,7 @@ export const harlequinshPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2.5.1',
     '2.5.0',
     '2.4.1',
   ] as const,

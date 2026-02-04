@@ -3,7 +3,7 @@
  *
  * @domain `assimp.org`
  * @programs `assimp`
- * @version `6.0.2` (9 versions available)
+ * @version `6.0.3` (10 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install assimp.org`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "assimp"
  * console.log(pkg.description) // "The official Open-Asset-Importer-Library Reposi..."
  * console.log(pkg.programs)    // ["assimp"]
- * console.log(pkg.versions[0]) // "6.0.2" (latest)
+ * console.log(pkg.versions[0]) // "6.0.3" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/assimp-org.md
@@ -79,6 +79,7 @@ export const assimporgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '6.0.3',
     '6.0.2',
     '6.0.1',
     '5.4.3',

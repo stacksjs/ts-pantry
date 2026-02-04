@@ -25,20 +25,21 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 10 versions</summary>
+<summary>Show all 12 versions</summary>
 
-- `0.23.0`, `0.22.0`, `0.21.0`, `0.20.0`, `0.19.0`
-- `0.18.0`, `0.17.0`, `0.16.0`, `0.15.0`, `0.14.0`
+- `0.24.1`, `0.24.0`, `0.23.0`, `0.22.0`, `0.21.0`
+- `0.20.0`, `0.19.0`, `0.18.0`, `0.17.0`, `0.16.0`
+- `0.15.0`, `0.14.0`
 
 </details>
 
-**Latest Version**: `0.23.0`
+**Latest Version**: `0.24.1`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +endoflife.date@0.23.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +endoflife.date@0.24.1 -- $SHELL -i
 ```
 
 ## Dependencies

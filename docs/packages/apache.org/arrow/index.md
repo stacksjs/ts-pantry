@@ -27,22 +27,22 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 16 versions</summary>
+<summary>Show all 17 versions</summary>
 
-- `22.0.0`, `21.0.0`, `20.0.0`, `19.0.1`, `19.0.0`
-- `18.1.0`, `18.0.0`, `16.1.0`, `16.0.0`, `15.0.2`
-- `15.0.1`, `15.0.0`, `14.0.2`, `14.0.1`, `14.0.0`
-- `13.0.0`
+- `23.0.0`, `22.0.0`, `21.0.0`, `20.0.0`, `19.0.1`
+- `19.0.0`, `18.1.0`, `18.0.0`, `16.1.0`, `16.0.0`
+- `15.0.2`, `15.0.1`, `15.0.0`, `14.0.2`, `14.0.1`
+- `14.0.0`, `13.0.0`
 
 </details>
 
-**Latest Version**: `22.0.0`
+**Latest Version**: `23.0.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +apache.org/arrow@22.0.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +apache.org/arrow@23.0.0 -- $SHELL -i
 ```
 
 ## Dependencies
@@ -63,8 +63,9 @@ This package depends on:
 - `github.com/JuliaStrings/utf8proc`
 - `facebook.com/zstd`
 - `darwin:c-ares.org@1`
-- `darwin:libcxx.llvm.org~17 # since 18.1.0`
+- `darwin:libcxx.llvm.org~17`
 - `linux:protobuf.dev^30.0.0 # match grpc.io, so gdal.org can build, we bundle on darwin`
+- `linux:gnu.org/gcc/libstdcxx@14`
 
 ## Usage Examples
 

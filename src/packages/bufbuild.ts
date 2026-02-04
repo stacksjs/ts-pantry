@@ -3,7 +3,7 @@
  *
  * @domain `buf.build`
  * @programs `buf`
- * @version `1.61.0` (51 versions available)
+ * @version `1.64.0` (55 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install buf.build`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "buf"
  * console.log(pkg.description) // "The best way of working with Protocol Buffers."
  * console.log(pkg.programs)    // ["buf"]
- * console.log(pkg.versions[0]) // "1.61.0" (latest)
+ * console.log(pkg.versions[0]) // "1.64.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/buf-build.md
@@ -68,6 +68,10 @@ export const bufbuildPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.64.0',
+    '1.63.0',
+    '1.62.1',
+    '1.62.0',
     '1.61.0',
     '1.60.0',
     '1.59.0',

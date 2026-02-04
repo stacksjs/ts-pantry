@@ -25,22 +25,22 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 16 versions</summary>
+<summary>Show all 17 versions</summary>
 
-- `2.12.1`, `2.12.0`, `2.11.1`, `2.11.0`, `2.10.1`
-- `2.10.0`, `2.8.0`, `2.6.1`, `2.6.0`, `2.5.3`
-- `2.5.0`, `2.4.0`, `2.3.0`, `2.2.1`, `2.2.0`
-- `2.1.1`
+- `2.13.0`, `2.12.1`, `2.12.0`, `2.11.1`, `2.11.0`
+- `2.10.1`, `2.10.0`, `2.8.0`, `2.6.1`, `2.6.0`
+- `2.5.3`, `2.5.0`, `2.4.0`, `2.3.0`, `2.2.1`
+- `2.2.0`, `2.1.1`
 
 </details>
 
-**Latest Version**: `2.12.1`
+**Latest Version**: `2.13.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +github.com/confluentinc/librdkafka@2.12.1 -- $SHELL -i
+sh <(curl https://pkgx.sh) +github.com/confluentinc/librdkafka@2.13.0 -- $SHELL -i
 ```
 
 ## Dependencies

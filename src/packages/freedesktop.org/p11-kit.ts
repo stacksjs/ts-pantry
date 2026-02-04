@@ -3,7 +3,7 @@
  *
  * @domain `freedesktop.org/p11-kit`
  * @programs `p11-kit`, `trust`
- * @version `0.25.10` (12 versions available)
+ * @version `0.26.1` (14 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install freedesktop.org/p11-kit`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "p11-kit"
  * console.log(pkg.description) // "Provides a way to load and enumerate PKCS#11 mo..."
  * console.log(pkg.programs)    // ["p11-kit", "trust"]
- * console.log(pkg.versions[0]) // "0.25.10" (latest)
+ * console.log(pkg.versions[0]) // "0.26.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/freedesktop-org/p11-kit.md
@@ -80,6 +80,8 @@ export const freedesktoporgp11kitPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.26.1',
+    '0.26.0',
     '0.25.10',
     '0.25.9',
     '0.25.8',

@@ -2,7 +2,7 @@
  * **libva** - Libva is an implementation for VA-API (Video Acceleration API)
  *
  * @domain `intel.com/libva`
- * @version `2.22.0` (4 versions available)
+ * @version `2.23.0` (5 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install intel.com/libva`
@@ -17,7 +17,7 @@
  * const pkg = pantry.intelcomlibva
  * console.log(pkg.name)        // "libva"
  * console.log(pkg.description) // "Libva is an implementation for VA-API (Video Ac..."
- * console.log(pkg.versions[0]) // "2.22.0" (latest)
+ * console.log(pkg.versions[0]) // "2.23.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/intel-com/libva.md
@@ -71,6 +71,7 @@ export const intelcomlibvaPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2.23.0',
     '2.22.0',
     '2.21.0',
     '2.20.0',

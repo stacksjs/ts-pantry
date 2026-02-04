@@ -25,20 +25,20 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 9 versions</summary>
+<summary>Show all 10 versions</summary>
 
-- `1.4.5`, `1.4.4`, `1.4.3`, `1.4.2`, `1.4.1`
-- `1.4.0`, `1.3.2`, `1.3.1`, `1.3.0`
+- `1.4.6`, `1.4.5`, `1.4.4`, `1.4.3`, `1.4.2`
+- `1.4.1`, `1.4.0`, `1.3.2`, `1.3.1`, `1.3.0`
 
 </details>
 
-**Latest Version**: `1.4.5`
+**Latest Version**: `1.4.6`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +github.com/aristocratos/btop@1.4.5 -- $SHELL -i
+sh <(curl https://pkgx.sh) +github.com/aristocratos/btop@1.4.6 -- $SHELL -i
 ```
 
 ## Dependencies

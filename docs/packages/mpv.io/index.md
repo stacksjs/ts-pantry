@@ -25,19 +25,19 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 3 versions</summary>
+<summary>Show all 4 versions</summary>
 
-- `0.40.0`, `0.39.0`, `0.38.0`
+- `0.41.0`, `0.40.0`, `0.39.0`, `0.38.0`
 
 </details>
 
-**Latest Version**: `0.40.0`
+**Latest Version**: `0.41.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +mpv.io@0.40.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +mpv.io@0.41.0 -- $SHELL -i
 ```
 
 ## Dependencies

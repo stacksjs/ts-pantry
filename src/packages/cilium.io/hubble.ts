@@ -3,7 +3,7 @@
  *
  * @domain `cilium.io/hubble`
  * @programs `hubble`
- * @version `1.18.3` (18 versions available)
+ * @version `1.18.5` (19 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install cilium.io/hubble`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "hubble"
  * console.log(pkg.description) // "Hubble - Network, Service & Security Observabil..."
  * console.log(pkg.programs)    // ["hubble"]
- * console.log(pkg.versions[0]) // "1.18.3" (latest)
+ * console.log(pkg.versions[0]) // "1.18.5" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/cilium-io/hubble.md
@@ -67,6 +67,7 @@ export const ciliumiohubblePackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.18.5',
     '1.18.3',
     '1.18.0',
     '1.17.5',

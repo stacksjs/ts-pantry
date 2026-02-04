@@ -2,7 +2,7 @@
  * **python-pathspec** - Utility library for gitignore style pattern matching of file paths.
  *
  * @domain `github.com/cpburnz/python-pathspec`
- * @version `0.12.1` (1 versions available)
+ * @version `1.0.3` (5 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/cpburnz/python-pathspec`
@@ -16,7 +16,7 @@
  * const pkg = pantry.githubcomcpburnzpythonpathspec
  * console.log(pkg.name)        // "python-pathspec"
  * console.log(pkg.description) // "Utility library for gitignore style pattern mat..."
- * console.log(pkg.versions[0]) // "0.12.1" (latest)
+ * console.log(pkg.versions[0]) // "1.0.3" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/cpburnz/python-pathspec.md
@@ -66,6 +66,10 @@ export const pythonpathspecPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.0.3',
+    '1.0.2',
+    '1.0.1',
+    '1.0.0',
     '0.12.1',
   ] as const,
   aliases: [] as const,

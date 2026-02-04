@@ -3,7 +3,7 @@
  *
  * @domain `plocate.sesse.net`
  * @programs `plocate`, `plocate-build`, `updatedb`
- * @version `1.1.23` (2 versions available)
+ * @version `1.1.24` (3 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install plocate.sesse.net`
@@ -17,7 +17,7 @@
  * const pkg = pantry.plocatesessenet
  * console.log(pkg.name)        // "plocate.sesse"
  * console.log(pkg.programs)    // ["plocate", "plocate-build", ...]
- * console.log(pkg.versions[0]) // "1.1.23" (latest)
+ * console.log(pkg.versions[0]) // "1.1.24" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/plocate-sesse-net.md
@@ -78,6 +78,7 @@ export const plocatesessenetPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.1.24',
     '1.1.23',
     '1.1.22',
   ] as const,

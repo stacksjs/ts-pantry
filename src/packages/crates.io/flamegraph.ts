@@ -3,7 +3,7 @@
  *
  * @domain `crates.io/flamegraph`
  * @programs `flamegraph`, `cargo-flamegraph`
- * @version `0.6.8` (2 versions available)
+ * @version `0.6.11` (5 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install crates.io/flamegraph`
@@ -16,7 +16,7 @@
  * console.log(pkg.name)        // "flamegraph"
  * console.log(pkg.description) // "Easy flamegraphs for Rust projects and everythi..."
  * console.log(pkg.programs)    // ["flamegraph", "cargo-flamegraph"]
- * console.log(pkg.versions[0]) // "0.6.8" (latest)
+ * console.log(pkg.versions[0]) // "0.6.11" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/crates-io/flamegraph.md
@@ -61,6 +61,9 @@ export const cratesioflamegraphPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.6.11',
+    '0.6.10',
+    '0.6.9',
     '0.6.8',
     '0.6.7',
   ] as const,

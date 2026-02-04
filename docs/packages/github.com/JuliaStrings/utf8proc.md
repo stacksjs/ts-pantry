@@ -25,20 +25,20 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 6 versions</summary>
+<summary>Show all 7 versions</summary>
 
-- `2.11.2`, `2.11.1`, `2.11.0`, `2.10.0`, `2.9.0`
-- `2.8.0`
+- `2.11.3`, `2.11.2`, `2.11.1`, `2.11.0`, `2.10.0`
+- `2.9.0`, `2.8.0`
 
 </details>
 
-**Latest Version**: `2.11.2`
+**Latest Version**: `2.11.3`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +github.com/JuliaStrings/utf8proc@2.11.2 -- $SHELL -i
+sh <(curl https://pkgx.sh) +github.com/JuliaStrings/utf8proc@2.11.3 -- $SHELL -i
 ```
 
 ## Usage Examples

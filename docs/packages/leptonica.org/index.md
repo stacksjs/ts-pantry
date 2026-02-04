@@ -34,19 +34,20 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 5 versions</summary>
+<summary>Show all 6 versions</summary>
 
-- `1.86.0`, `1.85.0`, `1.84.1`, `1.84.0`, `1.83.1`
+- `1.87.0`, `1.86.0`, `1.85.0`, `1.84.1`, `1.84.0`
+- `1.83.1`
 
 </details>
 
-**Latest Version**: `1.86.0`
+**Latest Version**: `1.87.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +leptonica.org@1.86.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +leptonica.org@1.87.0 -- $SHELL -i
 ```
 
 ## Dependencies

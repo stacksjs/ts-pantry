@@ -3,7 +3,7 @@
  *
  * @domain `crates.io/spotify_player`
  * @programs `spotify_player`
- * @version `0.21.2` (18 versions available)
+ * @version `0.21.3` (19 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install crates.io/spotify_player`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "spotify_player"
  * console.log(pkg.description) // "A Spotify player in the terminal with full feat..."
  * console.log(pkg.programs)    // ["spotify_player"]
- * console.log(pkg.versions[0]) // "0.21.2" (latest)
+ * console.log(pkg.versions[0]) // "0.21.3" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/crates-io/spotify_player.md
@@ -71,6 +71,7 @@ export const cratesiospotify_playerPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.21.3',
     '0.21.2',
     '0.21.1',
     '0.20.7',

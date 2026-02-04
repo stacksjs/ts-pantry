@@ -3,7 +3,7 @@
  *
  * @domain `starship.rs`
  * @programs `starship`
- * @version `1.24.1` (23 versions available)
+ * @version `1.24.2` (24 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install starship.rs`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "starship"
  * console.log(pkg.description) // "☄🌌️  The minimal, blazing-fast, and infinitely..."
  * console.log(pkg.programs)    // ["starship"]
- * console.log(pkg.versions[0]) // "1.24.1" (latest)
+ * console.log(pkg.versions[0]) // "1.24.2" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/starship-rs.md
@@ -68,6 +68,7 @@ export const starshiprsPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.24.2',
     '1.24.1',
     '1.24.0',
     '1.23.0',

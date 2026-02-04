@@ -3,7 +3,7 @@
  *
  * @domain `re2c.org`
  * @programs `re2c`
- * @version `4.3.1` (9 versions available)
+ * @version `4.4.0` (10 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install re2c.org`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "re2c"
  * console.log(pkg.description) // "Lexer generator for C, C++, D, Go, Haskell, Jav..."
  * console.log(pkg.programs)    // ["re2c"]
- * console.log(pkg.versions[0]) // "4.3.1" (latest)
+ * console.log(pkg.versions[0]) // "4.4.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/re2c-org.md
@@ -68,6 +68,7 @@ export const re2corgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '4.4.0',
     '4.3.1',
     '4.3.0',
     '4.2.0',

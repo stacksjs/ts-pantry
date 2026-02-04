@@ -3,7 +3,7 @@
  *
  * @domain `gnu.org/ed`
  * @programs `ed`
- * @version `1.22.3` (7 versions available)
+ * @version `1.22.4` (8 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install gnu.org/ed`
@@ -16,7 +16,7 @@
  * const pkg = pantry.gnuorged
  * console.log(pkg.name)        // "ed"
  * console.log(pkg.programs)    // ["ed"]
- * console.log(pkg.versions[0]) // "1.22.3" (latest)
+ * console.log(pkg.versions[0]) // "1.22.4" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/gnu-org/ed.md
@@ -67,6 +67,7 @@ export const gnuorgedPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.22.4',
     '1.22.3',
     '1.22.2',
     '1.22.1',

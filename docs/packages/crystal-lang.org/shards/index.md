@@ -25,19 +25,20 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 5 versions</summary>
+<summary>Show all 6 versions</summary>
 
-- `0.19.1`, `0.19.0`, `0.18.0`, `0.17.4`, `0.17.3`
+- `0.20.0`, `0.19.1`, `0.19.0`, `0.18.0`, `0.17.4`
+- `0.17.3`
 
 </details>
 
-**Latest Version**: `0.19.1`
+**Latest Version**: `0.20.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +crystal-lang.org/shards@0.19.1 -- $SHELL -i
+sh <(curl https://pkgx.sh) +crystal-lang.org/shards@0.20.0 -- $SHELL -i
 ```
 
 ## Dependencies

@@ -3,7 +3,7 @@
  *
  * @domain `github.com/adrienverge/yamllint`
  * @programs `yamllint`
- * @version `1.37.1` (10 versions available)
+ * @version `1.38.0` (11 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/adrienverge/yamllint`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "yamllint"
  * console.log(pkg.description) // "A linter for YAML files."
  * console.log(pkg.programs)    // ["yamllint"]
- * console.log(pkg.versions[0]) // "1.37.1" (latest)
+ * console.log(pkg.versions[0]) // "1.38.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/adrienverge/yamllint.md
@@ -68,6 +68,7 @@ export const yamllintPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.38.0',
     '1.37.1',
     '1.37.0',
     '1.36.2',

@@ -3,7 +3,7 @@
  *
  * @domain `dprint.dev`
  * @programs `dprint`
- * @version `0.50.2` (29 versions available)
+ * @version `0.51.1` (31 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install dprint.dev`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "dprint"
  * console.log(pkg.description) // "Pluggable and configurable code formatting plat..."
  * console.log(pkg.programs)    // ["dprint"]
- * console.log(pkg.versions[0]) // "0.50.2" (latest)
+ * console.log(pkg.versions[0]) // "0.51.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/dprint-dev.md
@@ -61,6 +61,8 @@ export const dprintdevPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.51.1',
+    '0.51.0',
     '0.50.2',
     '0.50.1',
     '0.50.0',

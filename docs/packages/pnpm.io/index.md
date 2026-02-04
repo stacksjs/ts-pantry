@@ -26,8 +26,9 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 189 versions</summary>
+<summary>Show all 194 versions</summary>
 
+- `10.28.1`, `10.28.0`, `10.27.0`, `10.26.2`, `10.26.1`
 - `10.26.0`, `10.25.0`, `10.24.0`, `10.23.0`, `10.22.0`
 - `10.21.0`, `10.20.0`, `10.19.0`, `10.18.3`, `10.18.2`
 - `10.18.1`, `10.18.0`, `10.17.1`, `10.17.0`, `10.16.1`
@@ -69,13 +70,13 @@ This package provides the following executable programs:
 
 </details>
 
-**Latest Version**: `10.26.0`
+**Latest Version**: `10.28.1`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +pnpm.io@10.26.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +pnpm.io@10.28.1 -- $SHELL -i
 ```
 
 ## Dependencies

@@ -3,7 +3,7 @@
  *
  * @domain `crates.io/wasm-pack`
  * @programs `wasm-pack`
- * @version `0.13.1` (3 versions available)
+ * @version `0.14.0` (4 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install crates.io/wasm-pack`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "wasm-pack"
  * console.log(pkg.description) // "📦✨ your favorite rust -> wasm workflow tool!"
  * console.log(pkg.programs)    // ["wasm-pack"]
- * console.log(pkg.versions[0]) // "0.13.1" (latest)
+ * console.log(pkg.versions[0]) // "0.14.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/crates-io/wasm-pack.md
@@ -76,6 +76,7 @@ export const cratesiowasmpackPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.14.0',
     '0.13.1',
     '0.13.0',
     '0.12.1',

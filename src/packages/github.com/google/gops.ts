@@ -3,7 +3,7 @@
  *
  * @domain `github.com/google/gops`
  * @programs `gops`
- * @version `0.3.28` (2 versions available)
+ * @version `0.3.29` (3 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/google/gops`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "gops"
  * console.log(pkg.description) // "A tool to list and diagnose Go processes curren..."
  * console.log(pkg.programs)    // ["gops"]
- * console.log(pkg.versions[0]) // "0.3.28" (latest)
+ * console.log(pkg.versions[0]) // "0.3.29" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/google/gops.md
@@ -74,6 +74,7 @@ export const gopsPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.3.29',
     '0.3.28',
     '0.3.27',
   ] as const,

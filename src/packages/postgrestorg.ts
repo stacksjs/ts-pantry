@@ -3,7 +3,7 @@
  *
  * @domain `postgrest.org`
  * @programs `postgrest`
- * @version `14.1.0` (21 versions available)
+ * @version `14.3.0` (23 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install postgrest.org`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "postgrest"
  * console.log(pkg.description) // "Serves a fully RESTful API from any existing Po..."
  * console.log(pkg.programs)    // ["postgrest"]
- * console.log(pkg.versions[0]) // "14.1.0" (latest)
+ * console.log(pkg.versions[0]) // "14.3.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/postgrest-org.md
@@ -82,6 +82,8 @@ export const postgrestorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '14.3.0',
+    '14.2.0',
     '14.1.0',
     '14.0.0',
     '13.0.8',

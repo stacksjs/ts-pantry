@@ -25,22 +25,23 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 17 versions</summary>
+<summary>Show all 21 versions</summary>
 
-- `0.11.4`, `0.11.3`, `0.11.2`, `0.11.1`, `0.11.0`
-- `0.10.2`, `0.10.1`, `0.10.0`, `0.9.7`, `0.9.6`
-- `0.9.5`, `0.9.4`, `0.9.3`, `0.9.2`, `0.9.1`
-- `0.9.0`, `0.8.0`
+- `0.12.3`, `0.12.2`, `0.12.1`, `0.12.0`, `0.11.4`
+- `0.11.3`, `0.11.2`, `0.11.1`, `0.11.0`, `0.10.2`
+- `0.10.1`, `0.10.0`, `0.9.7`, `0.9.6`, `0.9.5`
+- `0.9.4`, `0.9.3`, `0.9.2`, `0.9.1`, `0.9.0`
+- `0.8.0`
 
 </details>
 
-**Latest Version**: `0.11.4`
+**Latest Version**: `0.12.3`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +crates.io/bottom@0.11.4 -- $SHELL -i
+sh <(curl https://pkgx.sh) +crates.io/bottom@0.12.3 -- $SHELL -i
 ```
 
 ## Usage Examples

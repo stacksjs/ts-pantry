@@ -2,7 +2,7 @@
  * **edencommon** - Shared library for Watchman and Eden projects.
  *
  * @domain `facebook.com/edencommon`
- * @version `2025.9.8.0` (118 versions available)
+ * @version `2026.1.5.0` (123 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install facebook.com/edencommon`
@@ -16,7 +16,7 @@
  * const pkg = pantry.facebookcomedencommon
  * console.log(pkg.name)        // "edencommon"
  * console.log(pkg.description) // "Shared library for Watchman and Eden projects. "
- * console.log(pkg.versions[0]) // "2025.9.8.0" (latest)
+ * console.log(pkg.versions[0]) // "2026.1.5.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/facebook-com/edencommon.md
@@ -78,6 +78,9 @@ export const facebookcomedencommonPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2026.1.5.0',
+    '2026.1.19.0',
+    '2026.1.12.0',
     '2025.9.8.0',
     '2025.9.29.0',
     '2025.9.22.0',
@@ -112,6 +115,8 @@ export const facebookcomedencommonPackage = {
     '2025.2.24.0',
     '2025.2.17.0',
     '2025.2.10.0',
+    '2025.12.29.0',
+    '2025.12.22.0',
     '2025.12.15.0',
     '2025.12.1.0',
     '2025.11.3.0',

@@ -2,7 +2,7 @@
  * **mvfst** - An implementation of the QUIC transport protocol.
  *
  * @domain `facebook.com/mvfst`
- * @version `2025.9.8.0` (104 versions available)
+ * @version `2026.1.5.0` (108 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install facebook.com/mvfst`
@@ -16,7 +16,7 @@
  * const pkg = pantry.facebookcommvfst
  * console.log(pkg.name)        // "mvfst"
  * console.log(pkg.description) // "An implementation of the QUIC transport protocol."
- * console.log(pkg.versions[0]) // "2025.9.8.0" (latest)
+ * console.log(pkg.versions[0]) // "2026.1.5.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/facebook-com/mvfst.md
@@ -79,6 +79,9 @@ export const facebookcommvfstPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2026.1.5.0',
+    '2026.1.19.0',
+    '2026.1.12.0',
     '2025.9.8.0',
     '2025.9.29.0',
     '2025.9.22.0',
@@ -113,6 +116,7 @@ export const facebookcommvfstPackage = {
     '2025.2.3.0',
     '2025.2.17.0',
     '2025.2.10.0',
+    '2025.12.29.0',
     '2025.11.3.0',
     '2025.11.17.0',
     '2025.11.10.0',

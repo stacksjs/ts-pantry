@@ -3,7 +3,7 @@
  *
  * @domain `mongodb.com`
  * @programs `install_compass`, `mongod`, `mongos`
- * @version `8.2.2` (50 versions available)
+ * @version `8.2.3` (54 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install mongodb.com`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "mongodb"
  * console.log(pkg.description) // "The MongoDB Database"
  * console.log(pkg.programs)    // ["install_compass", "mongod", ...]
- * console.log(pkg.versions[0]) // "8.2.2" (latest)
+ * console.log(pkg.versions[0]) // "8.2.3" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/mongodb-com.md
@@ -71,6 +71,7 @@ export const mongodbcomPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '8.2.3',
     '8.2.2',
     '8.2.1',
     '8.2.0',
@@ -78,6 +79,7 @@ export const mongodbcomPackage = {
     '8.1.2',
     '8.1.1',
     '8.1.0',
+    '8.0.17',
     '8.0.16',
     '8.0.15',
     '8.0.14',
@@ -97,6 +99,7 @@ export const mongodbcomPackage = {
     '8.0.0',
     '7.3.4',
     '7.3.3',
+    '7.0.28',
     '7.0.27',
     '7.0.26',
     '7.0.25',
@@ -111,6 +114,7 @@ export const mongodbcomPackage = {
     '7.0.16',
     '7.0.15',
     '7.0.14',
+    '6.0.27',
     '6.0.26',
     '6.0.25',
     '6.0.24',

@@ -3,7 +3,7 @@
  *
  * @domain `maturin.rs`
  * @programs `maturin`
- * @version `1.10.2` (30 versions available)
+ * @version `1.11.5` (34 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install maturin.rs`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "maturin"
  * console.log(pkg.description) // "Build and publish crates with pyo3, cffi and un..."
  * console.log(pkg.programs)    // ["maturin"]
- * console.log(pkg.versions[0]) // "1.10.2" (latest)
+ * console.log(pkg.versions[0]) // "1.11.5" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/maturin-rs.md
@@ -61,6 +61,10 @@ export const maturinrsPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.11.5',
+    '1.11.4',
+    '1.11.2',
+    '1.11.1',
     '1.10.2',
     '1.10.1',
     '1.10.0',

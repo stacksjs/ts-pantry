@@ -3,7 +3,7 @@
  *
  * @domain `csie.ntu.edu.tw/cjlin/liblinear`
  * @programs `predict`, `train`
- * @version `2.49.0` (3 versions available)
+ * @version `2.50.0` (4 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install csie.ntu.edu.tw/cjlin/liblinear`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "liblinear"
  * console.log(pkg.description) // "LIBLINEAR -- A Library for Large Linear Classif..."
  * console.log(pkg.programs)    // ["predict", "train"]
- * console.log(pkg.versions[0]) // "2.49.0" (latest)
+ * console.log(pkg.versions[0]) // "2.50.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/csie-ntu-edu-tw/cjlin/liblinear.md
@@ -71,6 +71,7 @@ export const csientuedutwcjlinliblinearPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2.50.0',
     '2.49.0',
     '2.48.0',
     '2.47.0',

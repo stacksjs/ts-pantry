@@ -25,20 +25,20 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 9 versions</summary>
+<summary>Show all 10 versions</summary>
 
-- `6.0.2`, `6.0.1`, `5.4.3`, `5.4.2`, `5.4.1`
-- `5.4.0`, `5.3.1`, `5.3.0`, `5.2.5`
+- `6.0.3`, `6.0.2`, `6.0.1`, `5.4.3`, `5.4.2`
+- `5.4.1`, `5.4.0`, `5.3.1`, `5.3.0`, `5.2.5`
 
 </details>
 
-**Latest Version**: `6.0.2`
+**Latest Version**: `6.0.3`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +assimp.org@6.0.2 -- $SHELL -i
+sh <(curl https://pkgx.sh) +assimp.org@6.0.3 -- $SHELL -i
 ```
 
 ## Dependencies

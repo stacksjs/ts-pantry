@@ -25,20 +25,20 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 8 versions</summary>
+<summary>Show all 9 versions</summary>
 
-- `1.2.3`, `1.2.2`, `1.2.1`, `1.2.0`, `1.1.2`
-- `1.1.1`, `1.1.0`, `1.0.0`
+- `1.2.4`, `1.2.3`, `1.2.2`, `1.2.1`, `1.2.0`
+- `1.1.2`, `1.1.1`, `1.1.0`, `1.0.0`
 
 </details>
 
-**Latest Version**: `1.2.3`
+**Latest Version**: `1.2.4`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +crates.io/du-dust@1.2.3 -- $SHELL -i
+sh <(curl https://pkgx.sh) +crates.io/du-dust@1.2.4 -- $SHELL -i
 ```
 
 ## Usage Examples

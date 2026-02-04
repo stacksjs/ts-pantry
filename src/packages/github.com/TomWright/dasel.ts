@@ -3,7 +3,7 @@
  *
  * @domain `github.com/TomWright/dasel`
  * @programs `dasel`
- * @version `3.1.5` (12 versions available)
+ * @version `3.2.1` (14 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/TomWright/dasel`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "dasel"
  * console.log(pkg.description) // "Select, put and delete data from JSON, TOML, YA..."
  * console.log(pkg.programs)    // ["dasel"]
- * console.log(pkg.versions[0]) // "3.1.5" (latest)
+ * console.log(pkg.versions[0]) // "3.2.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/TomWright/dasel.md
@@ -68,6 +68,8 @@ export const daselPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '3.2.1',
+    '3.2.0',
     '3.1.5',
     '3.1.3',
     '3.1.2',

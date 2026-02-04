@@ -25,21 +25,21 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 14 versions</summary>
+<summary>Show all 15 versions</summary>
 
-- `5.1.0`, `5.0.7`, `5.0.6`, `5.0.5`, `5.0.4`
-- `5.0.3`, `5.0.2`, `5.0.1`, `5.0.0`, `4.8.1`
-- `4.8.0`, `4.7.1`, `4.7.0`, `4.6.3`
+- `5.2.0`, `5.1.0`, `5.0.7`, `5.0.6`, `5.0.5`
+- `5.0.4`, `5.0.3`, `5.0.2`, `5.0.1`, `5.0.0`
+- `4.8.1`, `4.8.0`, `4.7.1`, `4.7.0`, `4.6.3`
 
 </details>
 
-**Latest Version**: `5.1.0`
+**Latest Version**: `5.2.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +github.com/achannarasappa/ticker@5.1.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +github.com/achannarasappa/ticker@5.2.0 -- $SHELL -i
 ```
 
 ## Usage Examples

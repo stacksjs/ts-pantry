@@ -3,7 +3,7 @@
  *
  * @domain `rubygems.org`
  * @programs `bundle`, `bundler`, `gem`
- * @version `4.0.2` (63 versions available)
+ * @version `4.0.4` (65 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install rubygems.org`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "rubygems"
  * console.log(pkg.description) // "Powerful, clean, object-oriented scripting lang..."
  * console.log(pkg.programs)    // ["bundle", "bundler", ...]
- * console.log(pkg.versions[0]) // "4.0.2" (latest)
+ * console.log(pkg.versions[0]) // "4.0.4" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/rubygems-org.md
@@ -70,6 +70,8 @@ export const rubygemsorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '4.0.4',
+    '4.0.3',
     '4.0.2',
     '4.0.1',
     '4.0.0',

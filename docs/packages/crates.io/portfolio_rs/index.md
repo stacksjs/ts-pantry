@@ -25,21 +25,21 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 14 versions</summary>
+<summary>Show all 15 versions</summary>
 
-- `0.6.2`, `0.6.1`, `0.6.0`, `0.5.0`, `0.4.1`
-- `0.4.0`, `0.3.0`, `0.2.1`, `0.2.0`, `0.1.12`
-- `0.1.11`, `0.1.10`, `0.1.9`, `0.1.8`
+- `0.7.0`, `0.6.2`, `0.6.1`, `0.6.0`, `0.5.0`
+- `0.4.1`, `0.4.0`, `0.3.0`, `0.2.1`, `0.2.0`
+- `0.1.12`, `0.1.11`, `0.1.10`, `0.1.9`, `0.1.8`
 
 </details>
 
-**Latest Version**: `0.6.2`
+**Latest Version**: `0.7.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +crates.io/portfolio_rs@0.6.2 -- $SHELL -i
+sh <(curl https://pkgx.sh) +crates.io/portfolio_rs@0.7.0 -- $SHELL -i
 ```
 
 ## Usage Examples

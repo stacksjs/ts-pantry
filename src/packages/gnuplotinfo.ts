@@ -3,7 +3,7 @@
  *
  * @domain `gnuplot.info`
  * @programs `gnuplot`
- * @version `6.0.3` (9 versions available)
+ * @version `6.0.4` (10 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install gnuplot.info`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "gnuplot"
  * console.log(pkg.description) // "Command-driven, interactive function plotting"
  * console.log(pkg.programs)    // ["gnuplot"]
- * console.log(pkg.versions[0]) // "6.0.3" (latest)
+ * console.log(pkg.versions[0]) // "6.0.4" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/gnuplot-info.md
@@ -81,6 +81,7 @@ export const gnuplotinfoPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '6.0.4',
     '6.0.3',
     '6.0.2',
     '6.0.1',

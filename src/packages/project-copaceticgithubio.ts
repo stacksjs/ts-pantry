@@ -3,7 +3,7 @@
  *
  * @domain `project-copacetic.github.io`
  * @programs `copa`
- * @version `0.12.0` (8 versions available)
+ * @version `0.13.0` (9 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install project-copacetic.github.io`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "copa"
  * console.log(pkg.description) // "Tool to directly patch container images given t..."
  * console.log(pkg.programs)    // ["copa"]
- * console.log(pkg.versions[0]) // "0.12.0" (latest)
+ * console.log(pkg.versions[0]) // "0.13.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/project-copacetic-github-io.md
@@ -68,6 +68,7 @@ export const projectcopaceticgithubioPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.13.0',
     '0.12.0',
     '0.11.1',
     '0.11.0',

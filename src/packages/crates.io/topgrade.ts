@@ -3,7 +3,7 @@
  *
  * @domain `crates.io/topgrade`
  * @programs `topgrade`
- * @version `16.7.0` (18 versions available)
+ * @version `16.8.0` (19 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install crates.io/topgrade`
@@ -16,7 +16,7 @@
  * console.log(pkg.name)        // "topgrade"
  * console.log(pkg.description) // "Upgrade all the things"
  * console.log(pkg.programs)    // ["topgrade"]
- * console.log(pkg.versions[0]) // "16.7.0" (latest)
+ * console.log(pkg.versions[0]) // "16.8.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/crates-io/topgrade.md
@@ -60,6 +60,7 @@ export const cratesiotopgradePackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '16.8.0',
     '16.7.0',
     '16.6.1',
     '16.6.0',

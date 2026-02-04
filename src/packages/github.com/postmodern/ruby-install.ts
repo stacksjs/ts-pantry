@@ -3,7 +3,7 @@
  *
  * @domain `github.com/postmodern/ruby-install`
  * @programs `ruby-install`
- * @version `0.10.1` (6 versions available)
+ * @version `0.10.2` (7 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/postmodern/ruby-install`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "ruby-install"
  * console.log(pkg.description) // "Install Ruby, JRuby, Rubinius, TruffleRuby, or ..."
  * console.log(pkg.programs)    // ["ruby-install"]
- * console.log(pkg.versions[0]) // "0.10.1" (latest)
+ * console.log(pkg.versions[0]) // "0.10.2" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/postmodern/ruby-install.md
@@ -67,6 +67,7 @@ export const rubyinstallPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.10.2',
     '0.10.1',
     '0.10.0',
     '0.9.4',

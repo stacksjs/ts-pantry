@@ -3,7 +3,7 @@
  *
  * @domain `crystal-lang.org/shards`
  * @programs `shards`
- * @version `0.19.1` (5 versions available)
+ * @version `0.20.0` (6 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install crystal-lang.org/shards`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "shards"
  * console.log(pkg.description) // "Fast and statically typed, compiled language wi..."
  * console.log(pkg.programs)    // ["shards"]
- * console.log(pkg.versions[0]) // "0.19.1" (latest)
+ * console.log(pkg.versions[0]) // "0.20.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/crystal-lang-org/shards.md
@@ -77,6 +77,7 @@ export const crystallangorgshardsPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.20.0',
     '0.19.1',
     '0.19.0',
     '0.18.0',

@@ -3,7 +3,7 @@
  *
  * @domain `github.com/strukturag/libheif`
  * @programs `heif-enc`, `heif-info`, `heif-thumbnailer`
- * @version `1.20.2` (23 versions available)
+ * @version `1.21.2` (26 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/strukturag/libheif`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "heif"
  * console.log(pkg.description) // "libheif is an HEIF and AVIF file format decoder..."
  * console.log(pkg.programs)    // ["heif-enc", "heif-info", ...]
- * console.log(pkg.versions[0]) // "1.20.2" (latest)
+ * console.log(pkg.versions[0]) // "1.21.2" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/strukturag/libheif.md
@@ -86,6 +86,9 @@ export const libheifPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.21.2',
+    '1.21.1',
+    '1.21.0',
     '1.20.2',
     '1.20.1',
     '1.20.0',

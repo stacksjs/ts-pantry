@@ -26,19 +26,19 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 2 versions</summary>
+<summary>Show all 5 versions</summary>
 
-- `0.6.8`, `0.6.7`
+- `0.6.11`, `0.6.10`, `0.6.9`, `0.6.8`, `0.6.7`
 
 </details>
 
-**Latest Version**: `0.6.8`
+**Latest Version**: `0.6.11`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +crates.io/flamegraph@0.6.8 -- $SHELL -i
+sh <(curl https://pkgx.sh) +crates.io/flamegraph@0.6.11 -- $SHELL -i
 ```
 
 ## Usage Examples

@@ -3,7 +3,7 @@
  *
  * @domain `git.tozt.net/rbw`
  * @programs `rbw`
- * @version `1.14.1` (13 versions available)
+ * @version `1.15.0` (14 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install git.tozt.net/rbw`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "rbw"
  * console.log(pkg.description) // "Unofficial Bitwarden CLI client"
  * console.log(pkg.programs)    // ["rbw"]
- * console.log(pkg.versions[0]) // "1.14.1" (latest)
+ * console.log(pkg.versions[0]) // "1.15.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/git-tozt-net/rbw.md
@@ -61,6 +61,7 @@ export const gittoztnetrbwPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.15.0',
     '1.14.1',
     '1.14.0',
     '1.13.2',

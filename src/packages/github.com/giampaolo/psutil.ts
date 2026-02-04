@@ -2,7 +2,7 @@
  * **psutil** - Cross-platform lib for process and system monitoring in Python
  *
  * @domain `github.com/giampaolo/psutil`
- * @version `7.1.3` (9 versions available)
+ * @version `7.2.1` (11 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/giampaolo/psutil`
@@ -15,7 +15,7 @@
  * const pkg = pantry.githubcomgiampaolopsutil
  * console.log(pkg.name)        // "psutil"
  * console.log(pkg.description) // "Cross-platform lib for process and system monit..."
- * console.log(pkg.versions[0]) // "7.1.3" (latest)
+ * console.log(pkg.versions[0]) // "7.2.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/giampaolo/psutil.md
@@ -59,6 +59,8 @@ export const psutilPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '7.2.1',
+    '7.2.0',
     '7.1.3',
     '7.1.2',
     '7.1.1',

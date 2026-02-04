@@ -52,23 +52,23 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 23 versions</summary>
+<summary>Show all 24 versions</summary>
 
-- `3.12.0`, `3.11.5`, `3.11.4`, `3.11.3`, `3.11.2`
-- `3.11.1`, `3.11.0`, `3.10.3`, `3.10.2`, `3.10.1`
-- `3.10.0`, `3.9.3`, `3.9.2`, `3.9.1`, `3.9.0`
-- `3.8.5`, `3.8.4`, `3.8.3`, `3.8.2`, `3.8.1`
-- `3.8.0`, `3.7.3`, `3.7.2`
+- `3.12.1`, `3.12.0`, `3.11.5`, `3.11.4`, `3.11.3`
+- `3.11.2`, `3.11.1`, `3.11.0`, `3.10.3`, `3.10.2`
+- `3.10.1`, `3.10.0`, `3.9.3`, `3.9.2`, `3.9.1`
+- `3.9.0`, `3.8.5`, `3.8.4`, `3.8.3`, `3.8.2`
+- `3.8.1`, `3.8.0`, `3.7.3`, `3.7.2`
 
 </details>
 
-**Latest Version**: `3.12.0`
+**Latest Version**: `3.12.1`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +gdal.org@3.12.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +gdal.org@3.12.1 -- $SHELL -i
 ```
 
 ## Dependencies
@@ -82,7 +82,6 @@ This package depends on:
 - `gaia-gis.it/fossil/freexl`
 - `libgeos.org`
 - `giflib.sourceforge.io`
-- `hdfgroup.org/HDF5`
 - `libjpeg-turbo.org`
 - `jpeg.org/jpegxl`
 - `github.com/json-c/json-c`
@@ -96,7 +95,6 @@ This package depends on:
 - `gaia-gis.it/libspatialite`
 - `simplesystems.org/libtiff`
 - `gnome.org/libxml2~2.13 # 2.14 changed the soname`
-- `unidata.ucar.edu/netcdf`
 - `numpy.org`
 - `openexr.com`
 - `openjpeg.org`

@@ -25,20 +25,21 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 9 versions</summary>
+<summary>Show all 11 versions</summary>
 
-- `0.24.2`, `0.24.1`, `0.24.0`, `0.23.3`, `0.23.1`
-- `0.23.0`, `0.21.1`, `0.21.0`, `0.20.0`
+- `0.24.4`, `0.24.3`, `0.24.2`, `0.24.1`, `0.24.0`
+- `0.23.3`, `0.23.1`, `0.23.0`, `0.21.1`, `0.21.0`
+- `0.20.0`
 
 </details>
 
-**Latest Version**: `0.24.2`
+**Latest Version**: `0.24.4`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +github.com/jesseduffield/lazydocker@0.24.2 -- $SHELL -i
+sh <(curl https://pkgx.sh) +github.com/jesseduffield/lazydocker@0.24.4 -- $SHELL -i
 ```
 
 ## Usage Examples

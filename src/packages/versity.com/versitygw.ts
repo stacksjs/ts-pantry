@@ -3,7 +3,7 @@
  *
  * @domain `versity.com/versitygw`
  * @programs `versitygw`
- * @version `1.0.19` (15 versions available)
+ * @version `1.1.0` (17 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install versity.com/versitygw`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "versitygw"
  * console.log(pkg.description) // "versity s3 gateway"
  * console.log(pkg.programs)    // ["versitygw"]
- * console.log(pkg.versions[0]) // "1.0.19" (latest)
+ * console.log(pkg.versions[0]) // "1.1.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/versity-com/versitygw.md
@@ -68,6 +68,8 @@ export const versitycomversitygwPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.1.0',
+    '1.0.20',
     '1.0.19',
     '1.0.18',
     '1.0.17',

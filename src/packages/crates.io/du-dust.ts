@@ -3,7 +3,7 @@
  *
  * @domain `crates.io/du-dust`
  * @programs `dust`
- * @version `1.2.3` (8 versions available)
+ * @version `1.2.4` (9 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install crates.io/du-dust`
@@ -16,7 +16,7 @@
  * console.log(pkg.name)        // "dust"
  * console.log(pkg.description) // "A more intuitive version of du in rust"
  * console.log(pkg.programs)    // ["dust"]
- * console.log(pkg.versions[0]) // "1.2.3" (latest)
+ * console.log(pkg.versions[0]) // "1.2.4" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/crates-io/du-dust.md
@@ -60,6 +60,7 @@ export const cratesiodudustPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.2.4',
     '1.2.3',
     '1.2.2',
     '1.2.1',

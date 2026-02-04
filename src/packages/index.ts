@@ -59,6 +59,8 @@ import { cdkPackage } from './aws.amazon.com/cdk'
 import { awsamazoncomcliPackage } from './aws.amazon.com/cli'
 import { awsamazoncomqPackage } from './aws.amazon.com/q'
 import { awsamazoncomsamPackage } from './aws.amazon.com/sam'
+import { awsamazoncomsessionmanagerpluginPackage } from './aws.amazon.com/session-manager-plugin'
+import { babashkaorgPackage } from './babashkaorg'
 import { bashlydannybcoPackage } from './bashlydannybco'
 import { bcryptsourceforgenetPackage } from './bcryptsourceforgenet'
 import { beyondgrepcomPackage } from './beyondgrepcom'
@@ -277,6 +279,7 @@ import { ctagsioPackage } from './ctagsio'
 import { ctopshPackage } from './ctopsh'
 import { cuelangorgPackage } from './cuelangorg'
 import { curlsecacertsPackage } from './curl.se/ca-certs'
+import { curlsessl3Package } from './curl.se/ssl3'
 import { curlsetrurlPackage } from './curl.se/trurl'
 import { curlieioPackage } from './curlieio'
 import { curlPackage } from './curlse'
@@ -548,6 +551,7 @@ import { garmPackage } from './github.com/cloudbase/garm'
 import { librdkafkaPackage } from './github.com/confluentinc/librdkafka'
 import { libserdesPackage } from './github.com/confluentinc/libserdes'
 import { gvisortapvsockPackage } from './github.com/containers/gvisor-tap-vsock'
+import { podletPackage } from './github.com/containers/podlet'
 import { skopeoPackage } from './github.com/containers/skopeo'
 import { mactopPackage } from './github.com/context-labs/mactop'
 import { cookiecutterPackage } from './github.com/cookiecutter/cookiecutter'
@@ -1020,6 +1024,7 @@ import { k6ioPackage } from './k6io'
 import { k9scliioPackage } from './k9scliio'
 import { kafkaapacheorgPackage } from './kafkaapacheorg'
 import { kagglecomPackage } from './kagglecom'
+import { kamaldeployorgPackage } from './kamal-deployorg'
 import { keephqdevPackage } from './keephqdev'
 import { kerberosorgPackage } from './kerberosorg'
 import { kernelorglibcapPackage } from './kernel.org/libcap'
@@ -1119,6 +1124,7 @@ import { lxmldePackage } from './lxmlde'
 import { lycheeclirsPackage } from './lycheeclirs'
 import { lz4orgPackage } from './lz4org'
 import { maaslalanicomslidesPackage } from './maaslalani.com/slides'
+import { macfusegithubiov2Package } from './macfuse.github.io/v2'
 import { macfusegithubioPackage } from './macfusegithubio'
 import { macvimorgPackage } from './macvimorg'
 import { mailpitaxllentorgPackage } from './mailpitaxllentorg'
@@ -1726,6 +1732,9 @@ export interface Pantry {
   awsamazoncomq: typeof awsamazoncomqPackage
 
   awsamazoncom: typeof awsamazoncomsamPackage
+  session_manager_plugin: typeof awsamazoncomsessionmanagerpluginPackage
+  awsamazoncomsessionmanagerplugin: typeof awsamazoncomsessionmanagerpluginPackage
+  babashkaorg: typeof babashkaorgPackage
   bashlydannybco: typeof bashlydannybcoPackage
   bcryptsourceforgenet: typeof bcryptsourceforgenetPackage
   beyondgrepcom: typeof beyondgrepcomPackage
@@ -2110,6 +2119,8 @@ export interface Pantry {
   cuelangorg: typeof cuelangorgPackage
   ca_certs: typeof curlsecacertsPackage
   curlsecacerts: typeof curlsecacertsPackage
+
+  curlsessl3: typeof curlsessl3Package
 
   curlsetrurl: typeof curlsetrurlPackage
   curlieio: typeof curlieioPackage
@@ -2586,7 +2597,9 @@ export interface Pantry {
   gvisor_tap_vsock: typeof gvisortapvsockPackage
   githubcomcontainers: typeof gvisortapvsockPackage
 
-  githubcomcontainers1: typeof skopeoPackage
+  githubcomcontainers1: typeof podletPackage
+
+  githubcomcontainers2: typeof skopeoPackage
 
   githubcomcontextlabs: typeof mactopPackage
 
@@ -3467,6 +3480,8 @@ export interface Pantry {
   k9scliio: typeof k9scliioPackage
   kafkaapacheorg: typeof kafkaapacheorgPackage
   kagglecom: typeof kagglecomPackage
+  kamal_deployorg: typeof kamaldeployorgPackage
+  kamaldeployorg: typeof kamaldeployorgPackage
   keephqdev: typeof keephqdevPackage
   kerberosorg: typeof kerberosorgPackage
 
@@ -3605,6 +3620,8 @@ export interface Pantry {
   lz4org: typeof lz4orgPackage
 
   maaslalanicomslides: typeof maaslalanicomslidesPackage
+  v2: typeof macfusegithubiov2Package
+  macfusegithubiov2: typeof macfusegithubiov2Package
   macfusegithubio: typeof macfusegithubioPackage
   macvimorg: typeof macvimorgPackage
   mailpitaxllentorg: typeof mailpitaxllentorgPackage
@@ -3822,7 +3839,7 @@ export interface Pantry {
   pantsbuildorgsciepants: typeof pantsbuildorgsciepantsPackage
 
   paulfitzgithubiodaff: typeof paulfitzgithubiodaffPackage
-  v2: typeof pcreorgv2Package
+  v21: typeof pcreorgv2Package
   pcreorgv2: typeof pcreorgv2Package
   pcreorg: typeof pcreorgPackage
   pcscliteapdufr: typeof pcscliteapdufrPackage
@@ -4561,6 +4578,7 @@ export interface Pantry {
   task: typeof taskfiledevPackage
   spacetime: typeof spacetimedbcomPackage
   starship: typeof starshiprsPackage
+  'kamal-deploy': typeof kamaldeployorgPackage
   'rhash.sourceforge': typeof rhashsourceforgenetPackage
   casdoor: typeof casdoororgPackage
   attr: typeof savannahnongnuorgattrPackage
@@ -4583,6 +4601,7 @@ export interface Pantry {
   cstool: typeof capstoneengineorgPackage
   ginkgo: typeof onsigithubioginkgoPackage
   'huggingface/cli': typeof huggingfacecoPackage
+  babashka: typeof babashkaorgPackage
   pocketbase: typeof pocketbaseioPackage
   rbw: typeof gittoztnetrbwPackage
   libva: typeof intelcomlibvaPackage
@@ -4746,6 +4765,7 @@ export interface Pantry {
   libsoup: typeof libsouporgPackage
   fly: typeof flyioPackage
   sam: typeof awsamazoncomsamPackage
+  'session-manager-plugin': typeof awsamazoncomsessionmanagerpluginPackage
   'aws/cli': typeof awsamazoncomcliPackage
   aws: typeof awsamazoncomcliPackage
   'aws/cdk': typeof cdkPackage
@@ -5052,6 +5072,7 @@ export interface Pantry {
   minizip: typeof zlibnetminizipPackage
   go: typeof goPackage
   trurl: typeof curlsetrurlPackage
+  ssl3: typeof curlsessl3Package
   'ca-certs': typeof curlsecacertsPackage
   imath: typeof openexrcomimathPackage
   perl: typeof perlorgPackage
@@ -5719,6 +5740,7 @@ export interface Pantry {
   'heif-converter': typeof heifconverterimagePackage
   skopeo: typeof skopeoPackage
   'gvisor-tap-vsock': typeof gvisortapvsockPackage
+  podlet: typeof podletPackage
   swiftenv: typeof swiftenvPackage
   'text generation web UI': typeof textgenerationwebuiPackage
   openplayground: typeof openplaygroundPackage
@@ -6025,6 +6047,9 @@ export const pantry: Pantry = {
   awsamazoncomq: awsamazoncomqPackage,
 
   awsamazoncom: awsamazoncomsamPackage,
+  session_manager_plugin: awsamazoncomsessionmanagerpluginPackage,
+  awsamazoncomsessionmanagerplugin: awsamazoncomsessionmanagerpluginPackage,
+  babashkaorg: babashkaorgPackage,
   bashlydannybco: bashlydannybcoPackage,
   bcryptsourceforgenet: bcryptsourceforgenetPackage,
   beyondgrepcom: beyondgrepcomPackage,
@@ -6409,6 +6434,8 @@ export const pantry: Pantry = {
   cuelangorg: cuelangorgPackage,
   ca_certs: curlsecacertsPackage,
   curlsecacerts: curlsecacertsPackage,
+
+  curlsessl3: curlsessl3Package,
 
   curlsetrurl: curlsetrurlPackage,
   curlieio: curlieioPackage,
@@ -6885,7 +6912,9 @@ export const pantry: Pantry = {
   gvisor_tap_vsock: gvisortapvsockPackage,
   githubcomcontainers: gvisortapvsockPackage,
 
-  githubcomcontainers1: skopeoPackage,
+  githubcomcontainers1: podletPackage,
+
+  githubcomcontainers2: skopeoPackage,
 
   githubcomcontextlabs: mactopPackage,
 
@@ -7766,6 +7795,8 @@ export const pantry: Pantry = {
   k9scliio: k9scliioPackage,
   kafkaapacheorg: kafkaapacheorgPackage,
   kagglecom: kagglecomPackage,
+  kamal_deployorg: kamaldeployorgPackage,
+  kamaldeployorg: kamaldeployorgPackage,
   keephqdev: keephqdevPackage,
   kerberosorg: kerberosorgPackage,
 
@@ -7904,6 +7935,8 @@ export const pantry: Pantry = {
   lz4org: lz4orgPackage,
 
   maaslalanicomslides: maaslalanicomslidesPackage,
+  v2: macfusegithubiov2Package,
+  macfusegithubiov2: macfusegithubiov2Package,
   macfusegithubio: macfusegithubioPackage,
   macvimorg: macvimorgPackage,
   mailpitaxllentorg: mailpitaxllentorgPackage,
@@ -8121,7 +8154,7 @@ export const pantry: Pantry = {
   pantsbuildorgsciepants: pantsbuildorgsciepantsPackage,
 
   paulfitzgithubiodaff: paulfitzgithubiodaffPackage,
-  v2: pcreorgv2Package,
+  v21: pcreorgv2Package,
   pcreorgv2: pcreorgv2Package,
   pcreorg: pcreorgPackage,
   pcscliteapdufr: pcscliteapdufrPackage,
@@ -8860,6 +8893,7 @@ export const pantry: Pantry = {
   task: taskfiledevPackage,
   spacetime: spacetimedbcomPackage,
   starship: starshiprsPackage,
+  'kamal-deploy': kamaldeployorgPackage,
   'rhash.sourceforge': rhashsourceforgenetPackage,
   casdoor: casdoororgPackage,
   attr: savannahnongnuorgattrPackage,
@@ -8882,6 +8916,7 @@ export const pantry: Pantry = {
   cstool: capstoneengineorgPackage,
   ginkgo: onsigithubioginkgoPackage,
   'huggingface/cli': huggingfacecoPackage,
+  babashka: babashkaorgPackage,
   pocketbase: pocketbaseioPackage,
   rbw: gittoztnetrbwPackage,
   libva: intelcomlibvaPackage,
@@ -9045,6 +9080,7 @@ export const pantry: Pantry = {
   libsoup: libsouporgPackage,
   fly: flyioPackage,
   sam: awsamazoncomsamPackage,
+  'session-manager-plugin': awsamazoncomsessionmanagerpluginPackage,
   'aws/cli': awsamazoncomcliPackage,
   aws: awsamazoncomcliPackage,
   'aws/cdk': cdkPackage,
@@ -9351,6 +9387,7 @@ export const pantry: Pantry = {
   minizip: zlibnetminizipPackage,
   go: goPackage,
   trurl: curlsetrurlPackage,
+  ssl3: curlsessl3Package,
   'ca-certs': curlsecacertsPackage,
   imath: openexrcomimathPackage,
   perl: perlorgPackage,
@@ -10018,6 +10055,7 @@ export const pantry: Pantry = {
   'heif-converter': heifconverterimagePackage,
   skopeo: skopeoPackage,
   'gvisor-tap-vsock': gvisortapvsockPackage,
+  podlet: podletPackage,
   swiftenv: swiftenvPackage,
   'text generation web UI': textgenerationwebuiPackage,
   openplayground: openplaygroundPackage,

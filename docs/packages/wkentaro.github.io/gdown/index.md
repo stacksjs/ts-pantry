@@ -25,20 +25,20 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 7 versions</summary>
+<summary>Show all 8 versions</summary>
 
-- `5.2.0`, `5.1.0`, `5.0.1`, `5.0.0`, `4.7.3`
-- `4.7.2`, `4.7.1`
+- `5.2.1`, `5.2.0`, `5.1.0`, `5.0.1`, `5.0.0`
+- `4.7.3`, `4.7.2`, `4.7.1`
 
 </details>
 
-**Latest Version**: `5.2.0`
+**Latest Version**: `5.2.1`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +wkentaro.github.io/gdown@5.2.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +wkentaro.github.io/gdown@5.2.1 -- $SHELL -i
 ```
 
 ## Dependencies

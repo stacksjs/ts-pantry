@@ -3,7 +3,7 @@
  *
  * @domain `numbat.dev`
  * @programs `numbat`
- * @version `1.16.0` (10 versions available)
+ * @version `1.19.0` (13 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install numbat.dev`
@@ -17,7 +17,7 @@
  * console.log(pkg.name)        // "numbat"
  * console.log(pkg.description) // "A statically typed programming language for sci..."
  * console.log(pkg.programs)    // ["numbat"]
- * console.log(pkg.versions[0]) // "1.16.0" (latest)
+ * console.log(pkg.versions[0]) // "1.19.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/numbat-dev.md
@@ -61,6 +61,9 @@ export const numbatdevPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.19.0',
+    '1.18.0',
+    '1.17.0',
     '1.16.0',
     '1.15.0',
     '1.14.0',

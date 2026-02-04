@@ -3,7 +3,7 @@
  *
  * @domain `crates.io/git-grab`
  * @programs `git-grab`
- * @version `3.0.0` (4 versions available)
+ * @version `4.0.1` (6 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install crates.io/git-grab`
@@ -16,7 +16,7 @@
  * console.log(pkg.name)        // "git-grab"
  * console.log(pkg.description) // "Clone a git repository into a standard location..."
  * console.log(pkg.programs)    // ["git-grab"]
- * console.log(pkg.versions[0]) // "3.0.0" (latest)
+ * console.log(pkg.versions[0]) // "4.0.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/crates-io/git-grab.md
@@ -60,6 +60,8 @@ export const cratesiogitgrabPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '4.0.1',
+    '4.0.0',
     '3.0.0',
     '2.1.0',
     '2.0.0',

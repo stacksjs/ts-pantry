@@ -3,7 +3,7 @@
  *
  * @domain `github.com/YS-L/csvlens`
  * @programs `csvlens`
- * @version `0.14.0` (13 versions available)
+ * @version `0.15.1` (15 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/YS-L/csvlens`
@@ -16,7 +16,7 @@
  * console.log(pkg.name)        // "csvlens"
  * console.log(pkg.description) // "Command line csv viewer"
  * console.log(pkg.programs)    // ["csvlens"]
- * console.log(pkg.versions[0]) // "0.14.0" (latest)
+ * console.log(pkg.versions[0]) // "0.15.1" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/YS-L/csvlens.md
@@ -60,6 +60,8 @@ export const csvlensPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '0.15.1',
+    '0.15.0',
     '0.14.0',
     '0.13.0',
     '0.12.0',

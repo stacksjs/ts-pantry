@@ -3,7 +3,7 @@
  *
  * @domain `github.com/pypa/build`
  * @programs `pyproject-build`
- * @version `1.3.0` (10 versions available)
+ * @version `1.4.0` (11 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/pypa/build`
@@ -19,7 +19,7 @@
  * console.log(pkg.name)        // "pyproject-build"
  * console.log(pkg.description) // "A simple, correct Python build frontend"
  * console.log(pkg.programs)    // ["pyproject-build"]
- * console.log(pkg.versions[0]) // "1.3.0" (latest)
+ * console.log(pkg.versions[0]) // "1.4.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/pypa/build.md
@@ -75,6 +75,7 @@ export const buildPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.4.0',
     '1.3.0',
     '1.2.2',
     '1.2.1',

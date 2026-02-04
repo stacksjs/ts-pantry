@@ -25,20 +25,21 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 10 versions</summary>
+<summary>Show all 11 versions</summary>
 
-- `0.40.0`, `0.39.0`, `0.38.0`, `0.37.0`, `0.36.0`
-- `0.35.0`, `0.34.0`, `0.33.0`, `0.32.0`, `0.31.2`
+- `0.40.1`, `0.40.0`, `0.39.0`, `0.38.0`, `0.37.0`
+- `0.36.0`, `0.35.0`, `0.34.0`, `0.33.0`, `0.32.0`
+- `0.31.2`
 
 </details>
 
-**Latest Version**: `0.40.0`
+**Latest Version**: `0.40.1`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +tinygo.org@0.40.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +tinygo.org@0.40.1 -- $SHELL -i
 ```
 
 ## Dependencies

@@ -3,7 +3,7 @@
  *
  * @domain `github.com/antfu/ni`
  * @programs `na`, `nci`, `ni`, `nlx`, `nr`, ... (+2 more)
- * @version `28.0.0` (31 versions available)
+ * @version `28.2.0` (33 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install github.com/antfu/ni`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "ni"
  * console.log(pkg.description) // "💡 Use the right package manager"
  * console.log(pkg.programs)    // ["na", "nci", ...]
- * console.log(pkg.versions[0]) // "28.0.0" (latest)
+ * console.log(pkg.versions[0]) // "28.2.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/github-com/antfu/ni.md
@@ -81,6 +81,8 @@ export const niPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '28.2.0',
+    '28.1.0',
     '28.0.0',
     '27.0.1',
     '27.0.0',

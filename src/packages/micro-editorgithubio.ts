@@ -3,7 +3,7 @@
  *
  * @domain `micro-editor.github.io`
  * @programs `micro`
- * @version `2.0.14` (4 versions available)
+ * @version `2.0.15` (5 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install micro-editor.github.io`
@@ -18,7 +18,7 @@
  * console.log(pkg.name)        // "micro"
  * console.log(pkg.description) // "A modern and intuitive terminal-based text editor"
  * console.log(pkg.programs)    // ["micro"]
- * console.log(pkg.versions[0]) // "2.0.14" (latest)
+ * console.log(pkg.versions[0]) // "2.0.15" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/micro-editor-github-io.md
@@ -68,6 +68,7 @@ export const microeditorgithubioPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2.0.15',
     '2.0.14',
     '2.0.13',
     '2.0.12',

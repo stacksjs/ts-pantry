@@ -25,24 +25,24 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 28 versions</summary>
+<summary>Show all 29 versions</summary>
 
-- `0.8.6`, `0.8.5`, `0.8.4`, `0.8.3`, `0.8.2`
-- `0.8.1`, `0.8.0`, `0.7.0`, `0.6.0`, `0.5.0`
-- `0.4.1`, `0.4.0`, `0.3.0`, `0.2.0`, `0.1.181`
-- `0.1.180`, `0.0.180`, `0.0.175`, `0.0.169`, `0.0.159`
-- `0.0.154`, `0.0.152`, `0.0.148`, `0.0.146`, `0.0.144`
-- `0.0.142`, `0.0.111`, `0.0.110`
+- `0.9.0`, `0.8.6`, `0.8.5`, `0.8.4`, `0.8.3`
+- `0.8.2`, `0.8.1`, `0.8.0`, `0.7.0`, `0.6.0`
+- `0.5.0`, `0.4.1`, `0.4.0`, `0.3.0`, `0.2.0`
+- `0.1.181`, `0.1.180`, `0.0.180`, `0.0.175`, `0.0.169`
+- `0.0.159`, `0.0.154`, `0.0.152`, `0.0.148`, `0.0.146`
+- `0.0.144`, `0.0.142`, `0.0.111`, `0.0.110`
 
 </details>
 
-**Latest Version**: `0.8.6`
+**Latest Version**: `0.9.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +xcfile.dev@0.8.6 -- $SHELL -i
+sh <(curl https://pkgx.sh) +xcfile.dev@0.9.0 -- $SHELL -i
 ```
 
 ## Usage Examples

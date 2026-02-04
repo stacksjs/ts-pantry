@@ -2,7 +2,7 @@
  * **protocol** - pkgx package
  *
  * @domain `x.org/protocol`
- * @version `2024.1.0` (4 versions available)
+ * @version `2025.1.0` (5 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install x.org/protocol`
@@ -14,7 +14,7 @@
  *
  * const pkg = pantry.xorgprotocol
  * console.log(pkg.name)        // "protocol"
- * console.log(pkg.versions[0]) // "2024.1.0" (latest)
+ * console.log(pkg.versions[0]) // "2025.1.0" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/x-org/protocol.md
@@ -58,6 +58,7 @@ export const xorgprotocolPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '2025.1.0',
     '2024.1.0',
     '2023.2.0',
     '2023.1.0',

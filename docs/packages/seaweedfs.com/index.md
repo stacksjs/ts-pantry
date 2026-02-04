@@ -25,23 +25,24 @@ This package provides the following executable programs:
 ## Available Versions
 
 <details>
-<summary>Show all 25 versions</summary>
+<summary>Show all 29 versions</summary>
 
-- `4.3.0`, `4.2.0`, `4.1.0`, `4.0.0`, `3.99.0`
-- `3.98.0`, `3.97.0`, `3.96.0`, `3.95.0`, `3.94.0`
-- `3.93.0`, `3.92.0`, `3.91.0`, `3.90.0`, `3.89.0`
-- `3.88.0`, `3.87.0`, `3.86.0`, `3.85.0`, `3.84.0`
-- `3.83.0`, `3.82.0`, `3.81.0`, `3.80.0`, `3.79.0`
+- `4.7.0`, `4.6.0`, `4.5.0`, `4.4.0`, `4.3.0`
+- `4.2.0`, `4.1.0`, `4.0.0`, `3.99.0`, `3.98.0`
+- `3.97.0`, `3.96.0`, `3.95.0`, `3.94.0`, `3.93.0`
+- `3.92.0`, `3.91.0`, `3.90.0`, `3.89.0`, `3.88.0`
+- `3.87.0`, `3.86.0`, `3.85.0`, `3.84.0`, `3.83.0`
+- `3.82.0`, `3.81.0`, `3.80.0`, `3.79.0`
 
 </details>
 
-**Latest Version**: `4.3.0`
+**Latest Version**: `4.7.0`
 
 ### Install Specific Version
 
 ```bash
 # Install specific version
-sh <(curl https://pkgx.sh) +seaweedfs.com@4.3.0 -- $SHELL -i
+sh <(curl https://pkgx.sh) +seaweedfs.com@4.7.0 -- $SHELL -i
 ```
 
 ## Usage Examples

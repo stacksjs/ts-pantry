@@ -2,7 +2,7 @@
  * **libsodium** - pkgx package
  *
  * @domain `libsodium.org`
- * @version `1.0.20` (4 versions available)
+ * @version `1.0.21` (5 versions available)
  * @versions From newest version to oldest.
  *
  * @install `launchpad install libsodium.org`
@@ -13,7 +13,7 @@
  *
  * const pkg = pantry.libsodiumorg
  * console.log(pkg.name)        // "libsodium"
- * console.log(pkg.versions[0]) // "1.0.20" (latest)
+ * console.log(pkg.versions[0]) // "1.0.21" (latest)
  * ```
  *
  * @see https://ts-pkgx.netlify.app/packages/libsodium-org.md
@@ -51,6 +51,7 @@ export const libsodiumorgPackage = {
    * @see https://ts-pkgx.netlify.app/usage for installation instructions
    */
   versions: [
+    '1.0.21',
     '1.0.20',
     '1.0.19',
     '1.0.18',

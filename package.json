@@ -89,12 +89,12 @@
     "pantry:upload": "bun scripts/upload-to-s3.ts"
   },
   "dependencies": {
-    "@stacksjs/ts-cloud": "^0.1.2",
+    "@stacksjs/ts-cloud": "^0.1.3",
     "ts-web-scraper": "^0.1.1"
   },
   "devDependencies": {
     "@stacksjs/docs": "^0.70.23",
-    "better-dx": "^0.2.2"
+    "better-dx": "^0.2.5"
   },
   "git-hooks": {
     "pre-commit": {

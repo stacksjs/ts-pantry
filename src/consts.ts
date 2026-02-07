@@ -1,7 +1,7 @@
 /**
  * Constants used throughout the ts-pkgx package
  * This file is auto-generated from pantry. Do not edit manually.
- * Generated on 2026-02-05T06:18:20.300Z
+ * Generated on 2026-02-07T22:00:17.158Z
  */
 
 /**
@@ -44,7 +44,7 @@ export const PACKAGE_ALIASES: Record<string, string> = {
 } as const
 
 /**
- * List of all known packages (1637 total)
+ * List of all known packages (1638 total)
  */
 export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'abseil.io',
@@ -77,6 +77,7 @@ export const ALL_KNOWN_PACKAGES: readonly string[] = [
   'apktool.org',
   'apollographql.com/rover',
   'appium.io',
+  'apple.com/container',
   'apple.com/remote_cmds',
   'apptainer.org',
   'aquasecurity.github.io/tfsec',

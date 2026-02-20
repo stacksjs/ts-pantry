@@ -29,6 +29,8 @@
   "exclude": [
     "**/dist",
     "**/node_modules",
-    "examples"
+    "examples",
+    "pickier.config.ts",
+    ".config/pickier.ts"
   ]
 }

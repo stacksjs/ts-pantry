@@ -89,7 +89,7 @@
     "pantry:upload": "bun scripts/upload-to-s3.ts"
   },
   "dependencies": {
-    "@stacksjs/ts-cloud": "^0.1.2",
+    "@stacksjs/ts-cloud": "^0.1.11",
     "ts-web-scraper": "^0.1.1"
   },
   "devDependencies": {

@@ -9,6 +9,7 @@ import { join, dirname } from 'node:path'
 import { parseArgs } from 'node:util'
 // Import package metadata
 const packagesPath = new URL('../src/packages/index.ts', import.meta.url).pathname
+// eslint-disable-next-line ts/no-top-level-await
 const { pantry } = await import(packagesPath)
 
 // Simple YAML parser for package.yml files

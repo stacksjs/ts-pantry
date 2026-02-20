@@ -208,7 +208,7 @@ async function downloadFromPkgx(domain: string, version: string, destDir: string
 }
 
 // Fallback: Download from GitHub Releases
-async function downloadFromGitHub(domain: string, version: string, githubUrl: string, programs: readonly string[] | undefined, destDir: string): Promise<{ success: boolean; actualVersion?: string }> {
+async function downloadFromGitHub(_domain: string, version: string, githubUrl: string, programs: readonly string[] | undefined, destDir: string): Promise<{ success: boolean; actualVersion?: string }> {
   const { platform } = detectPlatform()
   const os = process.platform === 'darwin' ? 'darwin' : 'linux'
   const arch = process.arch === 'arm64' ? 'aarch64' : 'x86_64'

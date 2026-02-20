@@ -1,3 +1,4 @@
+/* eslint-disable prefer-const */
 import fs from 'node:fs'
 import path from 'node:path'
 
